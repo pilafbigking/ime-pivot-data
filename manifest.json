@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-27T16:47:05Z",
+  "source_version": "CC-CEDICT 2026-09-27; JMdict 2026-09-26; Tatoeba 2026-10-24; OpenCC ver.1.1.9; Unihan 16.0.0",
+  "license": "CC BY-SA 4.0",
+  "files": {
+    "pivot_candidates.tsv.gz": {
+      "bytes": 89626706,
+      "sha256": "657b239fe5ab195cf4dfd166ea3757cba5a7f19d7543acee7961fecc97de6012",
+      "description": "1,540,474 条候选对，TSV（gzip）。117,678 个中文词头 / 111,280 个日文词头"
+    },
+    "pivot_lite.bin": {
+      "bytes": 12618599,
+      "sha256": "bfb71f7a0923f27a9f7c20fa51dcfe04ba373230f03f310f78de6761f4499945",
+      "description": "5 万档二进制（随键盘分发的那一档），50,000 条"
+    },
+    "pivot_lite_100k.bin": {
+      "bytes": 22915295,
+      "sha256": "4ca78ed9aff8ecd392b7df2bb13a745c42e1a558576f5b60ef7dbdad8c63b9c0",
+      "description": "10 万档二进制，100,000 条"
+    },
+    "pivot_lite_200k.bin": {
+      "bytes": 39128620,
+      "sha256": "c41aa5bb7c02611346d37f5960c2ff8b5af21323261862216680eb81a23a77f5",
+      "description": "20 万档二进制（随宿主 App 的厚词典同源），200,000 条"
+    },
+    "pivot_full.sqlite.gz": {
+      "bytes": 34939253,
+      "sha256": "b87d5ce6a1fb3aa2b03d6b25a49a7330c0d88f6b8c30a21c3e075b706d9f139a",
+      "description": "厚词典 SQLite（gzip），200,000 词条 / 200,000 义项 / 225,240 活用 / 198,787 例句"
+    }
+  }
+}

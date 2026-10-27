@@ -1,0 +1,3 @@
+*.bin  -text -diff
+*.gz   -text -diff
+*.sqlite.gz -text -diff

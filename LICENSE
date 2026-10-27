@@ -1,0 +1,50 @@
+本仓库的全部数据（下列文件）按 **Creative Commons Attribution-ShareAlike 4.0
+International（CC BY-SA 4.0）** 授权。
+
+许可证全文（法律文本，以此为准）：
+  https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-hans
+  英文：https://creativecommons.org/licenses/by-sa/4.0/legalcode
+摘要（人类可读）：
+  https://creativecommons.org/licenses/by-sa/4.0/deed.zh
+
+适用范围：
+  pivot_candidates.tsv.gz
+  pivot_lite.bin
+  pivot_lite_100k.bin
+  pivot_lite_200k.bin
+  pivot_full.sqlite.gz
+  formats/pivot_lite.md
+  formats/pivot_full.md
+  manifest.json
+
+你可以：
+  - 共享 —— 以任何媒介或格式复制、发行本数据；
+  - 演绎 —— 修改、转换、基于本数据创作，包括商业目的。
+
+你必须：
+  - 署名 —— 注明来源，附上本许可证链接，并说明是否作了修改；
+  - 相同方式共享 —— 若你修改、转换或基于本数据创作，必须按同一许可证分发你的贡献；
+  - 不得增加额外限制 —— 不得对本数据施加法律条款或技术措施，限制他人行使本许可证允许的权利。
+
+必保留的署名（派生自以下来源）：
+  - CC-CEDICT（https://cc-cedict.org/）—— CC BY-SA 4.0
+  - JMdict / EDRDG（https://www.edrdg.org/jmdict/j_jmdict.html）—— CC BY-SA 4.0
+    EDRDG 要求：使用其派生数据时须注明来源为 EDRDG。
+  - Tatoeba（https://tatoeba.org/）—— CC BY 2.0 FR（部分 CC0）；例句逐句保留 sentence id。
+  - OpenCC（https://github.com/BYVoid/OpenCC）—— Apache-2.0（仅构建期使用）
+  - Unihan（https://www.unicode.org/charts/unihan.html）—— Unicode License v3（仅构建期使用）
+
+不适用本许可证的内容：
+  - 敬语（敬語）数据 keigo.bin —— 自有数据，不在本仓库、不在此许可范围内。
+  - 评测集与人工标注 —— 自有资产，不随本仓库分发。
+
+本数据按「现状」提供，不作任何明示或默示担保。
+
+---
+
+All data in this repository is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Attribution required for: CC-CEDICT (CC BY-SA 4.0), JMdict/EDRDG (CC BY-SA 4.0),
+Tatoeba (CC BY 2.0 FR), OpenCC (Apache-2.0), Unihan (Unicode License v3).
