@@ -8,16 +8,12 @@ International（CC BY-SA 4.0）** 授权。
   https://creativecommons.org/licenses/by-sa/4.0/deed.zh
 
 适用范围：
-  pivot_candidates.tsv.gz
-  pivot_lite.bin
-  pivot_lite_100k.bin
-  pivot_lite_200k.bin
-  pivot_full.sqlite.gz
-  formats/pivot_lite.md
-  formats/pivot_full.md
-  zh-dict/（词典源与补词表；其中 rime-pinyin-simp 为 Apache-2.0、jieba / pinyin-data 为 MIT，
-            许可原文在 zh-dict/licenses/，并入本 CC BY-SA 作品时保留其原有声明）
-  manifest.json
+  Release data-2026-11-05 的四个附件：
+    pivot_lite.bin  pivot_full.sqlite.gz  pivot_candidates.tsv.gz  pivot_refined.tsv.gz
+  仓库内：
+    examples/  tables/  manifest.json  formats/
+    zh-dict/（词典源与补词表；其中 rime-pinyin-simp 为 Apache-2.0、jieba / pinyin-data 为 MIT，
+              许可原文在 zh-dict/licenses/，并入本 CC BY-SA 作品时保留其原有声明）
 
 你可以：
   - 共享 —— 以任何媒介或格式复制、发行本数据；

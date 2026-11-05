@@ -1,0 +1,204 @@
+# 人工金标 curation 的配对（2026-11-01）：评测缺口里「两侧都是词头」的 148 对。
+# 每一条都是双盲复核过的译法（不是挖出来的），dice 列固定 0.5 只用来定置信度。
+# **有选择偏差**：清单来自评测缺口，量出来的涨幅是上界，见 docs/accuracy/evidence.md §22。
+zh	ja	dice	note
+变动	変更	0.5	金标 curation · 商务 · 方向 zh
+回复	返信	0.5	金标 curation · 商务 · 方向 zh
+理解	理解	0.5	金标 curation · 商务 · 方向 zh
+累	疲れる	0.5	金标 curation · 商务 · 方向 zh
+玩	遊ぶ	0.5	金标 curation · 商务 · 方向 zh
+带	持つ	0.5	金标 curation · 商务 · 方向 zh
+上班	会社	0.5	金标 curation · 商务 · 方向 zh
+打开	開ける	0.5	金标 curation · 商务 · 方向 zh
+顺利	順調	0.5	金标 curation · 商务 · 方向 ja
+查收	確認	0.5	金标 curation · 商务 · 方向 zh
+添麻烦	迷惑をかける	0.5	金标 curation · 商务 · 方向 zh
+填	記入	0.5	金标 curation · 商务 · 方向 zh
+原定	予定	0.5	金标 curation · 商务 · 方向 zh
+各位	皆様	0.5	金标 curation · 商务 · 方向 zh
+提前	前倒し	0.5	金标 curation · 商务 · 方向 zh
+提前	前もって	0.5	金标 curation · 商务 · 方向 zh
+到场	出席	0.5	金标 curation · 商务 · 方向 zh
+晚	遅い	0.5	金标 curation · 商务 · 方向 zh
+不好意思	申し訳	0.5	金标 curation · 商务 · 方向 zh
+尽快	できるだけ早く	0.5	金标 curation · 商务 · 方向 zh
+补救	フォロー	0.5	金标 curation · 商务 · 方向 zh
+调	変更	0.5	金标 curation · 商务 · 方向 zh
+更正	訂正	0.5	金标 curation · 商务 · 方向 zh
+答复	返事	0.5	金标 curation · 商务 · 方向 zh
+账期	サイト	0.5	金标 curation · 商务 · 方向 zh
+搞错	間違える	0.5	金标 curation · 商务 · 方向 zh
+往后	後ろ	0.5	金标 curation · 商务 · 方向 zh
+延	延長	0.5	金标 curation · 商务 · 方向 zh
+代为	代わり	0.5	金标 curation · 商务 · 方向 zh
+一声	一言	0.5	金标 curation · 商务 · 方向 zh
+下班	退社	0.5	金标 curation · 商务 · 方向 zh
+预计	予定	0.5	金标 curation · 商务 · 方向 zh
+推迟	延期	0.5	金标 curation · 商务 · 方向 zh
+格式	書式	0.5	金标 curation · 商务 · 方向 zh
+介意	気にする	0.5	金标 curation · 商务 · 方向 zh
+百忙	多忙	0.5	金标 curation · 商务 · 方向 zh
+及时	速やか	0.5	金标 curation · 商务 · 方向 zh
+提供	提供	0.5	金标 curation · 商务 · 方向 zh
+换	変える	0.5	金标 curation · 商务 · 方向 zh
+答复	回答	0.5	金标 curation · 商务 · 方向 zh
+打折	割引	0.5	金标 curation · 商务 · 方向 zh
+参会	出席	0.5	金标 curation · 商务 · 方向 zh
+改签	変更	0.5	金标 curation · 商务 · 方向 zh
+晚	遅れる	0.5	金标 curation · 商务 · 方向 zh
+开	開く	0.5	金标 curation · 商务 · 方向 zh
+好好	ゆっくり	0.5	金标 curation · 商务 · 方向 ja
+下单	発注	0.5	金标 curation · 商务 · 方向 ja
+失礼	失礼	0.5	金标 curation · 商务 · 方向 ja
+填写	記入	0.5	金标 curation · 商务 · 方向 ja
+内部	社内	0.5	金标 curation · 商务 · 方向 ja
+不好意思	恐縮	0.5	金标 curation · 商务 · 方向 ja
+重排	組み直す	0.5	金标 curation · 商务 · 方向 ja
+不在	不在	0.5	金标 curation · 商务 · 方向 ja
+回复	返事	0.5	金标 curation · 商务 · 方向 ja
+下	降る	0.5	金标 curation · 商务 · 方向 ja
+决定	決まる	0.5	金标 curation · 商务 · 方向 ja
+指出	指摘	0.5	金标 curation · 商务 · 方向 ja
+共享	共有	0.5	金标 curation · 商务 · 方向 ja
+稍后	後で	0.5	金标 curation · 商务 · 方向 ja
+过目	目を通す	0.5	金标 curation · 商务 · 方向 ja
+搬家	引っ越し	0.5	金标 curation · 商务 · 方向 ja
+对方	先方	0.5	金标 curation · 商务 · 方向 ja
+举办	開催	0.5	金标 curation · 商务 · 方向 ja
+安排	手配	0.5	金标 curation · 商务 · 方向 ja
+开票	請求	0.5	金标 curation · 商务 · 方向 ja
+重复	二重	0.5	金标 curation · 商务 · 方向 ja
+处理	対応	0.5	金标 curation · 商务 · 方向 ja
+晚点	遅れる	0.5	金标 curation · 商务 · 方向 ja
+特意	せっかく	0.5	金标 curation · 商务 · 方向 ja
+预计	見込み	0.5	金标 curation · 商务 · 方向 ja
+足够	足りる	0.5	金标 curation · 商务 · 方向 ja
+弄错	間違える	0.5	金标 curation · 商务 · 方向 ja
+收件人	宛名	0.5	金标 curation · 商务 · 方向 ja
+安装	設置	0.5	金标 curation · 商务 · 方向 ja
+打印	印刷	0.5	金标 curation · 商务 · 方向 ja
+负责	担当	0.5	金标 curation · 商务 · 方向 ja
+开具	発行	0.5	金标 curation · 商务 · 方向 ja
+时间	時間帯	0.5	金标 curation · 商务 · 方向 ja
+严厉	きつい	0.5	金标 curation · 商务 · 方向 ja
+抱歉	失礼ですが	0.5	金标 curation · 日常 · 方向 zh
+粗鲁	失礼	0.5	金标 curation · 日常 · 方向 zh
+不得不	なければならない	0.5	金标 curation · 日常 · 方向 zh
+要	お願いします	0.5	金标 curation · 日常 · 方向 zh
+给	いただく	0.5	金标 curation · 日常 · 方向 zh
+公主	姫君	0.5	金标 curation · 日常 · 方向 ja
+饶恕	寛恕	0.5	金标 curation · 日常 · 方向 ja
+正在	現在	0.5	金标 curation · 日常 · 方向 zh
+现在	今から	0.5	金标 curation · 日常 · 方向 ja
+不够	足りない	0.5	金标 curation · 日常 · 方向 zh
+举行	開かれる	0.5	金标 curation · 日常 · 方向 zh
+开展	開催	0.5	金标 curation · 日常 · 方向 ja
+尽早	できるだけ早く	0.5	金标 curation · 日常 · 方向 zh
+拿到	いただく	0.5	金标 curation · 日常 · 方向 zh
+上涨	上昇	0.5	金标 curation · 日常 · 方向 ja
+到期	終わる	0.5	金标 curation · 日常 · 方向 zh
+查	チェック	0.5	金标 curation · 日常 · 方向 ja
+保留	保留	0.5	金标 curation · 日常 · 方向 ja
+聚会	会合	0.5	金标 curation · 日常 · 方向 zh
+泡汤	中止	0.5	金标 curation · 日常 · 方向 zh
+苦差事	苦労	0.5	金标 curation · 日常 · 方向 zh
+拍	撮る	0.5	金标 curation · 日常 · 方向 zh
+问	聞く	0.5	金标 curation · 日常 · 方向 zh
+来	来た	0.5	金标 curation · 日常 · 方向 ja
+施	施す	0.5	金标 curation · 日常 · 方向 zh
+放	入る	0.5	金标 curation · 日常 · 方向 zh
+大	年上	0.5	金标 curation · 日常 · 方向 ja
+祖国	故国	0.5	金标 curation · 日常 · 方向 ja
+干	やる	0.5	金标 curation · 日常 · 方向 zh
+上	行ける	0.5	金标 curation · 日常 · 方向 zh
+推测	みる	0.5	金标 curation · 日常 · 方向 zh
+同归于尽	無理心中	0.5	金标 curation · 日常 · 方向 zh
+高兴	喜ぶ	0.5	金标 curation · 日常 · 方向 zh
+之后	後で	0.5	金标 curation · 日常 · 方向 zh
+哥哥	兄	0.5	金标 curation · 日常 · 方向 zh
+说	話せる	0.5	金标 curation · 日常 · 方向 ja
+再	二度と	0.5	金标 curation · 日常 · 方向 ja
+话	しゃべり	0.5	金标 curation · 日常 · 方向 ja
+才	初めて	0.5	金标 curation · 日常 · 方向 ja
+厌倦	うんざり	0.5	金标 curation · 日常 · 方向 zh
+万幸	幸い	0.5	金标 curation · 日常 · 方向 zh
+目送	見送り	0.5	金标 curation · 日常 · 方向 ja
+高手	上手	0.5	金标 curation · 日常 · 方向 zh
+相信	信じられない	0.5	金标 curation · 日常 · 方向 ja
+听见	聞こえる	0.5	金标 curation · 日常 · 方向 zh
+说话	話し声	0.5	金标 curation · 日常 · 方向 ja
+讨厌	大嫌い	0.5	金标 curation · 日常 · 方向 zh
+正是	まさしく	0.5	金标 curation · 日常 · 方向 ja
+运作	動かす	0.5	金标 curation · 日常 · 方向 zh
+老	古い	0.5	金标 curation · 日常 · 方向 zh
+清爽	さっぱり	0.5	金标 curation · 日常 · 方向 ja
+真心	心から	0.5	金标 curation · 日常 · 方向 zh
+尽快	すぐに	0.5	金标 curation · 日常 · 方向 zh
+要	かかる	0.5	金标 curation · 日常 · 方向 ja
+人家	人	0.5	金标 curation · 日常 · 方向 zh
+纸	紙	0.5	金标 curation · 日常 · 方向 zh
+难过	悲しい	0.5	金标 curation · 日常 · 方向 zh
+根本	全く	0.5	金标 curation · 日常 · 方向 zh
+背后	陰	0.5	金标 curation · 日常 · 方向 ja
+看上去	ようだ	0.5	金标 curation · 日常 · 方向 zh
+脸	顔	0.5	金标 curation · 日常 · 方向 zh
+帮助	手伝う	0.5	金标 curation · 日常 · 方向 zh
+争论	言い争う	0.5	金标 curation · 日常 · 方向 zh
+抓	捕まる	0.5	金标 curation · 日常 · 方向 zh
+搭话	話しかける	0.5	金标 curation · 日常 · 方向 ja
+酒	お酒	0.5	金标 curation · 日常 · 方向 ja
+叫	鳴る	0.5	金标 curation · 日常 · 方向 zh
+救	救う	0.5	金标 curation · 日常 · 方向 ja
+不太好	不機嫌	0.5	金标 curation · 日常 · 方向 zh
+# 不是「评测翻坏才删」——是这三对当默认位本身就不如原来的（变更 / 弄错 / りんご）。
+服务生	ウエーター	0.5	金标 curation · 空产出补词 · 2026-11-01
+真的	まじで	0.5	金标 curation · 空产出补词 · 2026-11-01
+终于	やっと	0.5	金标 curation · 空产出补词 · 2026-11-01
+浮标	ブイ	0.5	金标 curation · 空产出补词 · 2026-11-01
+地毯	ラグ	0.5	金标 curation · 空产出补词 · 2026-11-01
+蜗牛	カタツムリ	0.5	金标 curation · 空产出补词 · 2026-11-01
+猫	ネコ	0.5	金标 curation · 空产出补词 · 2026-11-01
+贴	貼る	0.5	金标 curation · 空产出补词 · 2026-11-01
+钦佩	感心する	0.5	金标 curation · 空产出补词 · 2026-11-01
+坍塌	崩れ落ちる	0.5	金标 curation · 空产出补词 · 2026-11-01
+坍塌	崩れる	0.5	金标 curation · 空产出补词 · 2026-11-01
+
+# 2026-11-01 第二轮试过 13 对（上班/通勤、推迟/遅らせる…）并**撤回**：
+# 它们全是「金标有多个可接受答案、引擎选了另一个」的义项错，补进表不改变 top1，
+# 一条都没翻正，只白占 13 个名额。真正「两侧都是词头」的缺口上一轮已经补完。
+# 2026-11-01 第三轮（P2-1 试点）：**词头在档里完全没有条目**的 19 条。
+# 与第一轮不同，这批不是「两侧都是词头只是没配对」，是中文词头在档里一个条目都没有——
+# 所以补进去就是 top1，不跟任何现有默认位竞争（这才叫净赚，第一轮 13 条失败的教训）。
+# 日文侧的活用形（`喧嘩してる`、`探していた`、`言った`、`忘れない`）没收：塞进表会污染同词干。
+忽冷忽热	寒暖差	0.5	金标 curation · P2 试点 · 温度差大
+一千件	1000個	0.5	金标 curation · P2 试点 · 数量短语
+会上	会議で	0.5	金标 curation · P2 试点 · 场合短语
+注意到	気づく	0.5	金标 curation · P2 试点 · 动词
+经济成长	経済成長	0.5	金标 curation · P2 试点 · 复合词
+银行转帐	銀行振込	0.5	金标 curation · P2 试点 · 复合词
+没必要	必要はない	0.5	金标 curation · P2 试点 · 短语
+急病	急病	0.5	金标 curation · P2 试点 · 同形词
+业余爱好	趣味	0.5	金标 curation · P2 试点 · 名词
+最大	最大	0.5	金标 curation · P2 试点 · 同形词
+确切地	正確に	0.5	金标 curation · P2 试点 · 副词
+很多	たくさん	0.5	金标 curation · P2 试点 · 数量
+古建筑	古代建築物	0.5	金标 curation · P2 试点 · 复合词
+查找	検索する	0.5	金标 curation · P2 试点 · 动词
+感谢信	お礼状	0.5	金标 curation · P2 试点 · 名词
+珍本	珍本	0.5	金标 curation · P2 试点 · 同形词
+不细心	注意不足	0.5	金标 curation · P2 试点 · 短语
+多少钱	いくら	0.5	金标 curation · P2 试点 · 疑问短语
+自由奔放	自由奔放	0.5	金标 curation · P2 试点 · 同形词
+# 同一轮的日文源（ja→zh）：用 **JMdict 词性**筛掉活用形，只留独立词条（名词/副词/惯用）。
+# 依据：`足りません`/`知っている`/`解決する`/`帰ってきてる` 这类在 JMdict 里查不到独立词条 =
+# 活用形或派生形，塞进表会污染同词干（见 evidence §23 的判据）；`県警`/`月一`/`手作り` 有 noun 词性。
+正在使用	使用中	0.5	金标 curation · P2 试点 · 复合名词
+全都	みんな	0.5	金标 curation · P2 试点 · 副词/名词
+大家	みんな	0.5	金标 curation · P2 试点 · 副词/名词
+当地警察	県警	0.5	金标 curation · P2 试点 · 名词
+没关系	かめへん	0.5	金标 curation · P2 试点 · 惯用（关西方言）
+吝啬鬼	けちん坊	0.5	金标 curation · P2 试点 · 名词
+返回	復路	0.5	金标 curation · P2 试点 · 名词（回程）
+一个月一次	月一	0.5	金标 curation · P2 试点 · 名词（每月一次）
+手工制作	手作り	0.5	金标 curation · P2 试点 · 名词
+

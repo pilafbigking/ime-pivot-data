@@ -1,0 +1,73 @@
+# 人工桥接键：给已存在的词对再挂一个英文键。生成方式见 data/eval/probe_en_coverage.py --emit-bridge
+# 列：en / zh / ja / note。只加进 LANG_EN 倒排，不动中/日倒排。
+en	zh	ja	note
+advance	事先	前もって	英→日 · en-040 · 原键 beforehand/in advance/in advance/in advance/in advance
+advance	提前	早まる	英→中 · en-040 · 原键 ahead/ahead/ahead/ahead/date/do/do/do/do/do sth ahead of tim
+afraid	可惜	残念ながら	英→日 · en-071 · 原键 unfortunately
+afraid	抱歉	申し訳	英→中 · en-071 · 原键 apology/be sorry/be sorry/be sorry/be sorry/be sorry/be sorr
+anytime	总是	いつでも	英→日 · en-126 · 原键 always/always/always/always/always/always/always/always/at a
+anytime	随时	随時	英→中 · en-126 · 原键 at all times/at all times/at any time/at any time/at any tim
+attached	附件	添付ファイル	英→中 · en-089 · 原键 accessory/accessory/accessory/appendix/appendix/appendix/app
+call off	取消	取り消す	英→中 · en-092 · 原键 call/call/call/call/call/call/call/cancel/cancel/cancel/canc
+catch up	叙旧	話す	英→中 · en-115 · 原键 form/form/reminisce/reminisce/reminisce/reminisce/talk/talk/
+ceo	社长	社長	英→日 · en-051 · 原键 abraham lincoln/advantech/advertising company/alberto ken'ya
+delivery	交货	納品	英→中 · en-029 · 原键 deliver goods/deliver goods/deliver goods/deliver goods/deli
+drop by	看	訪ねる	英→日 · en-126 · 原键 await orders/ban on visiting a place/be at sb's beck and cal
+excuse	不好意思	すみません	英→中 · en-064 · 原键 be sorry/be sorry/be sorry/be sorry/embarrass/feel/feel emba
+fell through	取消	取り消す	英→中 · en-101 · 原键 call/call/call/call/call/call/call/cancel/cancel/cancel/canc
+figure out	解决	解く	英→日 · en-116 · 原键 answ/answ/answ/answ/answ/answ/answ/answ/answ/answer/answer/a
+forgot	忘	忘れる	英→日 · en-066 · 原键 be forgetful/careless/careless/carelessly and haphazardly/fo
+give me a hand	帮	助ける	英→日 · en-077 · 原键 a support/abandon self for others/act in a supporting role/a
+give me a hand	帮忙	手伝う	英→中 · en-077 · 原键 do/do a favor/do a good turn/help/help/help/help/help/help/h
+go ahead	进行	進行	英→中 · en-108 · 原键 advance/be on the march/be on the march/be on the march/marc
+go over	核对	確認	英→中 · en-050 · 原键 check/check/check/check/check/check/check/check/check/check/
+grab	吃	食べる	英→中 · en-112 · 原键 destroy/eat/eat/eat/eat/eat/eat/eat/eat/eat/eat/eat/eradicat
+hand in	提交	提出	英→中 · en-078 · 原键 ref/ref/refer to sb/refer to sb/submission/submit/submit/sub
+inconvenience	麻烦	手数	英→中 · en-056 · 原键 trouble/trouble/trouble/trouble/trouble/trouble/trouble/trou
+issue	问题	問題	英→中 · en-010 · 原键 problem/problem/problem/ques/question/question/question/ques
+item	商品	商品	英→中 · en-070 · 原键 a good beginning/accept delivery of goods/all in good time/a
+keep	使	使う	英→中 · en-059 · 原键 do/employ/instruct sb to do sth/make/make/make/make/make/mak
+keep	让您久等	待たせる	英→日 · en-059 · 原键 bide one's time/to keep waiting/to keep waiting/wait/wait/wa
+labor	人工费	工賃	英→日 · en-034 · 原键 hard-earned wages/labor cost/wag/wages
+launch	公开	公開	英→日 · en-106 · 原键 always available/armor maker/australian open/available/avail
+looking into	查	調べる	英→日 · en-010 · 原键 a preliminary study/appear on the public roll of successful/
+looking into	研究	研究	英→中 · en-010 · 原键 a blade will get rusty if it is not/a person studying for th
+make it	参加	参加	英→中 · en-045 · 原键 accounting entry/ally oneself with/an entry/anger against a 
+make sure	务必	必ず	英→中 · en-065 · 原键 be sure to/be sure to/be sure to/must/must/must/must/must/mu
+mean	打算	つもり	英→中 · en-063 · 原键 calculation/calculation/calculation/intention/plan/plan/plan
+mixed up	弄混	間違う	英→中 · en-067 · 原键 confuse/confuse/confuse/confuse/confuse/confuse/confuse/conf
+mixed up	犯错	間違える	英→日 · en-067 · 原键 allow room for error/attribute sth to the wrong person/be in
+moved	加速	早める	英→日 · en-097 · 原键 accelerate/accelerate/accelerate/accelerate/accelerate/accel
+moved	提早	早く	英→中 · en-097 · 原键 ahead/ahead of schedule/ahead of schedule/ahead of schedule/
+o'clock	时间	時	英→日 · en-038 · 原键 a criminal case/a doubtful case/a good chance/a lucky chance
+offer	报价	見積もり	英→中 · en-030 · 原键 price/price/price/price/price/price/price/price/price/price/
+pardon	不好意思	すみません	英→中 · en-072 · 原键 be sorry/be sorry/be sorry/be sorry/embarrass/feel/feel emba
+payment	付款	払い	英→中 · en-014 · 原键 money/money/money/money/pay/pay/pay/pay/pay/pay/pay/pay a su
+payment	付款	支払い	英→日 · en-014 · 原键 a soldier's pay and provisions/back pay/balance of payments/
+pick up	拿	取る	英→中 · en-084 · 原键 catch/catch/catch/catch/hold/hold/hold/hold/hold/hold/hold/h
+pick up	收到	受け取る	英→日 · en-084 · 原键 accept/accept/accept/accept/accept/accept/accept/accept/acce
+planned	按计划	予定どおり	英→中 · en-108 · 原键 as planned
+presentation	公	発表	英→日 · en-049 · 原键 a break/a dike breaks/a kite that is lost after its string/a
+regards	请多关照	よろしく	英→日 · en-018 · 原键 a much-travelled person/a well/all sorts of feelings well up
+reply	答复	答える	英→中 · en-004 · 原键 answer/answer/answer/answer/answer/answer/answer/answer/answ
+right	现在	今	英→中 · en-010 · 原键 now/now/now/now/now/now/now/now/now/now/now/now/now/now/pres
+running	前进	進む	英→日 · en-104 · 原键 adv/adv/adv/adv/adv/adv/adv/adv/advance/advance/advance/adva
+running	进行	進行	英→中 · en-104 · 原键 advance/be on the march/be on the march/be on the march/marc
+session	会议	会議	英→中 · en-045 · 原键 confer/conference/meeting/meeting/meeting/meeting/meeting/me
+session	部	部	英→日 · en-045 · 原键 a club/all categories/arsenal football club/category/categor
+sharp	刚	ちょうど	英→日 · en-043 · 原键 as if/as if/as if/exactly/exactly/exactly/exactly/exactly/ex
+sharp	整	全体	英→中 · en-043 · 原键 entire/exactly/exactly/whole/whole/whole/whole/whole/whole/w
+shipment	发货	送る	英→中 · en-061 · 原键 dispatch/dispatch/dispatch/dispatch/dispatch/dispatch/dispat
+shipping	运费	送料	英→中 · en-020 · 原键 fee/fee/fee/fee/fee/fee/fee/freight/freight/freight/freight/
+sincere	深	深い	英→日 · en-057 · 原键 a deep fryer/a famous teacher trains a fine student/already 
+sorry	说不过去	すまない	英→日 · en-055 · 原键 inexcusable/inexcusable/not altogether inexcusable/remorsefu
+subject	有待	未決	英→中 · en-100 · 原键 not yet/not yet/pend/pend/pend/pending/pending/pending/pendi
+switched	换	替え	英→中 · en-107 · 原键 change/change/change/exchange/exchange/exchange/exchange/exc
+take	做	する	英→中 · en-044 · 原键 be/be/be/be/do/do/do/engage in/make/make/make/make/make/prod
+take	花	花	英→中 · en-049 · 原键 16-year-old beauty/a beauty/a budding beauty/aiwan pavilion/
+take a look at	看	見る	英→日 · en-089 · 原键 a panoramic view/absent oneself from a meeting/act with dili
+tbd	未定	未定	英→中 · en-106 · 原键 artisan who fixes leaky pots/as yet undecided/doubt/doubt/do
+transfer	汇兑	送金	英→日 · en-036 · 原键 it's easier to invite the devil in than/money/remit money/re
+well	好	良い	英→中 · en-117 · 原键 all right/all right!/appropriate/appropriate/appropriate/be 
+well	顺利	うまく	英→日 · en-117 · 原键 apt/delicious/delicious/skillful/smoothly/smoothly/smoothly/
+works	工作	働く	英→日 · en-120 · 原键 act/act as a middleman/be effective/be effective/be out of p

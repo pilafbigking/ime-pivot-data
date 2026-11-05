@@ -1,0 +1,141 @@
+# 商务办公场景补充词表（A2 手工维护）
+#
+# 为什么要有这张表
+# ---------------
+# pivot 的中日配对是**桥接**出来的：把 CC-CEDICT 的英文释义与 JMdict 的英文 gloss
+# 压成同一个键，键相同才算一对。这条通道有两个地方天生接不上商务词：
+#
+# 1. **一侧词典根本不收**。CC-CEDICT 不收 `会议纪要` / `交期` / `市场部` / `截止日期`
+#    这类书面复合词（它是「词」典不是「公文用语」表）；JMdict 也不收 `納品先` / `会議中` /
+#    `確認不足` / `予定どおり` 这类派生组合。一侧没有词条 → 没有键 → 永远配不上。
+# 2. **释义写法对不上**。`交货 → to deliver goods`（动宾）与 `納品 → delivery of goods`
+#    （名词短语）在 `gloss_key` 里不是一个键；`附件 → (email) attachment` 与
+#    `添付ファイル → attachment` 虽然同键，却会被 `PER_KEY_SIDE_CAP` 按词频挤掉
+#    （`愛着` / `執着` 也是 "attachment"，它们更"常用"）。
+#
+# 这两条都不是调参能解决的：前一条缺的是**词**，后一条缺的是**谁更该被选中**的先验。
+# 所以这里用手工三语表直接把"词 + 释义 + 读音 + 词性"写下来，和 `compounds.py`
+# 处理时间表达是同一个思路（数据补，不是映射层拼）。
+#
+# 列
+# --
+#   zh    中文写法（简体）
+#   ja    日文写法（辞書形；假名写法就用假名，如 `ご飯` 的常用写法是汉字）
+#   en    英文释义短语（进 pivot 的 en 列，键盘上会显示，≤ 20 字符为宜）
+#   kana  读音（平假名；片假名词照写片假名）
+#   pos   词性（名詞 / 動詞 / 副詞 / 形容詞 / 形容動詞 / 表現 / 代名詞）
+#   note  一句话说明（可空）
+#
+# 纪律
+# ----
+# - **只写确定的对**。拿不准的（`忽冷忽热` 这种整句化的说法、`一千件` 这种数词+助数词）
+#   不进来：前者该由映射层的短语规则处理，后者见 `compounds.py` 文件头「能产的那部分」。
+# - 读音必须对。**读音错了比缺词更糟**（用户长按收藏会存一个查不到的词）。
+#   `python -m pipeline.seed_terms --check` 会拿 JMdict 逐个核对。
+# - 这张表是**词表覆盖**，不是评测调参：它修的是「用户看不到翻译」，不是「猜中标注首选」。
+#   与 `overrides/` 的区别见 `data/pipeline/README.md` 第十轮那一节。
+zh	ja	en	kana	pos	note
+附件	添付ファイル	attached file	てんぷファイル	名詞	邮件/文书附件
+交期	納期	delivery date	のうき	名詞	报价与交期场景
+交货期	納期	lead time	のうき	名詞	同 交期，另一种写法
+交货	納品	delivery of goods	のうひん	名詞	交货（动名词）
+交货地点	納品先	delivery address	のうひんさき	名詞	收货地点
+提交	提出	submission	ていしゅつ	名詞	提交报告
+商量	相談	consultation	そうだん	名詞	价格商量
+销售	販売	sales	はんばい	名詞	销售数据
+会议纪要	議事録	meeting minutes	ぎじろく	名詞	会议纪要
+会议记录	議事録	meeting minutes	ぎじろく	名詞	同 会议纪要，另一种写法
+议程	議題	agenda	ぎだい	名詞	会议议程
+抄送	写し	carbon copy	うつし	名詞	邮件抄送
+市场部	マーケティング部	marketing department	マーケティングぶ	名詞	部门名
+采购部	購買部	purchasing department	こうばいぶ	名詞	部门名
+报价单	見積書	quotation	みつもりしょ	名詞	报价单
+有效期	有効期限	expiration date	ゆうこうきげん	名詞	报价有效期
+截止日期	締め切り	deadline	しめきり	名詞	截止日期
+订购	注文	order	ちゅうもん	名詞	订购数量
+结算	決済	settlement	けっさい	名詞	按季度结算
+运费	送料	postage	そうりょう	名詞	运费另计
+寄出	発送	shipment	はっそう	名詞	寄出样品
+寄送	送付	sending	そうふ	名詞	寄送资料
+收件地址	送付先	addressee	そうふさき	名詞	资料寄到哪里
+工作日	営業日	business day	えいぎょうび	名詞	翌营业日
+延误	遅延	delay	ちえん	名詞	交货延误
+差错	手違い	mistake	てちがい	名詞	我方差错
+失误	ミス	mistake	ミス	名詞	工作失误
+疏忽	不注意	carelessness	ふちゅうい	名詞	我们的疏忽
+补救	埋め合わせ	remedy	うめあわせ	名詞	尽快补救
+致歉	お詫び	apology	おわび	名詞	更正并致歉
+有误	誤り	error	あやまり	名詞	数据有误
+抱歉	申し訳	apology	もうしわけ	名詞	道歉场景
+不好意思	恐れ入る	to be sorry	おそれいる	動詞	敬语开场
+打扰	邪魔	hindrance	じゃま	名詞	打扰您休息
+麻烦	手数	trouble	てすう	名詞	麻烦您确认
+让您久等	待たせる	to keep waiting	またせる	動詞	お待たせしました
+久等	待たせる	to keep waiting	またせる	動詞	让您久等（同一个日文词的另一种中文写法）
+培训	研修	training	けんしゅう	名詞	入职培训
+主持	司会	moderating	しかい	名詞	会议主持
+开会中	会議中	in a meeting	かいぎちゅう	名詞	会议进行中
+会前	事前	in advance	じぜん	名詞	会前确认
+主题	件名	subject	けんめい	名詞	邮件主题
+按计划	予定どおり	as planned	よていどおり	副詞	按计划推进
+提前	早まる	to be moved up	はやまる	動詞	时间提前
+推迟	順延	postponement	じゅんえん	名詞	顺延到下周
+重新安排	組み直す	to reschedule	くみなおす	動詞	重新排日程
+今天之内	今日中	by the end of today	きょうじゅう	副詞	今天之内发出
+以防万一	念のため	just in case	ねんのため	表現	保险起见
+另外	別途	separately	べっと	形容動詞	运费另计
+务必	必ず	without fail	かならず	副詞	务必提交
+排序	並べ替え	sorting	ならべかえ	名詞	按日期排序
+统一	統一	unification	とういつ	名詞	格式统一
+最低	最低	minimum	さいてい	形容動詞	最低价
+抽出	割く	to set aside	さく	動詞	抽出时间
+链接	リンク	link	リンク	名詞	会议链接
+线上	オンライン	online	オンライン	名詞	线上会议
+静音模式	マナーモード	silent mode	マナーモード	名詞	手机静音
+转告	伝える	to pass on	つたえる	動詞	转告一声
+拜访	訪問	visit	ほうもん	名詞	拜访客户
+访问	訪問	visit	ほうもん	名詞	同上
+日本菜	日本料理	Japanese cuisine	にほんりょうり	名詞	日本菜
+下周三	来週水曜日	next Wednesday	らいしゅうすいようび	名詞	日程变更
+三十天	三十日	thirty days	さんじゅうにち	名詞	有效期三十天；JMdict 的「三十日」只有 みそか（晦日）一读，30 天的读法是 さんじゅうにち
+三周	三週間	three weeks	さんしゅうかん	名詞	交期三周
+三楼	三階	third floor	さんがい	名詞	会议在三楼
+三份	三部	three copies	さんぶ	名詞	复印三份
+三家	三社	three companies	さんしゃ	名詞	三家报价
+五百日元	五百円	five hundred yen	ごひゃくえん	名詞	单价
+米饭	ご飯	cooked rice	ごはん	名詞	一起吃饭
+到达	到着	arrival	とうちゃく	名詞	航班到达
+停飞	欠航	cancelled flight	けっこう	名詞	台风停飞
+汇率	為替	exchange rate	かわせ	名詞	汇率变动
+页数	枚数	number of sheets	まいすう	名詞	资料页数
+重叠	重なる	to overlap	かさなる	動詞	日程撞期
+拖长	長引く	to drag on	ながびく	動詞	会议拖长
+缩短	短縮	shortening	たんしゅく	名詞	缩短日程
+切换	切り替わる	to switch over	きりかわる	動詞	系统切换
+错开	ずれる	to shift	ずれる	動詞	日程错开一天
+反复	度重なる	repeated	たびかさなる	動詞	反复变更
+理解偏差	認識違い	misunderstanding	にんしきちがい	名詞	认知不一致
+确认不到位	確認不足	insufficient checking	かくにんぶそく	名詞	我方确认不足
+我方	こちらの	our side	こちらの	代名詞	敬语里的"我方"
+索取	取り寄せ	ordering in	とりよせ	名詞	索取报价单
+光临	お越し	visit	おこし	名詞	承蒙光临
+新宿	新宿	Shinjuku	しんじゅく	名詞	地名
+田中先生	田中さん	Mr. Tanaka	たなかさん	名詞	敬称
+发票	請求書	invoice	せいきゅうしょ	名詞	发票/请款单
+会议室	会議室	conference room	かいぎしつ	名詞	会议室
+采购订单	発注書	purchase order	はっちゅうしょ	名詞	采购订单
+到期	期限	due	きげん	名詞	到期
+预约	予約	appointment	よやく	名詞	预约
+签字	署名	sign	しょめい	名詞	签字/签名
+转发	転送	forward	てんそう	名詞	转发/转交
+报价	見積もり	quote	みつもり	名詞	报价
+同事	同僚	coworker	どうりょう	名詞	同事
+带薪休假	有給休暇	PTO	ゆうきゅうきゅうか	名詞	年假/带薪休假
+休息日	休日	day off	きゅうじつ	名詞	公休/休息日
+说明会	説明会	briefing	せつめいかい	名詞	说明会
+参加	参加	join	さんか	名詞	参加
+核对	確認	check	かくにん	名詞	核对/确认
+数字	数字	figures	すうじ	名詞	数据/数字
+延期	延期	put off	えんき	名詞	延期/推迟
+尽快	至急	as soon as possible	しきゅう	名詞	尽快
+跟进	フォロー	follow up	フォロー	名詞	跟进

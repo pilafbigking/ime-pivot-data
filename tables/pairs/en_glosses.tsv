@@ -1,0 +1,191 @@
+# 给「没有英文词头」的配对补的英文释义（A3-13）。生成：python -m pipeline.en_backfill
+# 规则：CC-CEDICT ∩ JMdict 取交集，无交集取 CEDICT 首条；两边都没有就不写（宁缺勿错）。
+# 这张表只补**中日配对本身缺的英文**，不改已有条目的 en；改已有的走 align 那条路。
+zh	ja	en	source
+变动	変更	change	交集
+回复	返信	reply	JMdict
+理解	理解	understanding	JMdict
+累	疲れる	get tired	JMdict
+玩	遊ぶ	play	交集
+带	持つ	carry	交集
+上班	会社	company	JMdict
+打开	開ける	open	交集
+顺利	順調	favourable	JMdict
+查收	確認	confirmation	JMdict
+添麻烦	迷惑をかける	inconvenience	交集
+填	記入	entry	JMdict
+原定	予定	plans	JMdict
+各位	皆様	everyone	JMdict
+提前	前倒し	moving forward	JMdict
+提前	前もって	in advance	交集
+到场	出席	attendance	JMdict
+晚	遅い	late	交集
+不好意思	申し訳	apology	JMdict
+尽快	できるだけ早く	as soon as possible	交集
+补救	フォロー	follow	JMdict
+调	変更	change	JMdict
+更正	訂正	correction	JMdict
+答复	返事	reply	交集
+账期	サイト	site	JMdict
+搞错	間違える	make a mistake	交集
+往后	後ろ	back	JMdict
+延	延長	extension	JMdict
+代为	代わり	substitute	JMdict
+一声	一言	single word	JMdict
+下班	退社	resignation	JMdict
+预计	予定	estimate	交集
+推迟	延期	postponement	JMdict
+格式	書式	format	交集
+介意	気にする	mind	交集
+百忙	多忙	being very busy	JMdict
+及时	速やか	quick	JMdict
+提供	提供	offer	交集
+换	変える	change	交集
+答复	回答	reply	交集
+打折	割引	discount	JMdict
+参会	出席	attendance	JMdict
+改签	変更	change	JMdict
+晚	遅れる	be late	JMdict
+开	開く	open	交集
+好好	ゆっくり	well	交集
+下单	発注	order	交集
+失礼	失礼	discourtesy	JMdict
+填写	記入	entry	JMdict
+内部	社内	within a company	JMdict
+不好意思	恐縮	feeling obliged	JMdict
+重排	組み直す	reschedule	JMdict
+不在	不在	absence	JMdict
+回复	返事	reply	JMdict
+下	降る	go down	交集
+决定	決まる	be decided	JMdict
+指出	指摘	pointing out	JMdict
+共享	共有	joint ownership	JMdict
+稍后	後で	later	JMdict
+过目	目を通す	look over	交集
+搬家	引っ越し	moving	JMdict
+对方	先方	other party	JMdict
+举办	開催	holding	JMdict
+安排	手配	arrangement	JMdict
+开票	請求	claim	JMdict
+重复	二重	double	JMdict
+处理	対応	correspondence	JMdict
+晚点	遅れる	be late	JMdict
+特意	せっかく	assassin	JMdict
+预计	見込み	forecast	交集
+足够	足りる	be sufficient	JMdict
+弄错	間違える	make a mistake	JMdict
+收件人	宛名	name and address	JMdict
+安装	設置	installation	交集
+打印	印刷	printing	JMdict
+负责	担当	being in charge	JMdict
+开具	発行	publication	JMdict
+时间	時間帯	period of time	JMdict
+严厉	きつい	severe	交集
+抱歉	失礼ですが	excuse me	JMdict
+粗鲁	失礼	discourtesy	JMdict
+不得不	なければならない	have to do	JMdict
+要	お願いします	please	JMdict
+给	いただく	receive	JMdict
+公主	姫君	daughter of a person of high rank	JMdict
+饶恕	寛恕	magnanimity	JMdict
+正在	現在	the present	JMdict
+现在	今から	from now	JMdict
+不够	足りない	insufficient	交集
+举行	開かれる	be opened	JMdict
+开展	開催	holding	JMdict
+尽早	できるだけ早く	as soon as possible	JMdict
+拿到	いただく	get	交集
+上涨	上昇	rising	JMdict
+到期	終わる	end	JMdict
+查	チェック	check	交集
+保留	保留	reservation	JMdict
+聚会	会合	gathering	交集
+泡汤	中止	interruption	JMdict
+苦差事	苦労	trouble	JMdict
+拍	撮る	take	交集
+问	聞く	ask	交集
+来	来た	all right	JMdict
+施	施す	apply	交集
+放	入る	enter	JMdict
+大	年上	older	交集
+祖国	故国	one's native land	JMdict
+干	やる	do	交集
+上	行ける	be good	JMdict
+推测	みる	look after	JMdict
+同归于尽	無理心中	murder-suicide	JMdict
+高兴	喜ぶ	be delighted	JMdict
+之后	後で	afterwards	交集
+哥哥	兄	older brother	交集
+说	話せる	be able to speak	JMdict
+再	二度と	never again	JMdict
+话	しゃべり	talk	交集
+才	初めて	for the first time	JMdict
+厌倦	うんざり	tedious	JMdict
+万幸	幸い	happiness	JMdict
+目送	見送り	seeing off	JMdict
+高手	上手	skillful	JMdict
+相信	信じられない	incredible	JMdict
+听见	聞こえる	be heard	JMdict
+说话	話し声	speaking voice	JMdict
+讨厌	大嫌い	hating	JMdict
+正是	まさしく	certainly	JMdict
+运作	動かす	operate	交集
+老	古い	old	交集
+清爽	さっぱり	feeling refreshed	JMdict
+真心	心から	from the bottom of one's heart	JMdict
+尽快	すぐに	immediately	JMdict
+要	かかる	span	JMdict
+人家	人	I	交集
+纸	紙	paper	交集
+难过	悲しい	sad	JMdict
+根本	全く	really	JMdict
+背后	陰	behind	交集
+看上去	ようだ	it seems that	JMdict
+脸	顔	face	交集
+帮助	手伝う	help	交集
+争论	言い争う	quarrel	JMdict
+抓	捕まる	be caught	JMdict
+搭话	話しかける	talk	交集
+酒	お酒	alcohol	JMdict
+叫	鳴る	sound	JMdict
+救	救う	rescue	交集
+不太好	不機嫌	pout	JMdict
+服务生	ウエーター	waiter	JMdict
+真的	まじで	really	CEDICT
+终于	やっと	at last	交集
+浮标	ブイ	buoy	交集
+地毯	ラグ	rug	交集
+蜗牛	カタツムリ	snail	交集
+猫	ネコ	cat	交集
+贴	貼る	stick	交集
+钦佩	感心する	admire	CEDICT
+坍塌	崩れ落ちる	crumble down	JMdict
+坍塌	崩れる	collapse	交集
+忽冷忽热	寒暖差	temperature swings	人工
+一千件	1000個	a thousand pieces	人工
+会上	会議で	at the meeting	人工
+注意到	気づく	notice	人工
+经济成长	経済成長	economic growth	人工
+银行转帐	銀行振込	bank transfer	人工
+没必要	必要はない	no need	人工
+急病	急病	sudden illness	人工
+业余爱好	趣味	hobby	人工
+最大	最大	maximum	人工
+确切地	正確に	precisely	人工
+很多	たくさん	many	人工
+古建筑	古代建築物	ancient architecture	人工
+查找	検索する	search	人工
+感谢信	お礼状	thank-you letter	人工
+珍本	珍本	rare book	人工
+不细心	注意不足	careless	人工
+多少钱	いくら	how much	人工
+自由奔放	自由奔放	free-spirited	人工
+正在使用	使用中	in use	人工
+全都	みんな	all	人工
+大家	みんな	everyone	人工
+当地警察	県警	local police	人工
+没关系	かめへん	no problem	人工
+吝啬鬼	けちん坊	miser	人工
+返回	復路	return trip	人工
+一个月一次	月一	once a month	人工
+手工制作	手作り	handmade	人工

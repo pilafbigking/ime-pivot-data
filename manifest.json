@@ -1,74 +1,168 @@
 {
-  "schema": 1,
-  "generated_at": "2026-10-27T16:47:05Z",
-  "source_version": "CC-CEDICT 2026-09-27; JMdict 2026-09-26; Tatoeba 2026-10-24; OpenCC ver.1.1.9; Unihan 16.0.0; zh-dict: CC-CEDICT 2026-09-27, rime-pinyin-simp 0c6861e, jieba 67fa2e3, pinyin-data 9d05c9e",
+  "schema": 2,
+  "release": "data-2026-11-05",
+  "release_url": "https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-05",
   "license": "CC BY-SA 4.0",
+  "source_version": "CC-CEDICT 2026-09-27; JMdict 2026-09-26; Tatoeba 2026-10-24; OpenCC ver.1.1.9; Unihan 16.0.0; OpenMultilingualWordNet 406bf83b3c50; zh-dict: rime-pinyin-simp 0c6861e, jieba 67fa2e3, pinyin-data 9d05c9e",
+  "generated": {
+    "pivot_lite.bin": "2026-11-02T12:25Z",
+    "pivot_full.sqlite": "2026-10-31T16:27:30Z",
+    "zh-dict": "2026-11-05"
+  },
+  "provenance": {
+    "note": "这批文件就是随 App 分发的那一份：pivot_lite.bin 与 pivot_full.sqlite 的 sha256 与装进 iPhone 的文件一致。",
+    "pipeline_commit": "f77e5ce（产品仓库，私有；tables/ 下的表是该提交的原样拷贝）",
+    "reproduce": "用本仓库的 pivot_candidates + pivot_refined + pivot_examples 与 tables/，按 formats/ 的说明可重建。实测：重建的 pivot_lite.bin 与发布版仅文件头偏移 40–42 的 3 个字节（构建时间戳）不同；重建的 pivot_full.sqlite 所有表逐行一致，仅 meta.generated_at 不同。",
+    "tatoeba_exports_used": {
+      "cmn_sentences.tsv": "7894ff352baf…",
+      "jpn_sentences.tsv": "723063ee47ea…",
+      "eng_sentences.tsv": "e432a428d743…",
+      "cmn-jpn_links.tsv": "605e5c0aa342…",
+      "jpn-eng_links.tsv": "0ab476084037…",
+      "cmn-eng_links.tsv": "b84ee59c3215…",
+      "note": "Tatoeba 的每周导出无法固定，这里记当次用的文件前缀；派生结果（candidates / refined / examples）已随本发布提供，不需要重新下载"
+    },
+    "not_published": "pivot_ids.tsv（只供敬语对齐，v1 范围外）、10 万 / 20 万档（对照实验档，不随包）、LLM 试跑归档与 WikiMatrix 配对（未套进产物）"
+  },
   "files": {
-    "pivot_candidates.tsv.gz": {
-      "bytes": 89626706,
-      "sha256": "657b239fe5ab195cf4dfd166ea3757cba5a7f19d7543acee7961fecc97de6012",
-      "description": "1,540,474 条候选对，TSV（gzip）。117,678 个中文词头 / 111,280 个日文词头"
-    },
     "pivot_lite.bin": {
-      "bytes": 12618599,
-      "sha256": "bfb71f7a0923f27a9f7c20fa51dcfe04ba373230f03f310f78de6761f4499945",
-      "description": "5 万档二进制（随键盘分发的那一档），50,000 条"
-    },
-    "pivot_lite_100k.bin": {
-      "bytes": 22915295,
-      "sha256": "4ca78ed9aff8ecd392b7df2bb13a745c42e1a558576f5b60ef7dbdad8c63b9c0",
-      "description": "10 万档二进制，100,000 条"
-    },
-    "pivot_lite_200k.bin": {
-      "bytes": 39128620,
-      "sha256": "c41aa5bb7c02611346d37f5960c2ff8b5af21323261862216680eb81a23a77f5",
-      "description": "20 万档二进制（随宿主 App 的厚词典同源），200,000 条"
+      "bytes": 15114512,
+      "sha256": "ce351a4bfb61ff62c64f30f5f9cf652c9c55ed1f5deae406817891d91c035298",
+      "where": "release",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/pivot_lite.bin",
+      "description": "5 万档二进制（随键盘分发的那一档），58,179 条 / 45,756 个中文词头 / 18,786 个日文词头"
     },
     "pivot_full.sqlite.gz": {
-      "bytes": 34939253,
-      "sha256": "b87d5ce6a1fb3aa2b03d6b25a49a7330c0d88f6b8c30a21c3e075b706d9f139a",
-      "description": "厚词典 SQLite（gzip），200,000 词条 / 200,000 义项 / 225,240 活用 / 198,787 例句"
+      "bytes": 34617658,
+      "sha256": "6f539a5751363e12b0998cfb2ff31a9a3e452a3c89aca2882394be09cf78fae0",
+      "where": "release",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/pivot_full.sqlite.gz",
+      "description": "厚词典 SQLite（gzip），200,000 词条 / 200,000 义项 / 227,755 活用 / 198,761 例句（随宿主 App 分发）",
+      "sha256_uncompressed": "45cbfc8c4ca1b61aaf1c2746526d559d7e59eb20abfe945a697944f5751d1937"
     },
-    "zh-dict/README.md": {
-      "bytes": 1359,
-      "sha256": "e875fdfb174d28ac329b9532f7416888aadbaae374c06a78063e488d7078583f",
-      "description": "zh-dict 的来源与署名说明"
+    "pivot_candidates.tsv.gz": {
+      "bytes": 77520709,
+      "sha256": "52acf0af5fefa2aa8cf2d70c225026e9e069dc5c5b6f05c99e1e8aafbbf63ede",
+      "where": "release",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/pivot_candidates.tsv.gz",
+      "description": "源形态：1,539,158 条候选对（TSV，gzip）；列见 README",
+      "sha256_uncompressed": "755cfbfc8bed4d90ce202875be9015739a4adcd2e8d9a05b872ab46642041857"
     },
-    "zh-dict/cedict_supplement.tsv": {
-      "bytes": 1426449,
-      "sha256": "4125cd72c6c04a46cf0f07e1194d20f9b65a33ef2715dde935529a8c1172a713",
-      "description": "取自 CC-CEDICT 的中文补词表，61,439 条"
+    "pivot_refined.tsv.gz": {
+      "bytes": 30444815,
+      "sha256": "73d1a15b5f10780cbdc11559c4bbc0b6b208f8f85307c055408e4639e2f36e5d",
+      "where": "release",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/pivot_refined.tsv.gz",
+      "description": "校正结果：1,539,158 行（entry_id / keep / confidence / default_key / 释义 / provider / note）；pivot_lite 与 pivot_full 的构建都读它",
+      "sha256_uncompressed": "3def4d52ef42624a0fe1b7a4d1ff2370e3d903c753eb7b453d5bc7edd83c8524"
     },
-    "zh-dict/tri_zh_pinyin.10w.dict.yaml": {
-      "bytes": 3499165,
-      "sha256": "9df229e6b1b4a8156736cfc7738fa21927e02877ca8906246ff87c229e1070d7",
-      "description": "中文输入词库源，10 万档 + CC-CEDICT 补词"
+    "examples/pivot_examples.tsv.gz": {
+      "bytes": 5096155,
+      "sha256": "126a3cc08f40d74a60e6a55e2b75c327970f9a481f90b8059cb6ff78027176b8",
+      "where": "git",
+      "description": "例句缓存（gzip）：198,761 句，列 id / 中文 / 译文 / 语言 / Tatoeba 句子 id（CC BY 2.0 FR，可回溯原作者）"
     },
-    "zh-dict/tri_zh_pinyin.20w.dict.yaml": {
-      "bytes": 6053203,
-      "sha256": "bf5a21eac69da2c73155799eb0b45c36af23764692c2be7fd0f15793e6e5c3e1",
-      "description": "中文输入词库源，20 万档 + CC-CEDICT 补词"
+    "tables/pairs/en_glosses.tsv": {
+      "bytes": 6599,
+      "sha256": "cc636935b9ba6e4d8ad5c9dea1b390133661d591d4aa4e84d27ba030b6ce2df6",
+      "where": "git",
+      "description": "配对表（构建输入）"
+    },
+    "tables/pairs/en_terms.tsv": {
+      "bytes": 2079,
+      "sha256": "8de4a4d6495886d7871b02ffffd4b68fdb21709183fc06d0a82d665ca5edea7f",
+      "where": "git",
+      "description": "配对表（构建输入）"
+    },
+    "tables/pairs/zh_ja.tsv": {
+      "bytes": 3952,
+      "sha256": "85335722c0bb2c42afde67b83e0637f40909b5b2a6081e2dea787121890b04ef",
+      "where": "git",
+      "description": "配对表（构建输入）"
+    },
+    "tables/pairs/zh_ja_curated.tsv": {
+      "bytes": 13032,
+      "sha256": "b0e35315b9b147e4312701345c7bf1700c9816fb11114c033c85e12cf7497baf",
+      "where": "git",
+      "description": "配对表（构建输入）"
+    },
+    "tables/bridges/en_bridge.tsv": {
+      "bytes": 8134,
+      "sha256": "4eb287dde20da6ff66f2aea3efbb0a50e44f195b4a933418be611c9b93940334",
+      "where": "git",
+      "description": "英文桥接键（构建输入）"
+    },
+    "tables/bridges/en_cooc.tsv": {
+      "bytes": 93273,
+      "sha256": "b7cfb5b8efeb4b27f0c131e24413e9d39325afc50dbb4a71b1eb1f7086957f35",
+      "where": "git",
+      "description": "英文桥接键（构建输入）"
+    },
+    "tables/overrides/ja_top300.tsv": {
+      "bytes": 9897,
+      "sha256": "f9de4c798d10cf336046c045952a93324bde4634338fc2aa39f1b532e4fff4fd",
+      "where": "git",
+      "description": "人工复核结论（构建输入）"
+    },
+    "tables/overrides/r11_seed_defaults.tsv": {
+      "bytes": 517,
+      "sha256": "32d995129a11ce4ba4d52216916c4264b0f741c35083e34388c199cb0a1869b7",
+      "where": "git",
+      "description": "人工复核结论（构建输入）"
+    },
+    "tables/overrides/zh_top2000.tsv": {
+      "bytes": 51387,
+      "sha256": "9d002f28e16a754d259c67927e5b5f8016a9c7585a5df9b76d64372a648d95de",
+      "where": "git",
+      "description": "人工复核结论（构建输入）"
+    },
+    "tables/overrides/zh_top300.tsv": {
+      "bytes": 10417,
+      "sha256": "6c4ab36f7f1974993bd7979a9f497b69ba985c8b6c5662e95c778b3b49b173d1",
+      "where": "git",
+      "description": "人工复核结论（构建输入）"
+    },
+    "tables/seed/business.tsv": {
+      "bytes": 9386,
+      "sha256": "fadab78079f19c6c657ff77f37402e18da646950e6fd17ebb9caeaa819a07220",
+      "where": "git",
+      "description": "人工种子词表（构建输入）"
     },
     "zh-dict/tri_zh_pinyin.5w.dict.yaml": {
-      "bytes": 2320100,
-      "sha256": "585458e3a38ca0bad5429309747c582c8fc043d12d6416228ef859f3085f5257",
-      "description": "中文输入词库源，5 万档（App 默认）+ CC-CEDICT 补词"
+      "bytes": 3252068,
+      "sha256": "a868ddf88b4a6d7294c6926621cf06ed009b0342be3847c3b942fa50982c80f2",
+      "where": "git",
+      "description": "中文输入词库源，5 万档（App 默认）：词 / 拼音 / 权重"
     },
-    "zh-dict/licenses/rime-pinyin-simp.Apache-2.0.txt": {
-      "bytes": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "zh-dict/cedict_supplement.tsv": {
+      "bytes": 1912041,
+      "sha256": "b05c149dcfec6286dbdb5fa0f411d04d9e2cbeac1396606ba2cc409cbd2103ab",
+      "where": "git",
+      "description": "其中的补词表（取自 CC-CEDICT + 项目自建现代词），80,151 条"
+    },
+    "zh-dict/licenses/jieba.MIT.txt": {
+      "bytes": 1075,
+      "sha256": "18ba0984839f85853b29fadaf992f7dba8fd0ca0fbeae34de2b8735222dc7a37",
+      "where": "git",
       "description": "上游许可原文"
     },
     "zh-dict/licenses/pinyin-data.MIT.txt": {
       "bytes": 1076,
       "sha256": "9c048697be2502a16e8bcb282d5d465a07295b2def0ffb05a269c5d39dbe1586",
+      "where": "git",
       "description": "上游许可原文"
     },
-    "zh-dict/licenses/jieba.MIT.txt": {
-      "bytes": 1075,
-      "sha256": "18ba0984839f85853b29fadaf992f7dba8fd0ca0fbeae34de2b8735222dc7a37",
+    "zh-dict/licenses/rime-pinyin-simp.Apache-2.0.txt": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "where": "git",
       "description": "上游许可原文"
+    },
+    "zh-dict/README.md": {
+      "bytes": 1681,
+      "sha256": "05bfbd08de05da86b1612995b2872df7cb6dcfeefc6b3b48312b3129f16cc927",
+      "where": "git",
+      "description": "zh-dict 的来源与署名说明"
     }
-  },
-  "zh_dict_generated_at": "2026-11-05"
+  }
 }
