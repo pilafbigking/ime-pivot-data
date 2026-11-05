@@ -15,6 +15,8 @@ International（CC BY-SA 4.0）** 授权。
   pivot_full.sqlite.gz
   formats/pivot_lite.md
   formats/pivot_full.md
+  zh-dict/（词典源与补词表；其中 rime-pinyin-simp 为 Apache-2.0、jieba / pinyin-data 为 MIT，
+            许可原文在 zh-dict/licenses/，并入本 CC BY-SA 作品时保留其原有声明）
   manifest.json
 
 你可以：

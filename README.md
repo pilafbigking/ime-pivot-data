@@ -1,9 +1,10 @@
 # 中日对照数据（Chinese–Japanese pivot）
 
-**本仓库只有一个用途：按 CC BY-SA 4.0 提供「中日对照词对」数据本身。**
+**本仓库只有一个用途：按 CC BY-SA 4.0 提供输入法用到的词典数据本身**——
+「中日对照词对」（根目录）和「中文输入词库源」（`zh-dict/`）。
 它不含产品代码、不含构建工具、也不含任何面向终端用户的功能。
 
-数据由 **CC-CEDICT**（中→英）与 **JMdict**（日→英）派生而来，因此本仓库全部内容
+数据由 **CC-CEDICT**（中→英）与 **JMdict**（日→英）派生而来（`zh-dict/` 只用到 CC-CEDICT，另并入 Apache-2.0 / MIT 来源），因此本仓库全部内容
 **必须**以 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 授权：可以商用、可以修改，但**分发修改后的版本必须沿用同一协议**，并保留下面的署名。
 
@@ -16,6 +17,7 @@
 | `pivot_lite_100k.bin` | 21.9 MB | 10 万档二进制，100,000 条 |
 | `pivot_lite.bin` | 12.0 MB | 5 万档二进制，50,000 条 |
 | `pivot_full.sqlite.gz` | 33.3 MB | 厚词典（SQLite，gzip）：200,000 词条 / 200,000 义项 / 225,240 活用 / 198,787 例句 |
+| `zh-dict/` | 约 13 MB | **中文输入词库源**（2026-11-05 起）：5/10/20 万档 rime 词典源 + CC-CEDICT 补词表，详见 [`zh-dict/README.md`](zh-dict/README.md) |
 | `manifest.json` | — | 每个文件的字节数、sha256、源数据版本、生成时间 |
 | `formats/pivot_lite.md` | — | 二进制格式说明（字段、索引、置信度语义） |
 | `formats/pivot_full.md` | — | SQLite schema 说明 |
@@ -40,6 +42,9 @@ sha256sum -c <(python3 -c "import json;m=json.load(open('manifest.json'));[print
 |---|---|---|
 | [CC-CEDICT](https://cc-cedict.org/) | 中文词头、拼音、英文释义 | CC BY-SA 4.0 |
 | [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html)（**EDRDG**） | 日文词头、假名、词性、释义 | CC BY-SA 4.0 |
+| [rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp) | `zh-dict/` 主库词条、拼音、词频 | Apache-2.0 |
+| [jieba](https://github.com/fxsjy/jieba) | `zh-dict/` 长尾词与词频 | MIT |
+| [pinyin-data](https://github.com/mozillazg/pinyin-data) | `zh-dict/` 逐字读音 | MIT |
 | [Tatoeba](https://tatoeba.org/) | 例句与句对证据（**逐句保留 sentence id，可回溯原作者**） | CC BY 2.0 FR（部分 CC0） |
 | [OpenCC](https://github.com/BYVoid/OpenCC) | 简繁字表（仅构建期使用） | Apache-2.0 |
 | [Unihan](https://www.unicode.org/charts/unihan.html) | 字形变体（仅构建期使用） | Unicode License v3 |
@@ -56,7 +61,7 @@ OpenCC         1.1.9
 Unihan         16.0.0
 ```
 
-这批产物生成于 2026-10-27（UTC），各文件 sha256 见 `manifest.json`。
+中日对照产物生成于 2026-10-27（UTC）；`zh-dict/` 生成于 2026-11-05（CC-CEDICT 取 2026-09-27 快照）。各文件 sha256 见 `manifest.json`。
 
 **注意**：重新生成**不保证**逐字节一致——条目编号的排序键里存在并列，
 不同机器或不同并行度下并列名次可能翻转，导致后续条目整体位移。

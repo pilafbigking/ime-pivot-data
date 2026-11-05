@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "generated_at": "2026-10-27T16:47:05Z",
-  "source_version": "CC-CEDICT 2026-09-27; JMdict 2026-09-26; Tatoeba 2026-10-24; OpenCC ver.1.1.9; Unihan 16.0.0",
+  "source_version": "CC-CEDICT 2026-09-27; JMdict 2026-09-26; Tatoeba 2026-10-24; OpenCC ver.1.1.9; Unihan 16.0.0; zh-dict: CC-CEDICT 2026-09-27, rime-pinyin-simp 0c6861e, jieba 67fa2e3, pinyin-data 9d05c9e",
   "license": "CC BY-SA 4.0",
   "files": {
     "pivot_candidates.tsv.gz": {
@@ -28,6 +28,47 @@
       "bytes": 34939253,
       "sha256": "b87d5ce6a1fb3aa2b03d6b25a49a7330c0d88f6b8c30a21c3e075b706d9f139a",
       "description": "厚词典 SQLite（gzip），200,000 词条 / 200,000 义项 / 225,240 活用 / 198,787 例句"
+    },
+    "zh-dict/README.md": {
+      "bytes": 1359,
+      "sha256": "e875fdfb174d28ac329b9532f7416888aadbaae374c06a78063e488d7078583f",
+      "description": "zh-dict 的来源与署名说明"
+    },
+    "zh-dict/cedict_supplement.tsv": {
+      "bytes": 1426449,
+      "sha256": "4125cd72c6c04a46cf0f07e1194d20f9b65a33ef2715dde935529a8c1172a713",
+      "description": "取自 CC-CEDICT 的中文补词表，61,439 条"
+    },
+    "zh-dict/tri_zh_pinyin.10w.dict.yaml": {
+      "bytes": 3499165,
+      "sha256": "9df229e6b1b4a8156736cfc7738fa21927e02877ca8906246ff87c229e1070d7",
+      "description": "中文输入词库源，10 万档 + CC-CEDICT 补词"
+    },
+    "zh-dict/tri_zh_pinyin.20w.dict.yaml": {
+      "bytes": 6053203,
+      "sha256": "bf5a21eac69da2c73155799eb0b45c36af23764692c2be7fd0f15793e6e5c3e1",
+      "description": "中文输入词库源，20 万档 + CC-CEDICT 补词"
+    },
+    "zh-dict/tri_zh_pinyin.5w.dict.yaml": {
+      "bytes": 2320100,
+      "sha256": "585458e3a38ca0bad5429309747c582c8fc043d12d6416228ef859f3085f5257",
+      "description": "中文输入词库源，5 万档（App 默认）+ CC-CEDICT 补词"
+    },
+    "zh-dict/licenses/rime-pinyin-simp.Apache-2.0.txt": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "description": "上游许可原文"
+    },
+    "zh-dict/licenses/pinyin-data.MIT.txt": {
+      "bytes": 1076,
+      "sha256": "9c048697be2502a16e8bcb282d5d465a07295b2def0ffb05a269c5d39dbe1586",
+      "description": "上游许可原文"
+    },
+    "zh-dict/licenses/jieba.MIT.txt": {
+      "bytes": 1075,
+      "sha256": "18ba0984839f85853b29fadaf992f7dba8fd0ca0fbeae34de2b8735222dc7a37",
+      "description": "上游许可原文"
     }
-  }
+  },
+  "zh_dict_generated_at": "2026-11-05"
 }
