@@ -1,46 +1,46 @@
-# 中日对照数据（Chinese–Japanese pivot）
+# Chinese–Japanese Pivot Data
 
-**本仓库只有一个用途：按 CC BY-SA 4.0 提供输入法用到的词典数据本身**——
-「中日对照词对」（根目录）和「中文输入词库源」（`zh-dict/`）。
-它不含产品代码、不含构建工具、也不含任何面向终端用户的功能。
+**This repository has a single purpose: to provide, under CC BY-SA 4.0, the dictionary data used by an input method (IME)** —
+the Chinese–Japanese word pairs (repository root) and the Chinese input dictionary source (`zh-dict/`).
+It contains no product code, no build tools, and no end-user features.
 
-数据由 **CC-CEDICT**（中→英）与 **JMdict**（日→英）派生而来（`zh-dict/` 只用到 CC-CEDICT，另并入 Apache-2.0 / MIT 来源），因此本仓库全部内容
-**必须**以 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
-授权：可以商用、可以修改，但**分发修改后的版本必须沿用同一协议**，并保留下面的署名。
+The data is derived from **CC-CEDICT** (Chinese→English) and **JMdict** (Japanese→English). `zh-dict/` uses only CC-CEDICT, plus Apache-2.0 / MIT sources. As a result, everything in this repository
+**must** be licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en):
+commercial use and modification are allowed, but **modified versions must be distributed under the same license**, and the attributions below must be kept.
 
-## 文件
+## Files
 
-**大文件放在 [Release `data-2026-11-05`](https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-05) 的附件里**
-（避免历史膨胀），小文件在仓库里。这一批就是随 App 分发的那一份：`pivot_lite.bin` 与 `pivot_full.sqlite`
-的 sha256 与装进手机的文件一致。
+**Large files are release assets of [Release `data-2026-11-05`](https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-05)**
+(to avoid bloating git history); small files live in the repository. This batch is the one shipped with the app: the sha256 of `pivot_lite.bin` and `pivot_full.sqlite`
+matches the files installed on the phone.
 
-| 位置 | 文件 | 大小 | 内容 |
+| Location | File | Size | Contents |
 |---|---|---|---|
-| Release | `pivot_lite.bin` | 15.1 MB | 5 万档二进制（随键盘分发），58,179 条 / 45,756 个中文词头 / 18,786 个日文词头 |
-| Release | `pivot_full.sqlite.gz` | 34.6 MB | 厚词典（SQLite，gzip，随宿主 App 分发）：200,000 词条 / 200,000 义项 / 227,755 活用 / 198,761 例句 |
-| Release | `pivot_candidates.tsv.gz` | 77.5 MB | **源形态**：1,539,158 条候选对（TSV，gzip） |
-| Release | `pivot_refined.tsv.gz` | 30.4 MB | 校正结果：`pivot_lite` 与 `pivot_full` 的构建都读它 |
-| 仓库 | `examples/pivot_examples.tsv.gz` | 5.1 MB | 例句缓存：198,761 句，每句带 Tatoeba 句子 id |
-| 仓库 | `tables/` | 224 KB | 构建输入的人工 / 派生小表：`pairs/`（配对）、`bridges/`（英文桥接键）、`overrides/`（人工复核结论）、`seed/`（商务词表） |
-| 仓库 | `zh-dict/` | 约 5 MB | **中文输入词库源**（5 万档 rime 词典源 + 补词表 + 上游许可原文），详见 [`zh-dict/README.md`](zh-dict/README.md) |
-| 仓库 | `manifest.json` | — | 每个文件的字节数、sha256、所在位置、下载地址、来源与复现说明 |
-| 仓库 | `formats/` | — | `pivot_lite.md`（二进制格式）、`pivot_full.md`（SQLite schema） |
+| Release | `pivot_lite.bin` | 15.1 MB | 50k-tier binary (shipped with the keyboard): 58,179 entries / 45,756 Chinese headwords / 18,786 Japanese headwords |
+| Release | `pivot_full.sqlite.gz` | 34.6 MB | Full dictionary (SQLite, gzip, shipped with the host app): 200,000 entries / 200,000 senses / 227,755 inflections / 198,761 example sentences |
+| Release | `pivot_candidates.tsv.gz` | 77.5 MB | **Source form**: 1,539,158 candidate pairs (TSV, gzip) |
+| Release | `pivot_refined.tsv.gz` | 30.4 MB | Refined results: both `pivot_lite` and `pivot_full` are built from this |
+| Repo | `examples/pivot_examples.tsv.gz` | 5.1 MB | Example-sentence cache: 198,761 sentences, each with its Tatoeba sentence id |
+| Repo | `tables/` | 224 KB | Small hand-made / derived build-input tables: `pairs/` (pairings), `bridges/` (English bridge keys), `overrides/` (manual review verdicts), `seed/` (business vocabulary) |
+| Repo | `zh-dict/` | ~5 MB | **Chinese input dictionary source** (50k-tier rime dictionary source + supplementary word list + upstream license texts); see [`zh-dict/README.md`](zh-dict/README.md) |
+| Repo | `manifest.json` | — | Per-file byte size, sha256, location, download URL, provenance, and reproduction notes |
+| Repo | `formats/` | — | `pivot_lite.md` (binary format), `pivot_full.md` (SQLite schema) |
 
-**建议从 `pivot_candidates.tsv.gz` 入手**：它是可读、可改的源形态；
-`.bin` 与 `.sqlite` 是给运行时直接 mmap / 查询用的，格式在 `formats/` 里有完整文档。
+**Start with `pivot_candidates.tsv.gz`**: it is the readable, editable source form.
+`.bin` and `.sqlite` are meant to be mmap'd / queried directly at runtime; their formats are fully documented in `formats/`.
 
 ```bash
-# 下载大文件（也可以在网页上点）
+# Download the large files (or click them on the release page)
 for f in pivot_lite.bin pivot_full.sqlite.gz pivot_candidates.tsv.gz pivot_refined.tsv.gz; do
   curl -LO "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/$f"
 done
 gunzip -c pivot_candidates.tsv.gz | head -2
 ```
 
-## 校验
+## Verification
 
 ```bash
-# 校验当前目录里存在的文件（仓库里的小文件按相对路径，Release 附件放在当前目录）
+# Verify the files present in the current directory (small repo files by relative path; release assets in the current directory)
 python3 - <<'PY'
 import json, hashlib, os
 for name, v in json.load(open('manifest.json'))['files'].items():
@@ -51,29 +51,29 @@ for name, v in json.load(open('manifest.json'))['files'].items():
 PY
 ```
 
-## 旧版本
+## Previous versions
 
-2026-10-27 的第一版发布（`pivot_lite*.bin`、`pivot_candidates.tsv.gz`、`pivot_full.sqlite.gz`）与当前 App 已不同源，
-2026-11-05 起从当前文件树里删除，仍可在 git 历史里找到（提交 `e67510f`）；已经取得那一版的人，
-其依 CC BY-SA 4.0 获得的权利不受影响。
+The first release of 2026-10-27 (`pivot_lite*.bin`, `pivot_candidates.tsv.gz`, `pivot_full.sqlite.gz`) no longer matches the app's source data.
+It was removed from the current file tree on 2026-11-05 but can still be found in git history (commit `e67510f`); the rights
+of anyone who already obtained that version under CC BY-SA 4.0 are unaffected.
 
-## 署名（必须保留）
+## Attribution (must be kept)
 
-| 来源 | 用于 | 许可 |
+| Source | Used for | License |
 |---|---|---|
-| [CC-CEDICT](https://cc-cedict.org/) | 中文词头、拼音、英文释义 | CC BY-SA 4.0 |
-| [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html)（**EDRDG**） | 日文词头、假名、词性、释义 | CC BY-SA 4.0 |
-| [rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp) | `zh-dict/` 主库词条、拼音、词频 | Apache-2.0 |
-| [jieba](https://github.com/fxsjy/jieba) | `zh-dict/` 长尾词与词频 | MIT |
-| [pinyin-data](https://github.com/mozillazg/pinyin-data) | `zh-dict/` 逐字读音 | MIT |
-| [OpenMultilingualWordNet](https://github.com/omwn/omw-data)（NICT 日本語 WordNet、COW 中文开放 WordNet） | 中日义项对齐证据（仅构建期使用） | WordNet 式宽松许可（可商用，不要求同协议公开） |
-| [Tatoeba](https://tatoeba.org/) | 例句与句对证据（**逐句保留 sentence id，可回溯原作者**） | CC BY 2.0 FR（部分 CC0） |
-| [OpenCC](https://github.com/BYVoid/OpenCC) | 简繁字表（仅构建期使用） | Apache-2.0 |
-| [Unihan](https://www.unicode.org/charts/unihan.html) | 字形变体（仅构建期使用） | Unicode License v3 |
+| [CC-CEDICT](https://cc-cedict.org/) | Chinese headwords, pinyin, English glosses | CC BY-SA 4.0 |
+| [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) (**EDRDG**) | Japanese headwords, kana, parts of speech, glosses | CC BY-SA 4.0 |
+| [rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp) | `zh-dict/` main-dictionary entries, pinyin, word frequencies | Apache-2.0 |
+| [jieba](https://github.com/fxsjy/jieba) | `zh-dict/` long-tail words and frequencies | MIT |
+| [pinyin-data](https://github.com/mozillazg/pinyin-data) | `zh-dict/` per-character readings | MIT |
+| [OpenMultilingualWordNet](https://github.com/omwn/omw-data) (NICT Japanese WordNet, COW Chinese Open WordNet) | Chinese–Japanese sense-alignment evidence (build time only) | WordNet-style permissive license (commercial use allowed; no share-alike required) |
+| [Tatoeba](https://tatoeba.org/) | Example sentences and sentence-pair evidence (**sentence ids kept per sentence, traceable to original authors**) | CC BY 2.0 FR (partly CC0) |
+| [OpenCC](https://github.com/BYVoid/OpenCC) | Simplified/Traditional character tables (build time only) | Apache-2.0 |
+| [Unihan](https://www.unicode.org/charts/unihan.html) | Glyph variants (build time only) | Unicode License v3 |
 
-**EDRDG 的署名要求**：使用 JMdict 派生的数据时须注明来源为 EDRDG，并保留其许可声明。
+**EDRDG attribution requirement**: data derived from JMdict must credit EDRDG as the source and retain its license notice.
 
-## 数据版本
+## Data versions
 
 ```
 CC-CEDICT      2026-09-27
@@ -83,23 +83,23 @@ OpenCC         1.1.9
 Unihan         16.0.0
 ```
 
-`pivot_lite.bin` 生成于 2026-11-02，`pivot_full.sqlite` 生成于 2026-10-31，`zh-dict/` 生成于 2026-11-05。
-各文件 sha256 见 `manifest.json`。
+`pivot_lite.bin` was generated on 2026-11-02, `pivot_full.sqlite` on 2026-10-31, and `zh-dict/` on 2026-11-05.
+See `manifest.json` for each file's sha256.
 
-**复现说明**：用本发布的 `pivot_candidates` + `pivot_refined` + `pivot_examples` 与 `tables/` 重建，
-实测 `pivot_lite.bin` 与发布版只有文件头偏移 40–42 的 3 个字节（构建时间戳）不同；`pivot_full.sqlite`
-所有表逐行一致，只有 `meta.generated_at` 不同。但**从原始词典重新跑全量对齐不保证逐字节一致**——
-条目编号的排序键里存在并列，不同机器或并行度下并列名次可能翻转，导致后续条目整体位移，而且 Tatoeba
-的每周导出无法固定。所以请以这里发布的 candidates / refined 为起点，不要重跑对齐。
+**Reproducibility**: rebuilding from the released `pivot_candidates` + `pivot_refined` + `pivot_examples` and `tables/`,
+`pivot_lite.bin` differs from the released version only in 3 bytes at header offsets 40–42 (the build timestamp); `pivot_full.sqlite`
+matches row for row in every table, differing only in `meta.generated_at`. However, **re-running the full alignment from the raw dictionaries is not guaranteed to be byte-identical** —
+the sort key used for entry numbering contains ties, and tie ordering can flip across machines or degrees of parallelism, shifting all subsequent entries; also, Tatoeba's
+weekly exports cannot be pinned. So please start from the candidates / refined files published here rather than re-running the alignment.
 
-## 不包含什么
+## What is not included
 
-- **代码**：产品与构建工具都不在本仓库，也不在本仓库的任何历史里。
-- **敬语（敬語）数据**：`keigo.bin` 是另一份自有数据，不在 CC BY-SA 覆盖范围内，单独授权。
-- **没有随包的东西**：`pivot_ids.tsv`（只供敬语对齐，v1 范围外）、10 万 / 20 万档（对照实验档）、LLM 试跑归档与 WikiMatrix 配对（未套进产物）。
-- **评测集与标注**：同样是自有资产，不随本仓库分发。
-- **源数据本体**：CC-CEDICT / JMdict 请各自到上游获取；本仓库只提供派生结果。
+- **Code**: the product and build tools are not in this repository, nor anywhere in its history.
+- **Honorific (keigo) data**: `keigo.bin` is a separate proprietary dataset, not covered by CC BY-SA, and licensed separately.
+- **Items not shipped**: `pivot_ids.tsv` (used only for honorific alignment, outside the v1 scope), the 100k / 200k tiers (comparison-experiment tiers), archived LLM trial runs, and WikiMatrix pairs (not incorporated into the artifacts).
+- **Evaluation sets and annotations**: also proprietary assets, not distributed with this repository.
+- **Raw source data**: get CC-CEDICT / JMdict from their upstream projects; this repository provides derived results only.
 
-## 反馈
+## Feedback
 
-数据问题（错配、缺词、读音错误）欢迎开 issue 指出来，附上 `entry_id` 或词对即可。
+Data issues (wrong pairings, missing words, incorrect readings) are welcome as GitHub issues — just include the `entry_id` or the word pair.
