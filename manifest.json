@@ -7,7 +7,8 @@
   "generated": {
     "pivot_lite.bin": "2026-11-02T12:25Z",
     "pivot_full.sqlite": "2026-10-31T16:27:30Z",
-    "zh-dict": "2026-11-05"
+    "zh-dict": "2026-11-05",
+    "assoc_preset_zh.bin": "2026-11-13T05:20Z"
   },
   "provenance": {
     "note": "这批文件就是随 App 分发的那一份：pivot_lite.bin 与 pivot_full.sqlite 的 sha256 与装进 iPhone 的文件一致。",
@@ -163,6 +164,24 @@
       "sha256": "05bfbd08de05da86b1612995b2872df7cb6dcfeefc6b3b48312b3129f16cc927",
       "where": "git",
       "description": "zh-dict 的来源与署名说明"
+    },
+    "assoc/assoc_preset_zh.bin": {
+      "bytes": 963445,
+      "sha256": "369e6699b6210888904ab30d22cb49c5e030b29a39fd025b4bca2ac1b6891be4",
+      "where": "git",
+      "description": "中文下一词联想预置表（随键盘分发）：30,132 个词头 / 87,458 对；由 5 万档中文词典（CC BY-SA 4.0 派生）+ Tatoeba 中文句库统计而来，构建期已按黑名单剔除敏感对"
+    },
+    "assoc/README.md": {
+      "bytes": 1979,
+      "sha256": "ee575a88768a2825688f625fdea315c223708ce97ca5d626f0bb6bc7261d91f1",
+      "where": "git",
+      "description": "联想表的来源、许可与重建说明"
+    },
+    "formats/assoc_preset.md": {
+      "bytes": 1867,
+      "sha256": "9635d7fc706934758277c5f29bd3f0ab306e2b6b5d58edc6aa7f231836ba9a9b",
+      "where": "git",
+      "description": "联想表 assoc_preset_zh.bin 的二进制格式（v1）"
     }
   }
 }
