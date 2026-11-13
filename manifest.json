@@ -1,17 +1,17 @@
 {
   "schema": 2,
-  "release": "data-2026-11-05",
-  "release_url": "https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-05",
+  "release": "data-2026-11-13",
+  "release_url": "https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-13",
   "license": "CC BY-SA 4.0",
   "source_version": "CC-CEDICT 2026-09-27; JMdict 2026-09-26; Tatoeba 2026-10-24; OpenCC ver.1.1.9; Unihan 16.0.0; OpenMultilingualWordNet 406bf83b3c50; zh-dict: rime-pinyin-simp 0c6861e, jieba 67fa2e3, pinyin-data 9d05c9e",
   "generated": {
-    "pivot_lite.bin": "2026-11-13T10:23Z",
-    "pivot_full.sqlite": "2026-10-31T16:27:30Z",
+    "pivot_lite.bin": "2026-11-13T21:22Z",
+    "pivot_full.sqlite": "2026-11-13T21:12Z",
     "zh-dict": "2026-11-13",
     "assoc_preset_zh.bin": "2026-11-13T05:20Z"
   },
   "provenance": {
-    "note": "这批文件就是随 App 分发的那一份：pivot_lite.bin 与 pivot_full.sqlite 的 sha256 与装进 iPhone 的文件一致。",
+    "note": "这批文件就是随 App 分发的那一份：pivot_lite.bin 与 pivot_full.sqlite 的 sha256 与装进 iPhone 的文件一致。2026-11-13（T2-1b）重发：候选表 / refined 用 PYTHONHASHSEED=0 同源重建（两次逐字节相同），zh-dict 换成发货档三档那份（149,078 条，单字 18,526）；examples/ 与 assoc/ 未重打，仍是上一版。",
     "pipeline_commit": "f77e5ce（产品仓库，私有；tables/ 下的表是该提交的原样拷贝）",
     "reproduce": "用本仓库的 pivot_candidates + pivot_refined + pivot_examples 与 tables/，按 formats/ 的说明可重建。实测：重建的 pivot_lite.bin 与发布版仅文件头偏移 40–42 的 3 个字节（构建时间戳）不同；重建的 pivot_full.sqlite 所有表逐行一致，仅 meta.generated_at 不同。",
     "tatoeba_exports_used": {
@@ -27,35 +27,35 @@
   },
   "files": {
     "pivot_lite.bin": {
-      "bytes": 15098836,
-      "sha256": "b56867b3a25c7985bfaf07a95f1e104ca08fb644c47b3129f70db69a21eb08e5",
+      "bytes": 15114761,
+      "sha256": "7c1e9a675adb5185ad63c1ba1bcef15e1961b69fa765c74c8be739c4c419a078",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/pivot_lite.bin",
-      "description": "5 万档二进制（随键盘分发的那一档），58,147 条 / 45,764 个中文词头 / 18,810 个日文词头"
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-13/pivot_lite.bin",
+      "description": "5 万档二进制（随键盘分发的那一档），58,167 条 / 45,753 个中文词头 / 18,816 个日文词头"
     },
     "pivot_full.sqlite.gz": {
-      "bytes": 34617658,
-      "sha256": "6f539a5751363e12b0998cfb2ff31a9a3e452a3c89aca2882394be09cf78fae0",
+      "bytes": 34629092,
+      "sha256": "cd5936591a82bd048b053d0f96ae95d8a9b15cfc1b68fc9759c8a317fe376418",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/pivot_full.sqlite.gz",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-13/pivot_full.sqlite.gz",
       "description": "厚词典 SQLite（gzip），200,000 词条 / 200,000 义项 / 227,755 活用 / 198,761 例句（随宿主 App 分发）",
-      "sha256_uncompressed": "45cbfc8c4ca1b61aaf1c2746526d559d7e59eb20abfe945a697944f5751d1937"
+      "sha256_uncompressed": "86cd272ef0afb41bfe928372c0d27b53e83c6663a7f509301ca2ced637793ab8"
     },
     "pivot_candidates.tsv.gz": {
-      "bytes": 77520709,
-      "sha256": "52acf0af5fefa2aa8cf2d70c225026e9e069dc5c5b6f05c99e1e8aafbbf63ede",
+      "bytes": 77525135,
+      "sha256": "fcfe0144e8ea137d57b8b4076dd64fd38d9bceb5544b39b0d825d8c3ff5f34cb",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/pivot_candidates.tsv.gz",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-13/pivot_candidates.tsv.gz",
       "description": "源形态：1,539,158 条候选对（TSV，gzip）；列见 README",
-      "sha256_uncompressed": "755cfbfc8bed4d90ce202875be9015739a4adcd2e8d9a05b872ab46642041857"
+      "sha256_uncompressed": "24dfd4519abf26f7b9dc3a91f3f86caef42eeca7d573bae40d8a5fa41aa8cca5"
     },
     "pivot_refined.tsv.gz": {
-      "bytes": 30444815,
-      "sha256": "73d1a15b5f10780cbdc11559c4bbc0b6b208f8f85307c055408e4639e2f36e5d",
+      "bytes": 30445457,
+      "sha256": "bc7c8f84a452c7d62afbb1ba443d85cd7b39f2de4a4bd598d08e78c81cc34d28",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/pivot_refined.tsv.gz",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-13/pivot_refined.tsv.gz",
       "description": "校正结果：1,539,158 行（entry_id / keep / confidence / default_key / 释义 / provider / note）；pivot_lite 与 pivot_full 的构建都读它",
-      "sha256_uncompressed": "3def4d52ef42624a0fe1b7a4d1ff2370e3d903c753eb7b453d5bc7edd83c8524"
+      "sha256_uncompressed": "14d71464d34b3bdb4c6657166c0b20e3f2c99514e6542e4b5e2baa0ca0b25429"
     },
     "examples/pivot_examples.tsv.gz": {
       "bytes": 5096155,
@@ -130,8 +130,8 @@
       "description": "人工种子词表（构建输入）"
     },
     "zh-dict/tri_zh_pinyin.5w.dict.yaml": {
-      "bytes": 3249454,
-      "sha256": "37c68a629676bbb8a420bfff49d4e2ec39e9821ca0869d546ce61d57c4b0946c",
+      "bytes": 3252068,
+      "sha256": "a868ddf88b4a6d7294c6926621cf06ed009b0342be3847c3b942fa50982c80f2",
       "where": "git",
       "description": "中文输入词库源，5 万档（App 默认）：词 / 拼音 / 权重"
     },

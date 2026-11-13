@@ -5,7 +5,7 @@
 
 | 文件 | 说明 |
 |---|---|
-| `tri_zh_pinyin.5w.dict.yaml` | rime 词典源，随 App 分发的 5 万档（实际 148,821 条：单字 + 主库词 + jieba 常用词 + 补词）；列：词 TAB 拼音（无声调，ü 记 v）TAB 权重 |
+| `tri_zh_pinyin.5w.dict.yaml` | rime 词典源，随 App 分发的 5 万档（实际 149,078 条：单字 18,526 + 主库词 + jieba 常用词 + 补词）；列：词 TAB 拼音（无声调，ü 记 v）TAB 权重。**2026-11-13（T2-1b）换成发货档三档那份**：上一版是单独跑 `gen_dicts.py --tiers 50000` 出来的，少 257 个生僻单字，与 App 编进去的不是同一份 |
 | `cedict_supplement.tsv` | 其中的补词表（80,151 条）：CC-CEDICT 的词头与拼音，加项目自建的现代词；同样的列 |
 | `licenses/` | 各上游许可原文 |
 
