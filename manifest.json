@@ -7,7 +7,7 @@
   "generated": {
     "pivot_lite.bin": "2026-11-02T12:25Z",
     "pivot_full.sqlite": "2026-10-31T16:27:30Z",
-    "zh-dict": "2026-11-05",
+    "zh-dict": "2026-11-13",
     "assoc_preset_zh.bin": "2026-11-13T05:20Z"
   },
   "provenance": {
@@ -130,8 +130,8 @@
       "description": "人工种子词表（构建输入）"
     },
     "zh-dict/tri_zh_pinyin.5w.dict.yaml": {
-      "bytes": 3252068,
-      "sha256": "a868ddf88b4a6d7294c6926621cf06ed009b0342be3847c3b942fa50982c80f2",
+      "bytes": 3249454,
+      "sha256": "37c68a629676bbb8a420bfff49d4e2ec39e9821ca0869d546ce61d57c4b0946c",
       "where": "git",
       "description": "中文输入词库源，5 万档（App 默认）：词 / 拼音 / 权重"
     },
@@ -161,7 +161,7 @@
     },
     "zh-dict/README.md": {
       "bytes": 1681,
-      "sha256": "05bfbd08de05da86b1612995b2872df7cb6dcfeefc6b3b48312b3129f16cc927",
+      "sha256": "0f75b80b286247221603dffb9ebf6c5f7825424c5a5b8cf936aa6e310da71652",
       "where": "git",
       "description": "zh-dict 的来源与署名说明"
     },

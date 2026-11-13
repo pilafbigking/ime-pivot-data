@@ -5,7 +5,7 @@
 
 | 文件 | 说明 |
 |---|---|
-| `tri_zh_pinyin.5w.dict.yaml` | rime 词典源，随 App 分发的 5 万档（实际 149,072 条：单字 + 主库词 + jieba 常用词 + 补词）；列：词 TAB 拼音（无声调，ü 记 v）TAB 权重 |
+| `tri_zh_pinyin.5w.dict.yaml` | rime 词典源，随 App 分发的 5 万档（实际 148,821 条：单字 + 主库词 + jieba 常用词 + 补词）；列：词 TAB 拼音（无声调，ü 记 v）TAB 权重 |
 | `cedict_supplement.tsv` | 其中的补词表（80,151 条）：CC-CEDICT 的词头与拼音，加项目自建的现代词；同样的列 |
 | `licenses/` | 各上游许可原文 |
 

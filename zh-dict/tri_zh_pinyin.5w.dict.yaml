@@ -1,7 +1,7 @@
 # Rime dictionary —— 三语输入法中文词库（自动生成，不要手改）
 # 生成脚本：data/rime/tools/gen_dicts.py
 # 来源与许可：data/rime/README.md、docs/LICENSES.md
-# 档位：68921 条（目标 50000）；单字 18526 + 词 50395
+# 档位：68664 条（目标 50000）；单字 18269 + 词 50395
 # 另含 CC-CEDICT 补词 80151 条（CC BY-SA 4.0，见 cedict_supplement.tsv）
 # 本文件含 CC BY-SA 4.0 内容，随之同协议公开：docs/LICENSES.md「CC-CEDICT 补词层」
 ---
@@ -55313,7 +55313,6 @@ use_preset_vocabulary: false
 谮	zen	45
 赭	zhe	45
 邺	ye	45
-鑹	cuan	45
 離	li	45
 髋	kuan	45
 会	kuai	44
@@ -55356,7 +55355,6 @@ use_preset_vocabulary: false
 娆	rao	43
 娡	zhi	43
 嬅	hua	43
-嶏	pei	43
 惺	xing	43
 愠	yun	43
 枳	zhi	43
@@ -55378,14 +55376,12 @@ use_preset_vocabulary: false
 驷	si	43
 冗	rong	42
 冮	gang	42
-厷	gong	42
 呶	nao	42
 哞	mou	42
 哪	nei	42
 嵈	huan	42
 帏	wei	42
 昴	mao	42
-洓	se	42
 畈	fan	42
 碇	ding	42
 簤	dai	42
@@ -55419,12 +55415,10 @@ use_preset_vocabulary: false
 恽	yun	41
 撷	xie	41
 桁	heng	41
-棿	ni	41
 楊	yang	41
 濞	bi	41
 炀	yang	41
 皙	xi	41
-筫	zhi	41
 組	zu	41
 莜	you	41
 菀	wan	41
@@ -55473,10 +55467,8 @@ use_preset_vocabulary: false
 垠	yin	39
 垭	ya	39
 夠	gou	39
-孨	zhuan	39
 掸	dan	39
 掸	shan	39
-敱	ai	39
 斫	zhuo	39
 晞	xi	39
 曟	chen	39
@@ -55507,7 +55499,6 @@ use_preset_vocabulary: false
 隨	sui	39
 颀	qi	39
 骈	pian	39
-仛	tuo	38
 偌	ruo	38
 卍	wan	38
 嘹	liao	38
@@ -55565,7 +55556,6 @@ use_preset_vocabulary: false
 爰	yuan	37
 猝	cu	37
 瑗	yuan	37
-畨	pan	37
 畻	cheng	37
 矬	cuo	37
 綇	xiu	37
@@ -55793,7 +55783,6 @@ use_preset_vocabulary: false
 溧	li	32
 滂	pang	32
 牊	chao	32
-犻	bo	32
 獨	du	32
 玑	ji	32
 玳	dai	32
@@ -55801,7 +55790,6 @@ use_preset_vocabulary: false
 盛宣怀	cheng xuan huai	32
 眾	zhong	32
 禮	li	32
-竵	wai	32
 筜	dang	32
 籁	lai	32
 粳	jing	32
@@ -55893,7 +55881,6 @@ use_preset_vocabulary: false
 妣	bi	30
 姻	yin	30
 娓	wei	30
-娿	e	30
 帚	zhou	30
 弬	yi	30
 惘	wang	30
@@ -56284,7 +56271,6 @@ use_preset_vocabulary: false
 逄	pang	25
 邳	pi	25
 醡	zha	25
-銐	chi	25
 铈	shi	25
 镧	lan	25
 陂	pi	25
@@ -56315,7 +56301,6 @@ use_preset_vocabulary: false
 唄	bei	24
 囝	nan	24
 夂	zhong	24
-娍	cheng	24
 嫚	man	24
 嫱	qiang	24
 孾	ying	24
@@ -56353,7 +56338,6 @@ use_preset_vocabulary: false
 盤	pan	24
 砦	zhai	24
 砽	yong	24
-硶	chen	24
 硷	jian	24
 绠	geng	24
 缢	yi	24
@@ -56379,14 +56363,12 @@ use_preset_vocabulary: false
 鐘	zhong	24
 银行券	yin hang quan	24
 闳	hong	24
-阇	du	24
 雞	ji	24
 電	dian	24
 霹	pi	24
 題	ti	24
 饬	chi	24
 驚	jing	24
-鬴	fu	24
 鲑	gui	24
 俞莲舟	yu lian zhou	23
 優	you	23
@@ -56406,7 +56388,6 @@ use_preset_vocabulary: false
 怿	yi	23
 戞	jia	23
 抟	tuan	23
-摢	hu	23
 敁	dian	23
 敓	duo	23
 敮	xia	23
@@ -56662,7 +56643,6 @@ use_preset_vocabulary: false
 愫	su	20
 拊	fu	20
 拋	pao	20
-搱	zhi	20
 旈	liu	20
 柇	he	20
 柞	zha	20
@@ -56749,7 +56729,6 @@ use_preset_vocabulary: false
 卣	you	19
 咋	ze	19
 嗵	tong	19
-嗻	zhe	19
 嘗	chang	19
 嚧	lu	19
 圍	wei	19
@@ -56982,8 +56961,6 @@ use_preset_vocabulary: false
 儫	hao	17
 剞	ji	17
 劑	ji	17
-叕	zhuo	17
-叚	jia	17
 呎	chi	17
 呒	m	17
 呒	mu	17
@@ -57139,7 +57116,6 @@ use_preset_vocabulary: false
 壓	ya	16
 夾	jia	16
 姮	heng	16
-嫤	jin	16
 完成率	wan cheng shuai	16
 寬	kuan	16
 岢	ke	16
@@ -57312,7 +57288,6 @@ use_preset_vocabulary: false
 囝	jian	15
 圬	wu	15
 垁	zhi	15
-埄	beng	15
 埍	juan	15
 執	zhi	15
 壽	shou	15
@@ -57326,7 +57301,6 @@ use_preset_vocabulary: false
 屣	xi	15
 嶈	qiang	15
 帉	fen	15
-帺	qi	15
 庨	xiao	15
 庫	ku	15
 廋	sou	15
@@ -57345,7 +57319,6 @@ use_preset_vocabulary: false
 撃	ji	15
 暈	yun	15
 暐	wei	15
-枈	bi	15
 柁	duo	15
 柁	tuo	15
 柝	tuo	15
@@ -57372,7 +57345,6 @@ use_preset_vocabulary: false
 皈	gui	15
 眬	long	15
 睪	gao	15
-矖	xi	15
 磴	deng	15
 積	ji	15
 箝	qian	15
@@ -57474,7 +57446,6 @@ use_preset_vocabulary: false
 囟	xin	14
 圜	yuan	14
 垨	shou	14
-垯	da	14
 埇	yong	14
 壊	huai	14
 大乐	da yue	14
@@ -57482,11 +57453,9 @@ use_preset_vocabulary: false
 姩	nian	14
 審	shen	14
 屆	jie	14
-屸	long	14
 崈	chong	14
 嵋	mei	14
 嶇	qu	14
-帓	mo	14
 幢	chuang	14
 弾	tan	14
 忑	te	14
@@ -57512,7 +57481,6 @@ use_preset_vocabulary: false
 柩	jiu	14
 榷	que	14
 標	biao	14
-櫎	huang	14
 殂	cu	14
 殍	piao	14
 殖民主义者	shi min zhu yi zhe	14
@@ -57570,7 +57538,6 @@ use_preset_vocabulary: false
 蓖	bi	14
 蓠	li	14
 虧	kui	14
-蜹	rui	14
 蝼	lou	14
 製	zhi	14
 誤	wu	14
@@ -57581,7 +57548,6 @@ use_preset_vocabulary: false
 貪	tan	14
 賳	zai	14
 趿	ta	14
-跶	da	14
 蹊	xi	14
 逅	hou	14
 逦	li	14
@@ -57687,7 +57653,6 @@ use_preset_vocabulary: false
 攽	ban	13
 旅行家	lv hang jia	13
 旒	liu	13
-暅	geng	13
 暣	qi	13
 曌	zhao	13
 曛	xun	13
@@ -57838,7 +57803,6 @@ use_preset_vocabulary: false
 勢	shi	12
 勨	xiang	12
 匏	pao	12
-匚	fang	12
 卂	xun	12
 参	cen	12
 嗙	pang	12
@@ -57926,7 +57890,6 @@ use_preset_vocabulary: false
 濃	nong	12
 炘	xin	12
 炤	zhao	12
-炪	zhuo	12
 烊	yang	12
 烏	wu	12
 燔	fan	12
@@ -58040,7 +58003,6 @@ use_preset_vocabulary: false
 叡	rui	11
 呿	qu	11
 哜	zhai	11
-啘	ye	11
 啝	he	11
 啞	ya	11
 嗍	suo	11
@@ -58079,7 +58041,6 @@ use_preset_vocabulary: false
 崦	yan	11
 崾	yao	11
 嶙	lin	11
-帹	sha	11
 彮	yong	11
 彷	fang	11
 忪	song	11
@@ -58132,7 +58093,6 @@ use_preset_vocabulary: false
 矧	shen	11
 砻	long	11
 硏	yan	11
-硦	luo	11
 磅	pang	11
 礅	dun	11
 秕	bi	11
@@ -58255,7 +58215,6 @@ use_preset_vocabulary: false
 埒	lie	10
 塗	tu	10
 墖	ta	10
-墤	kuai	10
 夎	cuo	10
 夼	kuang	10
 姄	min	10
@@ -58284,7 +58243,6 @@ use_preset_vocabulary: false
 愆	qian	10
 愦	kui	10
 憮	wu	10
-懜	meng	10
 懸	xuan	10
 拰	nin	10
 揮	hui	10
@@ -58363,8 +58321,6 @@ use_preset_vocabulary: false
 臬	nie	10
 臺	tai	10
 舣	yi	10
-艌	nian	10
-芉	gan	10
 苁	cong	10
 苈	li	10
 苾	bi	10
@@ -58457,7 +58413,6 @@ use_preset_vocabulary: false
 匍	pu	9
 協	xie	9
 县	xuan	9
-叿	hong	9
 唺	tian	9
 唿	hu	9
 啛	cui	9
@@ -58471,9 +58426,7 @@ use_preset_vocabulary: false
 垹	bang	9
 壇	tan	9
 夥	huo	9
-奤	ha	9
 奪	duo	9
-妭	ba	9
 妶	xuan	9
 婁	lou	9
 婪	lan	9
@@ -58503,7 +58456,6 @@ use_preset_vocabulary: false
 抨	peng	9
 拓	ta	9
 拠	ju	9
-掋	di	9
 掔	wan	9
 搐	chu	9
 摃	kang	9
@@ -58513,7 +58465,6 @@ use_preset_vocabulary: false
 晝	zhou	9
 晩	wan	9
 晸	zheng	9
-枂	wo	9
 枞	zong	9
 柙	xia	9
 桜	ying	9
@@ -58802,7 +58753,6 @@ use_preset_vocabulary: false
 柽	cheng	8
 栌	lu	8
 栻	shi	8
-棁	zhuo	8
 棐	fei	8
 棻	fen	8
 榊	shen	8
@@ -58949,7 +58899,6 @@ use_preset_vocabulary: false
 軸	zhou	8
 遗	wei	8
 遙	yao	8
-邚	ru	8
 郐	kuai	8
 鄜	fu	8
 醬	jiang	8
@@ -59035,7 +58984,6 @@ use_preset_vocabulary: false
 儲	chu	7
 冒	mo	7
 凍	dong	7
-凵	qian	7
 劬	qu	7
 卒	cu	7
 厜	zui	7
@@ -59178,7 +59126,6 @@ use_preset_vocabulary: false
 牎	chuang	7
 狃	niu	7
 狺	yin	7
-獋	hao	7
 獗	jue	7
 獮	xian	7
 獯	xun	7
@@ -59233,7 +59180,6 @@ use_preset_vocabulary: false
 肀	yu	7
 肜	rong	7
 胛	jia	7
-腝	ni	7
 膣	zhi	7
 艦	jian	7
 色	shai	7
@@ -59381,7 +59327,6 @@ use_preset_vocabulary: false
 偗	sheng	6
 偞	zha	6
 偢	zou	6
-偦	xu	6
 傉	nu	6
 儂	nong	6
 儔	dao	6
@@ -59429,7 +59374,6 @@ use_preset_vocabulary: false
 垬	hong	6
 垺	pou	6
 垿	xu	6
-埅	fang	6
 埖	hua	6
 埞	di	6
 堯	yao	6
@@ -59550,7 +59494,6 @@ use_preset_vocabulary: false
 漯	ta	6
 潄	shu	6
 潑	po	6
-潙	wei	6
 潛	qian	6
 潲	shao	6
 潶	hei	6
@@ -59592,7 +59535,6 @@ use_preset_vocabulary: false
 砝	fa	6
 砩	fu	6
 硗	qiao	6
-硙	wei	6
 磻	pan	6
 磾	di	6
 禋	yin	6
@@ -59625,7 +59567,6 @@ use_preset_vocabulary: false
 粝	li	6
 粵	yue	6
 糜	mei	6
-絙	huan	6
 絺	chi	6
 綆	geng	6
 続	xu	6
@@ -59712,7 +59653,6 @@ use_preset_vocabulary: false
 詌	gan	6
 詢	xun	6
 誃	yi	6
-諎	ze	6
 諒	liang	6
 諱	hui	6
 譞	xuan	6
@@ -59803,7 +59743,6 @@ use_preset_vocabulary: false
 且	ju	5
 亙	geng	5
 亱	ye	5
-仠	gan	5
 仮	fan	5
 仼	wang	5
 伃	yu	5
@@ -59853,7 +59792,6 @@ use_preset_vocabulary: false
 厧	dian	5
 厲	li	5
 叢	cong	5
-吂	mang	5
 吙	huo	5
 咘	bu	5
 哳	zha	5
@@ -59891,7 +59829,6 @@ use_preset_vocabulary: false
 媹	liu	5
 嫠	li	5
 嫬	zhe	5
-宊	tu	5
 寯	jun	5
 尰	zhong	5
 岈	ya	5
@@ -59937,11 +59874,9 @@ use_preset_vocabulary: false
 態	tai	5
 憐	lian	5
 憝	dui	5
-憞	dui	5
 懮	you	5
 抦	bing	5
 拤	qia	5
-挄	kuo	5
 挰	cheng	5
 挸	jian	5
 捇	huo	5
@@ -59961,7 +59896,6 @@ use_preset_vocabulary: false
 擰	ning	5
 擱	ge	5
 擴	kuo	5
-敄	wu	5
 敉	mi	5
 敻	xiong	5
 敾	shan	5
@@ -59987,7 +59921,6 @@ use_preset_vocabulary: false
 梏	gu	5
 棌	cai	5
 棑	pai	5
-棙	li	5
 棞	gun	5
 棨	qi	5
 棲	qi	5
@@ -60087,7 +60020,6 @@ use_preset_vocabulary: false
 砘	dun	5
 碹	xuan	5
 磹	dian	5
-礊	ke	5
 礓	jiang	5
 祔	fu	5
 祧	tiao	5
@@ -60134,7 +60066,6 @@ use_preset_vocabulary: false
 緋	fei	5
 緞	duan	5
 緳	xie	5
-緵	zong	5
 縫	feng	5
 繑	qiao	5
 繒	zeng	5
@@ -60427,7 +60358,6 @@ use_preset_vocabulary: false
 塩	yan	4
 塱	lang	4
 墊	dian	4
-墧	que	4
 墭	sheng	4
 墹	jian	4
 壄	ye	4
@@ -60443,7 +60373,6 @@ use_preset_vocabulary: false
 婼	ruo	4
 媷	ru	4
 嫀	shen	4
-嫃	zhen	4
 嫆	rong	4
 嫮	hu	4
 嫹	miao	4
@@ -60471,8 +60400,6 @@ use_preset_vocabulary: false
 彄	kou	4
 彉	guo	4
 彶	ji	4
-徍	wang	4
-徎	cheng	4
 徑	jing	4
 怫	fei	4
 怫	fu	4
@@ -60511,7 +60438,6 @@ use_preset_vocabulary: false
 攉	huo	4
 攏	long	4
 攔	lan	4
-攱	gui	4
 敔	yu	4
 敭	yang	4
 敹	liao	4
@@ -60545,7 +60471,6 @@ use_preset_vocabulary: false
 枻	yi	4
 柉	fan	4
 査	cha	4
-梘	jian	4
 梣	cen	4
 梿	lian	4
 棧	zhan	4
@@ -60635,7 +60560,6 @@ use_preset_vocabulary: false
 猓	guo	4
 猢	hu	4
 猹	cha	4
-獁	ma	4
 獈	yi	4
 獉	zhen	4
 獣	shou	4
@@ -60851,7 +60775,6 @@ use_preset_vocabulary: false
 躏	lin	4
 躐	lie	4
 躱	duo	4
-軃	duo	4
 軆	ti	4
 軋	zha	4
 輛	liang	4
@@ -60944,7 +60867,6 @@ use_preset_vocabulary: false
 鹌	an	4
 鹎	bei	4
 麿	mo	4
-鼂	chao	4
 鼆	meng	4
 齁	hou	4
 齹	cuo	4
@@ -61013,7 +60935,6 @@ use_preset_vocabulary: false
 冾	qia	3
 刲	kui	3
 剕	fei	3
-剠	qing	3
 剦	yan	3
 剺	li	3
 劋	jiao	3
@@ -61106,7 +61027,6 @@ use_preset_vocabulary: false
 宨	tiao	3
 寀	cai	3
 寍	ning	3
-尗	shu	3
 屇	tian	3
 屝	fei	3
 属	zhu	3
@@ -61130,12 +61050,10 @@ use_preset_vocabulary: false
 巂	xi	3
 巌	yan	3
 巘	yan	3
-巜	kuai	3
 帄	ding	3
 帑	nu	3
 帟	yi	3
 帴	san	3
-幆	yi	3
 庛	ci	3
 度	duo	3
 廁	ce	3
@@ -61153,7 +61071,6 @@ use_preset_vocabulary: false
 彿	fu	3
 徦	xia	3
 徬	pang	3
-忊	ding	3
 忞	wen	3
 忥	xi	3
 怈	yi	3
@@ -61208,7 +61125,6 @@ use_preset_vocabulary: false
 搌	zhan	3
 搥	dui	3
 摑	guo	3
-摱	man	3
 摳	kou	3
 摻	chan	3
 撗	guang	3
@@ -61219,7 +61135,6 @@ use_preset_vocabulary: false
 擾	rao	3
 攣	luan	3
 攧	dian	3
-攼	gan	3
 敇	ce	3
 敜	nie	3
 敟	dian	3
@@ -61250,7 +61165,6 @@ use_preset_vocabulary: false
 柈	ban	3
 柤	zu	3
 柦	dan	3
-柨	bu	3
 柷	zhu	3
 栘	yi	3
 桺	liu	3
@@ -61371,7 +61285,6 @@ use_preset_vocabulary: false
 猕	mi	3
 獥	jiao	3
 獦	ge	3
-獴	meng	3
 獵	lie	3
 玁	xian	3
 珰	dang	3
@@ -61385,7 +61298,6 @@ use_preset_vocabulary: false
 瓅	li	3
 瓖	xiang	3
 瓛	ye	3
-瓩	qian	3
 甁	ping	3
 甃	zhou	3
 甗	yan	3
@@ -61430,7 +61342,6 @@ use_preset_vocabulary: false
 矯	jiao	3
 砉	hua	3
 砉	xu	3
-砊	kang	3
 砢	ke	3
 砹	ai	3
 硇	nao	3
@@ -61472,7 +61383,6 @@ use_preset_vocabulary: false
 笸	po	3
 筍	sun	3
 筴	jia	3
-箁	pou	3
 箏	zheng	3
 箙	fu	3
 箚	zha	3
@@ -61596,7 +61506,6 @@ use_preset_vocabulary: false
 蚃	xiang	3
 蛁	diao	3
 蛑	mou	3
-蛡	yi	3
 蛤	ge	3
 蝀	dong	3
 蝂	ban	3
@@ -61646,7 +61555,6 @@ use_preset_vocabulary: false
 謤	piao	3
 謫	zhe	3
 謬	miu	3
-讉	yi	3
 讎	chou	3
 讒	chan	3
 讙	huan	3
@@ -61705,7 +61613,6 @@ use_preset_vocabulary: false
 鈽	bu	3
 鉌	he	3
 鉗	qian	3
-鉨	xi	3
 鉯	yi	3
 鉺	er	3
 鉻	ge	3
@@ -61782,7 +61689,6 @@ use_preset_vocabulary: false
 鬎	la	3
 鬐	qi	3
 鬚	xu	3
-鮋	you	3
 鮎	nian	3
 鮠	wei	3
 鮣	yin	3
@@ -61802,7 +61708,6 @@ use_preset_vocabulary: false
 鳪	bu	3
 鳽	zhan	3
 鵟	kuang	3
-鵣	lai	3
 鶯	ying	3
 鷲	jiu	3
 鸂	xi	3
@@ -61824,11 +61729,9 @@ use_preset_vocabulary: false
 丿	yu	2
 乗	sheng	2
 亷	lian	2
-仯	chao	2
 侭	jin	2
 侺	shen	2
 俖	pei	2
-倲	dong	2
 偧	zha	2
 偼	jie	2
 傸	chuang	2
@@ -61907,7 +61810,6 @@ use_preset_vocabulary: false
 嘂	jiao	2
 嘐	xiao	2
 嘒	hui	2
-嘚	de	2
 嘜	ma	2
 噚	xun	2
 噥	nong	2
@@ -61921,14 +61823,11 @@ use_preset_vocabulary: false
 囂	xiao	2
 囓	nie	2
 圂	hun	2
-坆	mei	2
-坈	rong	2
 坱	yang	2
 垉	pao	2
 垖	dui	2
 垘	fu	2
 埈	jun	2
-埉	jia	2
 埏	shan	2
 埏	yan	2
 埣	sui	2
@@ -61985,11 +61884,9 @@ use_preset_vocabulary: false
 婘	quan	2
 婬	yin	2
 婭	ya	2
-媁	wei	2
 媊	qian	2
 媓	huang	2
 媜	zheng	2
-媠	tuo	2
 媢	mao	2
 媮	yu	2
 媯	gui	2
@@ -62013,7 +61910,6 @@ use_preset_vocabulary: false
 寃	yuan	2
 寎	bing	2
 寙	yu	2
-寽	lv	2
 尞	liao	2
 尭	yao	2
 尮	duo	2
@@ -62033,7 +61929,6 @@ use_preset_vocabulary: false
 崅	que	2
 崋	hua	2
 崍	lai	2
-崜	duo	2
 崷	qiu	2
 崸	yang	2
 崿	e	2
@@ -62088,14 +61983,12 @@ use_preset_vocabulary: false
 忴	qin	2
 忺	xian	2
 怗	tie	2
-怘	hu	2
 怮	you	2
 恀	shi	2
 恅	lao	2
 恉	zhi	2
 悈	ke	2
 悐	ti	2
-悙	heng	2
 悺	guan	2
 惁	xi	2
 惄	ni	2
@@ -62103,7 +61996,6 @@ use_preset_vocabulary: false
 惝	chang	2
 惝	tang	2
 惣	zong	2
-惽	min	2
 愌	huan	2
 愞	nuo	2
 愨	que	2
@@ -62118,7 +62010,6 @@ use_preset_vocabulary: false
 慟	tong	2
 慱	tuan	2
 慲	man	2
-慸	di	2
 慽	qi	2
 憖	yin	2
 憘	xi	2
@@ -62141,7 +62032,6 @@ use_preset_vocabulary: false
 扠	zha	2
 扡	yi	2
 抭	yao	2
-拃	zha	2
 拝	bai	2
 拫	hen	2
 拽	ye	2
@@ -62183,7 +62073,6 @@ use_preset_vocabulary: false
 擧	ju	2
 擿	zhi	2
 攳	xun	2
-敩	xiao	2
 斶	chu	2
 斻	hang	2
 旍	jing	2
@@ -62262,7 +62151,6 @@ use_preset_vocabulary: false
 構	gou	2
 槨	guo	2
 槮	shen	2
-槯	cui	2
 槱	you	2
 槾	wan	2
 樁	zhuang	2
@@ -62329,7 +62217,6 @@ use_preset_vocabulary: false
 洃	hui	2
 洠	mou	2
 洢	yi	2
-浛	han	2
 浤	hong	2
 浻	jiong	2
 浿	pei	2
@@ -62370,7 +62257,6 @@ use_preset_vocabulary: false
 潎	pie	2
 潝	xi	2
 潟	xi	2
-潨	cong	2
 潳	zha	2
 潾	lin	2
 澋	hong	2
@@ -62404,7 +62290,6 @@ use_preset_vocabulary: false
 炩	ling	2
 烚	xia	2
 烱	jiong	2
-焃	he	2
 焄	xun	2
 焮	xin	2
 焼	shao	2
@@ -62440,7 +62325,6 @@ use_preset_vocabulary: false
 犨	chou	2
 犪	rao	2
 犫	chou	2
-狓	pi	2
 狛	bo	2
 狝	xian	2
 狴	bi	2
@@ -62543,7 +62427,6 @@ use_preset_vocabulary: false
 硁	keng	2
 硥	mang	2
 硾	zhui	2
-碂	zong	2
 碏	xi	2
 碞	yan	2
 碥	bian	2
@@ -62570,7 +62453,6 @@ use_preset_vocabulary: false
 秖	zhi	2
 秮	huo	2
 秱	tong	2
-秴	he	2
 秶	zi	2
 秷	zhi	2
 秹	ren	2
@@ -62592,7 +62474,6 @@ use_preset_vocabulary: false
 窷	liao	2
 竒	qi	2
 竝	bing	2
-笍	zhui	2
 笎	yuan	2
 笝	na	2
 笭	ling	2
@@ -62612,7 +62493,6 @@ use_preset_vocabulary: false
 篘	chou	2
 篨	chu	2
 簁	shai	2
-簛	shai	2
 簥	jiao	2
 簳	gan	2
 簷	yan	2
@@ -62701,7 +62581,6 @@ use_preset_vocabulary: false
 脇	xie	2
 脎	sa	2
 腄	hou	2
-膭	gui	2
 膲	jiao	2
 臈	la	2
 臍	qi	2
@@ -62833,7 +62712,6 @@ use_preset_vocabulary: false
 覈	he	2
 覩	du	2
 覷	qu	2
-覻	qu	2
 觭	qi	2
 觱	bi	2
 觴	shang	2
@@ -62979,7 +62857,6 @@ use_preset_vocabulary: false
 鄩	xun	2
 鄮	mao	2
 鄺	kuang	2
-酂	cuo	2
 酏	yi	2
 酔	zui	2
 酖	dan	2
@@ -62998,7 +62875,6 @@ use_preset_vocabulary: false
 釿	yin	2
 鈁	fang	2
 鈄	dou	2
-鈈	bu	2
 鈉	na	2
 鈍	dun	2
 鈏	yin	2
@@ -63017,7 +62893,6 @@ use_preset_vocabulary: false
 鉞	yue	2
 鉥	shu	2
 鉦	zheng	2
-鉩	xi	2
 鉲	ka	2
 鉷	hong	2
 銃	chong	2
@@ -63053,7 +62928,6 @@ use_preset_vocabulary: false
 鏽	xiu	2
 鐍	jue	2
 鐕	zan	2
-鐟	zan	2
 鐬	hui	2
 鐸	duo	2
 鐺	dang	2
@@ -63066,7 +62940,6 @@ use_preset_vocabulary: false
 铛	cheng	2
 铫	diao	2
 铫	yao	2
-铻	wu	2
 锊	lue	2
 锠	chang	2
 镎	na	2
@@ -63077,7 +62950,6 @@ use_preset_vocabulary: false
 闌	lan	2
 闡	chan	2
 闢	pi	2
-阘	da	2
 阚	han	2
 阬	keng	2
 陑	er	2
@@ -63104,7 +62976,6 @@ use_preset_vocabulary: false
 鞙	xuan	2
 鞤	bang	2
 鞬	jian	2
-鞸	bi	2
 韘	she	2
 韟	gao	2
 頖	pan	2
@@ -63203,7 +63074,6 @@ use_preset_vocabulary: false
 龁	he	2
 龢	he	2
 㳇	fu	1
-丂	kao	1
 丆	han	1
 丒	chou	1
 丱	kuang	1
@@ -63218,7 +63088,6 @@ use_preset_vocabulary: false
 乻	yu	1
 亖	si	1
 亗	sui	1
-亝	qi	1
 亽	ji	1
 仌	bing	1
 价	jie	1
@@ -63231,16 +63100,11 @@ use_preset_vocabulary: false
 侌	yin	1
 侓	lu	1
 侤	ta	1
-侸	shu	1
 俕	san	1
 俻	bei	1
 俽	xin	1
 倁	zhi	1
-倈	lai	1
-倴	ben	1
 倽	sha	1
-偄	ruan	1
-偒	tang	1
 偔	e	1
 偘	kan	1
 偙	di	1
@@ -63248,22 +63112,18 @@ use_preset_vocabulary: false
 傄	xia	1
 傐	hao	1
 傤	zai	1
-傪	can	1
 傮	zao	1
 傶	zu	1
 僌	ying	1
 僓	tui	1
-僜	cheng	1
 僠	bo	1
 僡	hui	1
-僢	chuan	1
 僺	qiao	1
 僿	sai	1
 儍	sha	1
 儣	kuang	1
 儧	zan	1
 儽	luo	1
-兓	jin	1
 兤	huang	1
 兾	ji	1
 冃	mao	1
@@ -63289,22 +63149,18 @@ use_preset_vocabulary: false
 刜	fu	1
 刞	qu	1
 刧	jie	1
-刬	chan	1
 刱	chuang	1
 刵	er	1
 刼	jie	1
 剏	chuang	1
-剨	huo	1
 剫	duo	1
 剭	wu	1
 剴	kai	1
-剹	lu	1
 剻	peng	1
 劊	gui	1
 劔	jian	1
 劸	wa	1
 勀	kei	1
-勌	juan	1
 勧	quan	1
 勱	mai	1
 勴	lv	1
@@ -63322,21 +63178,17 @@ use_preset_vocabulary: false
 匷	qu	1
 匽	yan	1
 卐	wan	1
-卙	ji	1
 卼	kui	1
 厊	ya	1
 厐	pang	1
 厑	ya	1
 厬	gui	1
-厱	lan	1
 厺	qu	1
 厼	er	1
 叅	can	1
 叝	ji	1
 叨	tao	1
-吅	xuan	1
 合	ge	1
-吔	ye	1
 吘	ou	1
 吤	ge	1
 吤	xie	1
@@ -63363,7 +63215,6 @@ use_preset_vocabulary: false
 咰	xun	1
 咵	kua	1
 咷	tiao	1
-咹	e	1
 咺	xuan	1
 咼	wai	1
 哅	xiong	1
@@ -63381,18 +63232,15 @@ use_preset_vocabulary: false
 唙	di	1
 唚	qin	1
 唞	dou	1
-唫	jin	1
 唽	xi	1
 啂	nou	1
 啈	heng	1
 啒	gu	1
-啙	zi	1
 啢	liang	1
 啱	yan	1
 啲	di	1
 啽	an	1
 喍	chai	1
-喛	huan	1
 喡	wei	1
 喢	sha	1
 喣	xu	1
@@ -63423,7 +63271,6 @@ use_preset_vocabulary: false
 嘵	xiao	1
 嘷	hao	1
 嘺	qiao	1
-嘼	chu	1
 嘽	tuo	1
 嘾	tan	1
 噂	zun	1
@@ -63472,12 +63319,10 @@ use_preset_vocabulary: false
 圞	luan	1
 圠	ya	1
 圥	lu	1
-圫	yu	1
 圸	shan	1
 坉	tun	1
 坋	fen	1
 坒	bi	1
-坔	di	1
 坕	jing	1
 坘	di	1
 坙	xing	1
@@ -63490,7 +63335,6 @@ use_preset_vocabulary: false
 坿	fu	1
 垀	hu	1
 垇	ao	1
-垍	ji	1
 垑	chi	1
 垥	xie	1
 垷	xian	1
@@ -63528,11 +63372,9 @@ use_preset_vocabulary: false
 墋	chen	1
 墑	di	1
 墔	cui	1
-墕	yan	1
 墥	tuan	1
 墱	deng	1
 墵	tan	1
-墶	da	1
 墸	zhu	1
 壀	pi	1
 壂	dian	1
@@ -63615,18 +63457,15 @@ use_preset_vocabulary: false
 媬	bao	1
 媭	xu	1
 媰	zou	1
-嫅	jie	1
 嫇	ming	1
 嫈	ying	1
 嫋	niao	1
-嫎	pang	1
 嫏	lang	1
 嫗	yu	1
 嫙	xuan	1
 嫛	yi	1
 嫞	yong	1
 嫥	zhuan	1
-嫧	ze	1
 嫰	nen	1
 嫴	gu	1
 嫶	qiao	1
@@ -63636,7 +63475,6 @@ use_preset_vocabulary: false
 嫼	mo	1
 嬁	deng	1
 嬃	xu	1
-嬎	fan	1
 嬐	yan	1
 嬙	qiang	1
 嬞	dong	1
@@ -63676,12 +63514,10 @@ use_preset_vocabulary: false
 尣	wang	1
 尩	wang	1
 尳	gu	1
-尵	tui	1
 尶	gan	1
 尷	gan	1
 屓	xie	1
 屜	ti	1
-屟	xie	1
 屨	ju	1
 屩	jue	1
 屫	jue	1
@@ -63712,7 +63548,6 @@ use_preset_vocabulary: false
 峝	tong	1
 峞	wei	1
 峠	gu	1
-峫	xie	1
 峬	bu	1
 峮	qun	1
 峴	xian	1
@@ -63726,7 +63561,6 @@ use_preset_vocabulary: false
 崬	dong	1
 嵀	zhu	1
 嵉	ting	1
-嵍	wu	1
 嵒	yan	1
 嵓	yan	1
 嵖	cha	1
@@ -63736,9 +63570,7 @@ use_preset_vocabulary: false
 嵞	tu	1
 嵟	dui	1
 嵥	jie	1
-嵦	kai	1
 嵨	wu	1
-嵪	qiao	1
 嵲	nie	1
 嵵	shi	1
 嵺	liao	1
@@ -63771,7 +63603,6 @@ use_preset_vocabulary: false
 巑	cuan	1
 巓	dian	1
 巕	nie	1
-巙	kui	1
 巠	xing	1
 巣	chao	1
 巰	qiu	1
@@ -63837,7 +63668,6 @@ use_preset_vocabulary: false
 彏	jue	1
 彣	wen	1
 彯	piao	1
-彵	tuo	1
 彸	zhong	1
 彽	di	1
 徆	xi	1
@@ -63854,14 +63684,11 @@ use_preset_vocabulary: false
 忈	ren	1
 忦	jia	1
 忨	wan	1
-忬	yu	1
 忯	shi	1
 忰	cui	1
 忲	tai	1
 忶	hun	1
 忷	xiong	1
-忹	kuang	1
-忼	kang	1
 怐	kou	1
 怑	ban	1
 怓	niu	1
@@ -63874,7 +63701,6 @@ use_preset_vocabulary: false
 怭	bi	1
 怲	bing	1
 怴	xue	1
-怶	bi	1
 恄	xi	1
 恇	kuang	1
 恈	mou	1
@@ -63890,14 +63716,11 @@ use_preset_vocabulary: false
 恴	de	1
 恶	wu	1
 恷	xiao	1
-悂	pi	1
 悋	lin	1
 悑	bu	1
-悘	yi	1
 悮	wu	1
 惍	jin	1
 惏	lin	1
-惐	yu	1
 惖	ti	1
 惙	chuo	1
 惞	xin	1
@@ -63918,7 +63741,6 @@ use_preset_vocabulary: false
 愘	qia	1
 愙	ke	1
 愡	zong	1
-愢	sai	1
 愻	xun	1
 愼	shen	1
 慀	xie	1
@@ -63943,7 +63765,6 @@ use_preset_vocabulary: false
 憓	hui	1
 憗	yin	1
 憛	tan	1
-憦	lao	1
 憵	pi	1
 憻	tan	1
 憼	jing	1
@@ -63951,7 +63772,6 @@ use_preset_vocabulary: false
 懍	lin	1
 懓	ai	1
 懖	kuo	1
-懝	ai	1
 懣	men	1
 懤	chou	1
 懥	zhi	1
@@ -64009,14 +63829,12 @@ use_preset_vocabulary: false
 挜	ya	1
 挧	yu	1
 挩	yan	1
-挮	ti	1
 挲	sa	1
 挴	mei	1
 挷	peng	1
 挿	zha	1
 捁	ku	1
 捊	pou	1
-捒	shu	1
 捔	zhuo	1
 捗	zhi	1
 捚	zhai	1
@@ -64028,7 +63846,6 @@ use_preset_vocabulary: false
 捿	qi	1
 掄	lun	1
 掅	qing	1
-掆	gang	1
 掜	yi	1
 掫	zou	1
 掯	ken	1
@@ -64046,7 +63863,6 @@ use_preset_vocabulary: false
 揫	jiu	1
 揰	dong	1
 揲	tie	1
-揾	wen	1
 搇	qin	1
 搊	zou	1
 搒	bang	1
@@ -64055,7 +63871,6 @@ use_preset_vocabulary: false
 搘	zhi	1
 搤	yi	1
 搮	li	1
-搲	wa	1
 搸	zhen	1
 搼	quan	1
 摓	peng	1
@@ -64110,7 +63925,6 @@ use_preset_vocabulary: false
 敀	po	1
 敂	kou	1
 敚	duo	1
-敠	duo	1
 敥	yan	1
 敪	duo	1
 敶	zhen	1
@@ -64179,7 +63993,6 @@ use_preset_vocabulary: false
 朒	nv	1
 朘	juan	1
 朙	ming	1
-朚	huang	1
 朞	qi	1
 朧	long	1
 朲	ren	1
@@ -64190,7 +64003,6 @@ use_preset_vocabulary: false
 杇	wu	1
 杋	fan	1
 杍	zi	1
-杔	tuo	1
 杕	duo	1
 杗	mang	1
 杘	chi	1
@@ -64198,8 +64010,6 @@ use_preset_vocabulary: false
 杣	shan	1
 杤	wan	1
 杦	jiu	1
-杫	si	1
-杮	fei	1
 杴	xian	1
 杶	chun	1
 杹	hua	1
@@ -64208,7 +64018,6 @@ use_preset_vocabulary: false
 杽	chou	1
 枅	ji	1
 枆	mao	1
-枖	yao	1
 枴	guai	1
 枾	shi	1
 枿	nie	1
@@ -64250,7 +64059,6 @@ use_preset_vocabulary: false
 梋	xue	1
 梌	tu	1
 梍	zao	1
-梎	ao	1
 梔	zhi	1
 梖	bei	1
 梙	huan	1
@@ -64292,7 +64100,6 @@ use_preset_vocabulary: false
 椸	yi	1
 椺	xi	1
 楆	yao	1
-楇	huo	1
 楈	xu	1
 楉	ruo	1
 楏	kui	1
@@ -64312,7 +64119,6 @@ use_preset_vocabulary: false
 楷	jie	1
 楺	rou	1
 楿	xiang	1
-榅	wen	1
 榌	bi	1
 榑	fu	1
 榓	mi	1
@@ -64324,7 +64130,6 @@ use_preset_vocabulary: false
 榳	ting	1
 榶	tang	1
 榿	qi	1
-槀	gao	1
 槄	tao	1
 槉	ji	1
 槏	xian	1
@@ -64346,7 +64151,6 @@ use_preset_vocabulary: false
 樔	jiao	1
 樕	su	1
 樖	ke	1
-樚	lu	1
 樠	man	1
 樰	xue	1
 樲	zhi	1
@@ -64370,7 +64174,6 @@ use_preset_vocabulary: false
 檌	zui	1
 檍	yi	1
 檕	ji	1
-檘	ping	1
 檛	zhua	1
 檝	ji	1
 檡	zhai	1
@@ -64389,7 +64192,6 @@ use_preset_vocabulary: false
 櫏	qian	1
 櫐	lei	1
 櫑	lie	1
-櫖	lv	1
 櫚	lv	1
 櫛	zhi	1
 櫝	du	1
@@ -64431,9 +64233,7 @@ use_preset_vocabulary: false
 歍	yang	1
 歑	hu	1
 歕	pen	1
-歘	chua	1
 歞	e	1
-歰	se	1
 殀	yao	1
 殈	xu	1
 殌	jue	1
@@ -64446,7 +64246,6 @@ use_preset_vocabulary: false
 殟	wen	1
 殠	chou	1
 殦	diao	1
-殨	hui	1
 殬	du	1
 毃	que	1
 毄	qi	1
@@ -64464,11 +64263,9 @@ use_preset_vocabulary: false
 毾	ta	1
 氃	tong	1
 氌	lu	1
-氜	yang	1
 氝	nei	1
 氠	shen	1
 氹	dang	1
-氼	ni	1
 氿	gui	1
 氿	jiu	1
 汈	diao	1
@@ -64483,7 +64280,6 @@ use_preset_vocabulary: false
 沈	chen	1
 沊	dan	1
 沍	hu	1
-沑	nv	1
 沜	pan	1
 沞	za	1
 沨	feng	1
@@ -64492,7 +64288,6 @@ use_preset_vocabulary: false
 沶	yi	1
 沺	tian	1
 泀	si	1
-泋	hui	1
 泍	ben	1
 泜	zhi	1
 泝	su	1
@@ -64500,7 +64295,6 @@ use_preset_vocabulary: false
 泴	guan	1
 洂	ye	1
 洅	zai	1
-洡	lei	1
 洣	mi	1
 洤	quan	1
 洬	su	1
@@ -64542,7 +64336,6 @@ use_preset_vocabulary: false
 淾	yin	1
 渓	xi	1
 渙	huan	1
-渞	qiu	1
 渢	feng	1
 渨	wei	1
 渮	he	1
@@ -64590,7 +64383,6 @@ use_preset_vocabulary: false
 漡	tang	1
 漮	kang	1
 漰	peng	1
-漴	zhuang	1
 漵	xu	1
 漹	yan	1
 漺	shuang	1
@@ -64605,7 +64397,6 @@ use_preset_vocabulary: false
 澃	jiong	1
 澅	hua	1
 澇	lao	1
-澊	cun	1
 澏	han	1
 澑	liu	1
 澓	fu	1
@@ -64701,12 +64492,9 @@ use_preset_vocabulary: false
 焤	fu	1
 焥	wo	1
 焧	cong	1
-焫	ruo	1
 焴	yu	1
-焸	xiong	1
 焹	gang	1
 焺	sheng	1
-焻	chang	1
 煀	qu	1
 煁	chen	1
 煂	he	1
@@ -64716,10 +64504,8 @@ use_preset_vocabulary: false
 煬	yang	1
 煯	jie	1
 煰	zao	1
-煴	yun	1
 煹	gou	1
 煼	chao	1
-煾	en	1
 熁	xie	1
 熂	xi	1
 熅	yun	1
@@ -64809,7 +64595,6 @@ use_preset_vocabulary: false
 猋	biao	1
 猒	yan	1
 猘	zhi	1
-猚	ya	1
 猞	she	1
 猟	lie	1
 猦	feng	1
@@ -64828,7 +64613,6 @@ use_preset_vocabulary: false
 獕	cui	1
 獘	bi	1
 獚	huang	1
-獜	lin	1
 獝	yu	1
 獞	zhuang	1
 獡	xi	1
@@ -64848,12 +64632,10 @@ use_preset_vocabulary: false
 玒	hong	1
 玔	chuan	1
 玙	yu	1
-玚	chang	1
 玝	wu	1
 玞	fu	1
 玧	yun	1
 玨	jue	1
-玪	jian	1
 玵	gan	1
 玼	cou	1
 玿	shao	1
@@ -64878,7 +64660,6 @@ use_preset_vocabulary: false
 琈	fu	1
 琋	xi	1
 琌	ling	1
-琗	se	1
 琘	min	1
 琝	min	1
 琠	tian	1
@@ -64929,7 +64710,6 @@ use_preset_vocabulary: false
 瓪	ban	1
 瓫	pen	1
 瓬	fang	1
-瓭	dan	1
 瓲	wa	1
 甂	bian	1
 甌	ou	1
@@ -64978,7 +64758,6 @@ use_preset_vocabulary: false
 癆	lao	1
 癊	yin	1
 癐	wei	1
-癑	nong	1
 癓	wei	1
 癕	yong	1
 癗	lei	1
@@ -65019,13 +64798,11 @@ use_preset_vocabulary: false
 眐	zheng	1
 眒	shen	1
 眔	da	1
-眜	mo	1
 眤	ni	1
 眥	zi	1
 眧	chao	1
 眻	yang	1
 睅	han	1
-睉	cuo	1
 睊	juan	1
 睎	xi	1
 睔	lun	1
@@ -65037,7 +64814,6 @@ use_preset_vocabulary: false
 睭	zhou	1
 睮	yu	1
 睯	hun	1
-睱	xia	1
 睵	zai	1
 瞂	fa	1
 瞃	wo	1
@@ -65082,13 +64858,11 @@ use_preset_vocabulary: false
 硊	hui	1
 硋	ai	1
 硍	yin	1
-硔	hong	1
 硚	qiao	1
 硜	qing	1
 硞	que	1
 硠	lang	1
 硤	xia	1
-硧	yong	1
 硨	che	1
 硲	gu	1
 硴	hua	1
@@ -65112,7 +64886,6 @@ use_preset_vocabulary: false
 磎	qi	1
 磏	lian	1
 磑	wei	1
-磖	la	1
 磝	qiao	1
 磞	peng	1
 磠	lu	1
@@ -65171,7 +64944,6 @@ use_preset_vocabulary: false
 稕	zhun	1
 稛	kun	1
 稢	yu	1
-稧	xi	1
 稰	xu	1
 穅	kang	1
 穇	shan	1
@@ -65215,7 +64987,6 @@ use_preset_vocabulary: false
 笚	xia	1
 笜	zhu	1
 笡	qie	1
-笧	ce	1
 笯	nu	1
 笰	fu	1
 笴	gan	1
@@ -65297,7 +65068,6 @@ use_preset_vocabulary: false
 紉	ren	1
 紣	cui	1
 紲	yi	1
-紴	bo	1
 紼	fu	1
 紽	tuo	1
 紿	dai	1
@@ -65391,7 +65161,6 @@ use_preset_vocabulary: false
 纘	zuan	1
 绤	xi	1
 缉	qi	1
-缊	yun	1
 缲	qiao	1
 缲	sao	1
 缼	que	1
@@ -65441,7 +65210,6 @@ use_preset_vocabulary: false
 耏	nai	1
 耞	jia	1
 耡	chu	1
-耣	lun	1
 耬	lou	1
 耹	qin	1
 聄	zhen	1
@@ -65475,7 +65243,6 @@ use_preset_vocabulary: false
 脀	zheng	1
 脋	xie	1
 脌	nin	1
-腂	lei	1
 腃	quan	1
 腗	pi	1
 腛	wo	1
@@ -65559,7 +65326,6 @@ use_preset_vocabulary: false
 苬	xiu	1
 苲	zha	1
 茘	li	1
-茝	chai	1
 茞	chen	1
 茢	lie	1
 茩	hou	1
@@ -65593,7 +65359,6 @@ use_preset_vocabulary: false
 莿	ci	1
 菄	dong	1
 菆	zou	1
-菍	nie	1
 菎	kun	1
 菕	lun	1
 菞	li	1
@@ -65708,7 +65473,6 @@ use_preset_vocabulary: false
 薝	zhan	1
 薟	yan	1
 薢	xie	1
-薥	shu	1
 薱	dui	1
 薴	ning	1
 薾	er	1
@@ -65767,7 +65531,6 @@ use_preset_vocabulary: false
 虋	men	1
 虌	bie	1
 虙	fu	1
-虠	jiao	1
 虣	bao	1
 虨	bin	1
 虩	xi	1
@@ -65797,7 +65560,6 @@ use_preset_vocabulary: false
 蛈	tie	1
 蛌	gu	1
 蛍	ying	1
-蛒	ge	1
 蛓	ci	1
 蛚	lie	1
 蛜	yi	1
@@ -65916,7 +65678,6 @@ use_preset_vocabulary: false
 衵	yi	1
 衶	zhong	1
 袆	hui	1
-袊	ling	1
 袌	pao	1
 袝	fu	1
 袟	zhi	1
@@ -65946,7 +65707,6 @@ use_preset_vocabulary: false
 裷	yuan	1
 裺	yan	1
 裻	du	1
-裿	yi	1
 褀	qi	1
 褁	guo	1
 褄	qi	1
@@ -65958,7 +65718,6 @@ use_preset_vocabulary: false
 褱	huai	1
 褼	xian	1
 褽	wei	1
-襀	ji	1
 襂	shan	1
 襉	jian	1
 襏	fei	1
@@ -66006,7 +65765,6 @@ use_preset_vocabulary: false
 覭	ming	1
 覮	ying	1
 覯	gou	1
-覰	qu	1
 覲	jin	1
 覶	luo	1
 覹	wei	1
@@ -66177,7 +65935,6 @@ use_preset_vocabulary: false
 貀	na	1
 貁	you	1
 貄	si	1
-貇	kun	1
 貏	bi	1
 貑	jia	1
 貒	tuan	1
@@ -66300,7 +66057,6 @@ use_preset_vocabulary: false
 蹧	zao	1
 蹪	tui	1
 蹫	ju	1
-蹱	zhong	1
 蹲	cun	1
 蹳	bo	1
 躈	qiao	1
@@ -66465,13 +66221,10 @@ use_preset_vocabulary: false
 酠	qia	1
 酨	zui	1
 酳	yin	1
-酻	zui	1
 醀	zhui	1
 醂	lan	1
 醄	tao	1
-醈	tan	1
 醊	zhui	1
-醎	xian	1
 醕	chun	1
 醝	cuo	1
 醤	jiang	1
@@ -66551,8 +66304,6 @@ use_preset_vocabulary: false
 銲	han	1
 銵	keng	1
 銼	cuo	1
-銾	hong	1
-銿	zhong	1
 鋀	tu	1
 鋃	lang	1
 鋄	wan	1
@@ -66704,7 +66455,6 @@ use_preset_vocabulary: false
 阺	di	1
 阽	dian	1
 阽	yan	1
-陁	tuo	1
 陃	bing	1
 陊	duo	1
 陎	shu	1
@@ -66858,7 +66608,6 @@ use_preset_vocabulary: false
 饟	xiang	1
 饤	ding	1
 饸	he	1
-饹	le	1
 馂	jun	1
 馃	guo	1
 馜	ni	1
@@ -66967,7 +66716,6 @@ use_preset_vocabulary: false
 魖	xu	1
 魘	yan	1
 魙	zhan	1
-魣	xu	1
 魤	hua	1
 魦	suo	1
 魧	hang	1
@@ -66982,13 +66730,11 @@ use_preset_vocabulary: false
 鮃	ping	1
 鮆	ji	1
 鮇	wei	1
-鮊	ba	1
 鮌	gun	1
 鮒	fu	1
 鮕	gu	1
 鮗	dong	1
 鮚	qia	1
-鮝	xiang	1
 鮞	er	1
 鮡	zhao	1
 鮥	luo	1
@@ -67051,7 +66797,6 @@ use_preset_vocabulary: false
 鱊	yu	1
 鱌	xiang	1
 鱑	huang	1
-鱓	shan	1
 鱔	shan	1
 鱖	jue	1
 鱘	xun	1
@@ -67135,7 +66880,6 @@ use_preset_vocabulary: false
 鶹	liu	1
 鶺	ji	1
 鷂	yao	1
-鷉	ti	1
 鷓	zhe	1
 鷙	zhi	1
 鷚	liu	1
@@ -67153,7 +66897,6 @@ use_preset_vocabulary: false
 鸄	ji	1
 鸆	yu	1
 鸉	yang	1
-鸊	pi	1
 鸑	yue	1
 鸒	yu	1
 鸓	lei	1
