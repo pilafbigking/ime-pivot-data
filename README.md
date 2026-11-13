@@ -84,7 +84,7 @@ OpenCC         1.1.9
 Unihan         16.0.0
 ```
 
-`pivot_lite.bin` was generated on 2026-11-02, `pivot_full.sqlite` on 2026-10-31, and `zh-dict/` on 2026-11-05.
+`pivot_lite.bin` was regenerated on 2026-11-13 (T2-1: 47 curated zh↔ja pairs added to `tables/pairs/zh_ja_curated.tsv`, and curated pairs now take the default position), `pivot_full.sqlite` on 2026-10-31, and `zh-dict/` on 2026-11-13.
 See `manifest.json` for each file's sha256.
 
 **Reproducibility**: rebuilding from the released `pivot_candidates` + `pivot_refined` + `pivot_examples` and `tables/`,

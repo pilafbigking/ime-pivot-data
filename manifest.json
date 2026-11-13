@@ -5,7 +5,7 @@
   "license": "CC BY-SA 4.0",
   "source_version": "CC-CEDICT 2026-09-27; JMdict 2026-09-26; Tatoeba 2026-10-24; OpenCC ver.1.1.9; Unihan 16.0.0; OpenMultilingualWordNet 406bf83b3c50; zh-dict: rime-pinyin-simp 0c6861e, jieba 67fa2e3, pinyin-data 9d05c9e",
   "generated": {
-    "pivot_lite.bin": "2026-11-02T12:25Z",
+    "pivot_lite.bin": "2026-11-13T10:23Z",
     "pivot_full.sqlite": "2026-10-31T16:27:30Z",
     "zh-dict": "2026-11-13",
     "assoc_preset_zh.bin": "2026-11-13T05:20Z"
@@ -27,11 +27,11 @@
   },
   "files": {
     "pivot_lite.bin": {
-      "bytes": 15114512,
-      "sha256": "ce351a4bfb61ff62c64f30f5f9cf652c9c55ed1f5deae406817891d91c035298",
+      "bytes": 15098836,
+      "sha256": "b56867b3a25c7985bfaf07a95f1e104ca08fb644c47b3129f70db69a21eb08e5",
       "where": "release",
       "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-05/pivot_lite.bin",
-      "description": "5 万档二进制（随键盘分发的那一档），58,179 条 / 45,756 个中文词头 / 18,786 个日文词头"
+      "description": "5 万档二进制（随键盘分发的那一档），58,147 条 / 45,764 个中文词头 / 18,810 个日文词头"
     },
     "pivot_full.sqlite.gz": {
       "bytes": 34617658,
