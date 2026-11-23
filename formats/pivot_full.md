@@ -38,7 +38,7 @@
 
 - 单个文件，只读打开。**表名、列名、类型、可空性、行语义都是契约**；只允许新增列/表（向后兼容），不允许改名或改语义。
 - 文本一律 UTF-8；时间一律 ISO 8601 UTC（`2026-10-26T00:00:00Z`）；置信度 `REAL`，范围 `0.0–1.0`。
-- `entry_id` 与 `pivot_lite.bin`、`keigo.bin` 是同一套编号，从 1 开始，0 保留为"无"。**`pivot_full.sqlite` 是全量（20 万档全集），`pivot_lite.bin` 是它的子集。**
+- `entry_id` 与 `pivot_lite.bin`、`keigo.bin` 是同一套编号，从 1 开始，0 保留为"无"。**`pivot_lite.bin` 里标了 `has_full_entry` 的条目，`pivot_full.sqlite` 里一定有**（2026-11-23 起：厚词典先收随包档写进 bin 的全部条目，再按 entry_id 补满 20 万，规则见 `data/pipeline/full_ids.py`；此前按 id 取前 20 万条，随包档 4.4 万条标了却查不到）。英文克隆条目（id ≥ `0x40000000`）不进厚词典，标记为 0。
 - 生成方写完数据后执行一次 `VACUUM` + `ANALYZE`，产物里不留空闲页；读取方不要假设 `page_count` 有冗余。
 
 ### 1. 表结构（DDL 即契约）
