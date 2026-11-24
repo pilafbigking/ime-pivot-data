@@ -10,17 +10,17 @@ commercial use and modification are allowed, but **modified versions must be dis
 
 ## Files
 
-**Large files are release assets of [Release `data-2026-11-23b`](https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-23b)**
+**Large files are release assets of [Release `data-2026-11-24`](https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-24)**
 (to avoid bloating git history); small files live in the repository. This batch is the one shipped with the app: the sha256 of `pivot_lite.bin` and `pivot_full.sqlite`
 matches the files installed on the phone.
 
 | Location | File | Size | Contents |
 |---|---|---|---|
-| Release | `pivot_lite.bin` | 15.7 MB | 50k-tier binary (shipped with the keyboard): 63,019 entries / 46,511 Chinese headwords / 19,515 Japanese headwords (incl. 4,145 English-override clone entries) |
-| Release | `pivot_full.sqlite.gz` | 37.9 MB | Full dictionary (SQLite, gzip, shipped with the host app): 200,000 entries / 200,000 senses / 268,965 inflections / 191,841 example sentences |
+| Release | `pivot_lite.bin` | 15.8 MB | 50k-tier binary (shipped with the keyboard): 63,409 entries / 47,044 Chinese headwords / 19,736 Japanese headwords (incl. 4,145 English-override clone entries) |
+| Release | `pivot_full.sqlite.gz` | 37.9 MB | Full dictionary (SQLite, gzip, shipped with the host app): 200,000 entries / 200,000 senses / 270,345 inflections / 191,704 example sentences |
 | Release | `pivot_candidates.tsv.gz` | 77.5 MB | **Source form**: 1,539,158 candidate pairs (TSV, gzip) |
 | Release | `pivot_refined.tsv.gz` | 30.4 MB | Refined results: both `pivot_lite` and `pivot_full` are built from this |
-| Repo | `examples/pivot_examples.tsv.gz` | 5.0 MB | Example-sentence cache: 191,841 sentences, each with its Tatoeba sentence id |
+| Repo | `examples/pivot_examples.tsv.gz` | 5.0 MB | Example-sentence cache: 191,704 sentences, each with its Tatoeba sentence id |
 | Repo | `tables/` | 224 KB | Small hand-made / derived build-input tables: `pairs/` (pairings), `bridges/` (English bridge keys), `overrides/` (manual review verdicts), `seed/` (business vocabulary) |
 | Repo | `zh-dict/` | ~5 MB | **Chinese input dictionary source** (50k-tier rime dictionary source + supplementary word list + upstream license texts); see [`zh-dict/README.md`](zh-dict/README.md) |
 | Repo | `assoc/` | 941 KB | **Chinese next-word association preset** shipped inside the keyboard (30,132 headwords / 87,458 next-word pairs), derived from the 50k-tier dictionary above + Tatoeba; see [`assoc/README.md`](assoc/README.md) |
@@ -33,7 +33,7 @@ matches the files installed on the phone.
 ```bash
 # Download the large files (or click them on the release page)
 for f in pivot_lite.bin pivot_full.sqlite.gz pivot_candidates.tsv.gz pivot_refined.tsv.gz; do
-  curl -LO "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-23b/$f"
+  curl -LO "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-24/$f"
 done
 gunzip -c pivot_candidates.tsv.gz | head -2
 ```
@@ -84,7 +84,7 @@ OpenCC         1.1.9
 Unihan         16.0.0
 ```
 
-`pivot_lite.bin` and `pivot_full.sqlite` were regenerated on 2026-11-23 (`data-2026-11-23b`: clone entries enter the English index only when the other side's source dictionary also attests the English word; filled entries no longer take part in English default allocation; all-caps acronyms no longer override the same lowercase word, so `it` → 它 / それ. Earlier that day, T5-7: English glosses taken from the source word's own dictionary via clone entries, see `formats/pivot_lite.md` §2; frequent words missing from the 50k tier added when backed by sentence co-occurrence or shared glyphs; the full dictionary now contains every entry of the 50k tier that is flagged `has_full_entry`). `pivot_candidates` / `pivot_refined` are byte-identical to `data-2026-11-13`; `zh-dict/` was last regenerated on 2026-11-13.
+`pivot_lite.bin` and `pivot_full.sqlite` were regenerated on 2026-11-24 (`data-2026-11-24`): the English index can now pick a different entry per target language (posting flags bit1 / bit2 = "not for Chinese / not for Japanese", see `formats/pivot_lite.md` §7; `version` stays 1 and older readers behave as before); defaults for the 5,000 most frequent English words are chosen per target by Tatoeba sentence-pair association (`tables/bridges/en_rank.tsv`) among entries the target-side dictionary attests (`me` → 我 / 私, `do` → 做 / する, `is` → 是); common Chinese words that were split into single characters for Chinese→Japanese are now added when both dictionaries attest a rare shared gloss (`论坛` → フォーラム). Earlier releases: 2026-11-23b (clone entries, filled entries and acronyms in the English index) and 2026-11-23 (T5-7). `pivot_candidates` / `pivot_refined` are byte-identical to `data-2026-11-13`; `zh-dict/` was last regenerated on 2026-11-13.
 See `manifest.json` for each file's sha256.
 
 **Reproducibility**: rebuilding from the released `pivot_candidates` + `pivot_refined` + `pivot_examples` and `tables/`,

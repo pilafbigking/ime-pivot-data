@@ -1,7 +1,7 @@
 {
   "schema": 2,
-  "release": "data-2026-11-23b",
-  "release_url": "https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-23b",
+  "release": "data-2026-11-24",
+  "release_url": "https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-24",
   "license": "CC BY-SA 4.0",
   "source_version": "CC-CEDICT 2026-09-27; JMdict 2026-09-26; Tatoeba 2026-10-24; OpenCC ver.1.1.9; Unihan 16.0.0; OpenMultilingualWordNet 406bf83b3c50; zh-dict: rime-pinyin-simp 0c6861e, jieba 67fa2e3, pinyin-data 9d05c9e",
   "generated": {
@@ -27,25 +27,25 @@
   },
   "files": {
     "pivot_lite.bin": {
-      "bytes": 15728623,
-      "sha256": "5ce4bac86767c91bb33b9654d28e148d3f361fe557e5731659f96bdf2b52216a",
+      "bytes": 15849783,
+      "sha256": "264b7f83c2d340d46f6723e093051c07c6028815c386d0a300d7cd457b1fca6e",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-23b/pivot_lite.bin",
-      "description": "5 万档二进制（随键盘分发的那一档），63,019 条 / 46,511 个中文词头 / 19,515 个日文词头（含 4,145 条英文克隆条目）"
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-24/pivot_lite.bin",
+      "description": "5 万档二进制（随键盘分发的那一档），63,409 条 / 47,044 个中文词头 / 19,736 个日文词头（含 4,145 条英文克隆条目）"
     },
     "pivot_full.sqlite.gz": {
-      "bytes": 37861535,
-      "sha256": "0082c78cbcebf6ccc51de92adf255bd6edc019aa986b811705b74205df69a454",
+      "bytes": 37913966,
+      "sha256": "04458340d5063ef1b936e2c99535b34fa7ac80ef7295c0dc897f96b6f383ae31",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-23b/pivot_full.sqlite.gz",
-      "description": "厚词典 SQLite（gzip），200,000 词条 / 200,000 义项 / 268,965 活用 / 191,841 例句（随宿主 App 分发）",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-24/pivot_full.sqlite.gz",
+      "description": "厚词典 SQLite（gzip），200,000 词条 / 200,000 义项 / 270,345 活用 / 191,704 例句（随宿主 App 分发）",
       "sha256_uncompressed": "9100b2e9de569630d50cd767c8062b8833c2db4f752d619d06415dda54216ed5"
     },
     "pivot_candidates.tsv.gz": {
       "bytes": 77525135,
       "sha256": "fcfe0144e8ea137d57b8b4076dd64fd38d9bceb5544b39b0d825d8c3ff5f34cb",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-23b/pivot_candidates.tsv.gz",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-24/pivot_candidates.tsv.gz",
       "description": "源形态：1,539,158 条候选对（TSV，gzip）；列见 README",
       "sha256_uncompressed": "24dfd4519abf26f7b9dc3a91f3f86caef42eeca7d573bae40d8a5fa41aa8cca5"
     },
@@ -53,15 +53,15 @@
       "bytes": 30445457,
       "sha256": "bc7c8f84a452c7d62afbb1ba443d85cd7b39f2de4a4bd598d08e78c81cc34d28",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-23b/pivot_refined.tsv.gz",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-24/pivot_refined.tsv.gz",
       "description": "校正结果：1,539,158 行（entry_id / keep / confidence / default_key / 释义 / provider / note）；pivot_lite 与 pivot_full 的构建都读它",
       "sha256_uncompressed": "14d71464d34b3bdb4c6657166c0b20e3f2c99514e6542e4b5e2baa0ca0b25429"
     },
     "examples/pivot_examples.tsv.gz": {
-      "bytes": 5046566,
-      "sha256": "74a3ccb5c9ecdb5ede557d1345dab54ff826406d9e83e8d8b571e7e9e6fa5405",
+      "bytes": 5048342,
+      "sha256": "0354b8b8f10f0051e9051c62e7e9be77704e1738d38a41875245a14bccd2864d",
       "where": "git",
-      "description": "例句缓存（gzip）：191,841 句，列 id / 中文 / 译文 / 语言 / Tatoeba 句子 id（CC BY 2.0 FR，可回溯原作者）"
+      "description": "例句缓存（gzip）：191,704 句，列 id / 中文 / 译文 / 语言 / Tatoeba 句子 id（CC BY 2.0 FR，可回溯原作者）"
     },
     "tables/pairs/en_glosses.tsv": {
       "bytes": 6599,
@@ -182,6 +182,18 @@
       "sha256": "9635d7fc706934758277c5f29bd3f0ab306e2b6b5d58edc6aa7f231836ba9a9b",
       "where": "git",
       "description": "联想表 assoc_preset_zh.bin 的二进制格式（v1）"
+    },
+    "tables/bridges/en_rank.tsv": {
+      "where": "git",
+      "description": "常用英文词 × 中/日词头的 Tatoeba 句对 Dice 与共现句数（构建输入，en_rank.py 生成；Tatoeba 衍生，CC BY 2.0 FR）",
+      "bytes": 730685,
+      "sha256": "32338fea229bcdc1368031735058d26c136213503dd93797576a397c581a60b7"
+    },
+    "formats/pivot_lite.md": {
+      "where": "git",
+      "description": null,
+      "bytes": 12014,
+      "sha256": "fcbf5e1420be99ae1bb9f2256a671f5d61426122f5d481e0b1f89e38ec574a1b"
     }
   }
 }
