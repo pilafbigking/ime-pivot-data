@@ -39,7 +39,7 @@
       "where": "release",
       "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-24/pivot_full.sqlite.gz",
       "description": "厚词典 SQLite（gzip），200,000 词条 / 200,000 义项 / 270,345 活用 / 191,704 例句（随宿主 App 分发）",
-      "sha256_uncompressed": "9100b2e9de569630d50cd767c8062b8833c2db4f752d619d06415dda54216ed5"
+      "sha256_uncompressed": "9ce473dea3dc4841812af0dbdd554bb4e68a5a814b5bd171ff3c7d0fab34f47f"
     },
     "pivot_candidates.tsv.gz": {
       "bytes": 77525135,
