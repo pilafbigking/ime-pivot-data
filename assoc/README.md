@@ -19,9 +19,12 @@ and is published under CC BY-SA 4.0**, like the rest of this repository. See [`.
 The table is filtered at build time by a blocklist that removes sensitive / offensive
 `(headword, suggestion)` pairs (profanity, sexual, disease/death, violence, discriminatory terms).
 Filtered pairs never enter the file, so there is no runtime cost and no blocklist inside the app.
-The 2026-11-24 build removed 201 pairs: 176 by the multi-character term rule and 25 judged by hand
+The 2026-11-24 build removed 207 pairs: 182 by the multi-character term rule and 25 judged by hand
 (neutral headword → a violent causative such as 下令→杀死, and vulgar collocations).
 Headwords whose every suggestion was blocked drop out of the table entirely.
+
+Since the second 2026-11-24 build the table no longer uses hand-written seed continuations or the
+"split a two-character word into first → second character" supplement; both lowered measured accuracy.
 
 ## Evaluation hold-out (since 2026-11-24)
 
@@ -36,7 +39,7 @@ alone gives a table that differs slightly from this file.
 ## Contents
 
 - Format: `../formats/assoc_preset.md`
-- 29,869 headwords / 86,491 pairs / 953,230 bytes
+- 29,868 headwords / 86,476 pairs / 964,026 bytes
 - Built 2026-11-24 (previous build 2026-11-13: 30,132 headwords / 87,458 pairs); sha256 in `../manifest.json`
 
 ## Rebuilding

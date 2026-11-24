@@ -23,7 +23,7 @@ matches the files installed on the phone.
 | Repo | `examples/pivot_examples.tsv.gz` | 5.0 MB | Example-sentence cache: 191,704 sentences, each with its Tatoeba sentence id |
 | Repo | `tables/` | 224 KB | Small hand-made / derived build-input tables: `pairs/` (pairings), `bridges/` (English bridge keys), `overrides/` (manual review verdicts), `seed/` (business vocabulary) |
 | Repo | `zh-dict/` | ~5 MB | **Chinese input dictionary source** (50k-tier rime dictionary source + supplementary word list + upstream license texts); see [`zh-dict/README.md`](zh-dict/README.md) |
-| Repo | `assoc/` | 941 KB | **Chinese next-word association preset** shipped inside the keyboard (29,869 headwords / 86,491 next-word pairs; rebuilt 2026-11-24 with evaluation sentences held out), derived from the 50k-tier dictionary above + Tatoeba; see [`assoc/README.md`](assoc/README.md) |
+| Repo | `assoc/` | 941 KB | **Chinese next-word association preset** shipped inside the keyboard (29,868 headwords / 86,476 next-word pairs; rebuilt 2026-11-24 with evaluation sentences held out), derived from the 50k-tier dictionary above + Tatoeba; see [`assoc/README.md`](assoc/README.md) |
 | Repo | `manifest.json` | — | Per-file byte size, sha256, location, download URL, provenance, and reproduction notes |
 | Repo | `formats/` | — | `pivot_lite.md` (binary format), `pivot_full.md` (SQLite schema), `assoc_preset.md` (association table format) |
 

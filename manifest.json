@@ -166,14 +166,14 @@
       "description": "zh-dict 的来源与署名说明"
     },
     "assoc/assoc_preset_zh.bin": {
-      "bytes": 953230,
-      "sha256": "2dcc65c3f1726f3aa0ec8de23c468d626560a42fb06a8ed47f2ffbdd96ecf758",
+      "bytes": 964026,
+      "sha256": "679410ff8733ec073387a71528caf46b5196c82d98be7883edc2c1c345ab5900",
       "where": "git",
-      "description": "中文下一词联想预置表（随键盘分发）：29,869 个词头 / 86,491 对；由 5 万档中文词典（CC BY-SA 4.0 派生）+ Tatoeba 中文句库统计而来，构建期已按黑名单剔除敏感对；2026-11-24 起留出评测句不计入（见 assoc/README.md）"
+      "description": "中文下一词联想预置表（随键盘分发）：29,868 个词头 / 86,476 对；由 5 万档中文词典（CC BY-SA 4.0 派生）+ Tatoeba 中文句库统计而来，构建期已按黑名单剔除敏感对；2026-11-24 起留出评测句不计入（见 assoc/README.md）；不再用手写种子与 2 字词拆分补充"
     },
     "assoc/README.md": {
-      "bytes": 2537,
-      "sha256": "6862ba2e7f72cd2c74191ea79828c7b3848494a483b81e13441f94cc23f9987e",
+      "bytes": 2741,
+      "sha256": "5693ab633cbdd838fa8a7609f054e8813d1a24bdbd8533d909687106743f6f58",
       "where": "git",
       "description": "联想表的来源、许可与重建说明"
     },
