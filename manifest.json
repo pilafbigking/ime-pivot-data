@@ -1,12 +1,12 @@
 {
   "schema": 2,
-  "release": "data-2026-11-25",
-  "release_url": "https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-25",
+  "release": "data-2026-11-25b",
+  "release_url": "https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-25b",
   "license": "CC BY-SA 4.0",
   "source_version": "CC-CEDICT 2026-09-27; JMdict 2026-09-26; Tatoeba 2026-10-24; OpenCC ver.1.1.9; Unihan 16.0.0; OpenMultilingualWordNet 406bf83b3c50; zh-dict: rime-pinyin-simp 0c6861e, jieba 67fa2e3, pinyin-data 9d05c9e",
   "generated": {
-    "pivot_lite.bin": "2026-11-24T15:08Z",
-    "pivot_full.sqlite": "2026-11-24T15:08Z",
+    "pivot_lite.bin": "2026-11-24T16:30Z",
+    "pivot_full.sqlite": "2026-11-24T16:30Z",
     "zh-dict": "2026-11-13",
     "assoc_preset_zh.bin": "2026-11-13T05:20Z"
   },
@@ -27,25 +27,25 @@
   },
   "files": {
     "pivot_lite.bin": {
-      "bytes": 17180247,
-      "sha256": "4b6a39fba72dbdca319610eee4829fad0c1cd60a98f496859b773e1a6854a926",
+      "bytes": 17226142,
+      "sha256": "34259bad3cc62de1ae9b8dcee21efd2623f97aeec6fd538f219974b8dda47fa2",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25/pivot_lite.bin",
-      "description": "5 万档二进制（随键盘分发的那一档），68,262 条 / 51,565 个中文词头 / 23,731 个日文词头（含按真实词频补的 6,919 条，见 tables/bridges/usage_pairs.tsv）"
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25b/pivot_lite.bin",
+      "description": "5 万档二进制（随键盘分发的那一档），68,262 条 / 51,565 个中文词头 / 23,731 个日文词头（含按真实词频补的 6,919 条，见 tables/bridges/usage_pairs.tsv；英文常用词键见 tables/bridges/en_usage.tsv）"
     },
     "pivot_full.sqlite.gz": {
       "bytes": 38811999,
-      "sha256": "3b79746ac65727b1322eeeff83420ebecdb6d4f81bad42883986525e6645cdbd",
+      "sha256": "2f20c0c9d8d8d196906daf9ccd9284aeb74c3e9f77c8aa1d5c8b32e999bf50b9",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25/pivot_full.sqlite.gz",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25b/pivot_full.sqlite.gz",
       "description": "厚词典 SQLite（gzip），200,000 词条 / 200,000 义项 / 275,810 活用 / 190,009 例句（随宿主 App 分发）",
-      "sha256_uncompressed": "039b982cb6c95b07fa989a146a4b152968282c4c0c50585c0d347bdc050d725e"
+      "sha256_uncompressed": "cb862ce9c50d280ee682c61a2d84d308c187498a9abad857b189b9175e32c119"
     },
     "pivot_candidates.tsv.gz": {
       "bytes": 77525135,
       "sha256": "fcfe0144e8ea137d57b8b4076dd64fd38d9bceb5544b39b0d825d8c3ff5f34cb",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25/pivot_candidates.tsv.gz",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25b/pivot_candidates.tsv.gz",
       "description": "源形态：1,539,158 条候选对（TSV，gzip）；列见 README",
       "sha256_uncompressed": "24dfd4519abf26f7b9dc3a91f3f86caef42eeca7d573bae40d8a5fa41aa8cca5"
     },
@@ -53,7 +53,7 @@
       "bytes": 30445457,
       "sha256": "bc7c8f84a452c7d62afbb1ba443d85cd7b39f2de4a4bd598d08e78c81cc34d28",
       "where": "release",
-      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25/pivot_refined.tsv.gz",
+      "url": "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25b/pivot_refined.tsv.gz",
       "description": "校正结果：1,539,158 行（entry_id / keep / confidence / default_key / 释义 / provider / note）；pivot_lite 与 pivot_full 的构建都读它",
       "sha256_uncompressed": "14d71464d34b3bdb4c6657166c0b20e3f2c99514e6542e4b5e2baa0ca0b25429"
     },
@@ -200,6 +200,12 @@
       "description": "按真实用词频率补外语行：常用词（wordfreq 3.1.1，CC BY-SA 4.0）在候选表里挑中的配对（AI 只在候选表里选，不造词；usage_pairs.py 生成）",
       "bytes": 167249,
       "sha256": "9ad87ed60ed4064a8d537c181522e4d6a944be684002b20e053feb2507d44024"
+    },
+    "tables/bridges/en_usage.tsv": {
+      "where": "git",
+      "description": "英文常用词补外语行：wordfreq 3.1.1（CC BY-SA 4.0）前 2 万英文实词里还没有外语对照的，AI 在“档里已有、自己词典释义含这个英文单词”的中/日词头里挑中的（usage_pairs.py en-items）",
+      "bytes": 37846,
+      "sha256": "f184b3ad59562d5ba2c85c6e8aefcc04c345c24264c685edb4ba758f6578d042"
     }
   }
 }

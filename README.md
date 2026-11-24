@@ -10,7 +10,7 @@ commercial use and modification are allowed, but **modified versions must be dis
 
 ## Files
 
-**Large files are release assets of [Release `data-2026-11-25`](https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-25)**
+**Large files are release assets of [Release `data-2026-11-25b`](https://github.com/pilafbigking/ime-pivot-data/releases/tag/data-2026-11-25b)**
 (to avoid bloating git history); small files live in the repository. This batch is the one shipped with the app: the sha256 of `pivot_lite.bin` and `pivot_full.sqlite`
 matches the files installed on the phone.
 
@@ -33,7 +33,7 @@ matches the files installed on the phone.
 ```bash
 # Download the large files (or click them on the release page)
 for f in pivot_lite.bin pivot_full.sqlite.gz pivot_candidates.tsv.gz pivot_refined.tsv.gz; do
-  curl -LO "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25/$f"
+  curl -LO "https://github.com/pilafbigking/ime-pivot-data/releases/download/data-2026-11-25b/$f"
 done
 gunzip -c pivot_candidates.tsv.gz | head -2
 ```
@@ -84,7 +84,7 @@ OpenCC         1.1.9
 Unihan         16.0.0
 ```
 
-`pivot_lite.bin` and `pivot_full.sqlite` were regenerated on 2026-11-25 (`data-2026-11-25`): common words that had no whole-word entry in the 50k tier were added by real-usage frequency (wordfreq 3.1.1, CC BY-SA 4.0): for each such word, an AI model picked the right counterpart **only among the existing candidate pairs** (`tables/bridges/usage_pairs.tsv`, 6,337 pairs; pairs whose other side is a single character are skipped), e.g. `互联网` → インターネット, `シリーズ` → 系列. Among the 20,000 most frequent content words, whole-word coverage went from 65.6% to 84.0% (Chinese) and from 58.2% to 74.9% (Japanese). Previous release `data-2026-11-24`: the English index can now pick a different entry per target language (posting flags bit1 / bit2 = "not for Chinese / not for Japanese", see `formats/pivot_lite.md` §7; `version` stays 1 and older readers behave as before); defaults for the 5,000 most frequent English words are chosen per target by Tatoeba sentence-pair association (`tables/bridges/en_rank.tsv`) among entries the target-side dictionary attests (`me` → 我 / 私, `do` → 做 / する, `is` → 是); common Chinese words that were split into single characters for Chinese→Japanese are now added when both dictionaries attest a rare shared gloss (`论坛` → フォーラム). Earlier releases: 2026-11-23b (clone entries, filled entries and acronyms in the English index) and 2026-11-23 (T5-7). `pivot_candidates` / `pivot_refined` are byte-identical to `data-2026-11-13`; `zh-dict/` was last regenerated on 2026-11-13.
+`pivot_lite.bin` and `pivot_full.sqlite` were regenerated on 2026-11-25 (`data-2026-11-25b`): common English words that had no foreign-row entry (`currently`, `respectively`, `recipe`) got an English key on an existing 50k-tier entry; an AI model picked the Chinese / Japanese headword **only among tier headwords whose own dictionary gloss contains the English word** (`tables/bridges/en_usage.tsv`, 1,396 words). Among the 20,000 most frequent English content words, whole-word coverage went from 71.3% to 80.3%. Earlier the same day (`data-2026-11-25`): common words that had no whole-word entry in the 50k tier were added by real-usage frequency (wordfreq 3.1.1, CC BY-SA 4.0): for each such word, an AI model picked the right counterpart **only among the existing candidate pairs** (`tables/bridges/usage_pairs.tsv`, 6,337 pairs; pairs whose other side is a single character are skipped), e.g. `互联网` → インターネット, `シリーズ` → 系列. Among the 20,000 most frequent content words, whole-word coverage went from 65.6% to 84.0% (Chinese) and from 58.2% to 74.9% (Japanese). Previous release `data-2026-11-24`: the English index can now pick a different entry per target language (posting flags bit1 / bit2 = "not for Chinese / not for Japanese", see `formats/pivot_lite.md` §7; `version` stays 1 and older readers behave as before); defaults for the 5,000 most frequent English words are chosen per target by Tatoeba sentence-pair association (`tables/bridges/en_rank.tsv`) among entries the target-side dictionary attests (`me` → 我 / 私, `do` → 做 / する, `is` → 是); common Chinese words that were split into single characters for Chinese→Japanese are now added when both dictionaries attest a rare shared gloss (`论坛` → フォーラム). Earlier releases: 2026-11-23b (clone entries, filled entries and acronyms in the English index) and 2026-11-23 (T5-7). `pivot_candidates` / `pivot_refined` are byte-identical to `data-2026-11-13`; `zh-dict/` was last regenerated on 2026-11-13.
 See `manifest.json` for each file's sha256.
 
 **Reproducibility**: rebuilding from the released `pivot_candidates` + `pivot_refined` + `pivot_examples` and `tables/`,

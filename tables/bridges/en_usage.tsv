@@ -1,0 +1,1399 @@
+# 英文常用词补外语行（usage_pairs.py en-items）：en=缺口英文词；zh / ja=AI 在"档里已有、自己词典释义含这个英文单词"的词头里挑中的（空 = 不出）；
+# rank=wordfreq 英文实词名次。模型 sonnet。只给还没有英文键的词建键。
+en	zh	ja	rank
+uk		イギリス	772
+digital	数字		1526
+http	超文本传输协定	ｈｔｔｐ	1603
+environmental	环保	環境保護	2004
+republican	共和党	共和党	2017
+urban		都市	2238
+elected	当选	当選	2304
+eu	欧盟	ヨーロッパ連合	2352
+academic	学术	学術	2567
+clinton	克林顿		2582
+weekly	周刊	週刊	2616
+dc		直流	2630
+pc	个人电脑	パソコン	2806
+automatically		ひとりでに	2835
+regularly	经常		2870
+zealand	新西兰	ニュージーランド	2995
+bc	公元前	紀元前	3001
+effectively		事実上	3013
+initially	最初	当初	3027
+auto		自動車	3058
+partnership		提携	3079
+primarily		主に	3084
+regardless	无论	かかわらず	3087
+enforcement		執行	3253
+refer	提到	触れる	3287
+respectively	分别	それぞれ	3288
+successfully		うまく	3294
+establishment		設置	3445
+columbia	哥伦比亚		3562
+equally		等しく	3644
+subsequent		次	3683
+commonly	常见	一般に	3700
+enterprise	企业	企業	3705
+iv	吊水	点滴	3717
+legacy	遗产	遺産	3780
+cd	激光唱片	ＣＤ	3820
+organisation		組織	3852
+removal		排除	3928
+commonwealth	英联邦	英連邦	3961
+conservation	保育	保護	4025
+ethnic	民族	民族	4035
+participation		参加	4055
+residential	住宅区	住宅	4068
+faculty		教職員	4109
+virtual	虚拟		4155
+define	定义		4177
+saudi		サウジ	4219
+unlikely	不会	ありそうもない	4232
+enable	使	可能にする	4250
+equity	股权		4251
+hillary	希拉里		4260
+partly		半ば	4270
+educated		インテリ	4323
+eligible	合格	合格	4324
+mp		国会議員	4347
+crucial	关键	肝心	4390
+equipped	配有	備える	4397
+moore	摩尔		4420
+prevention		予防	4428
+publicly	公然		4431
+hilarious	搞笑		4482
+anime	动漫	アニメ	4524
+fiscal	财年	財政的	4554
+virtually		ほとんど	4591
+ac		交流	4596
+dvd	光盘		4616
+venue	场馆	会場	4675
+exclusively	专属	もっぱら	4705
+modified	修改		4725
+naval		海軍	4727
+toxic		有毒	4755
+upgrade	升级		4759
+actively		盛んに	4764
+ai		人工知能	4766
+brazilian		ブラジル人	4775
+campbell	金宝		4778
+graphic		生々しい	4806
+recipe	食谱	レシピ	4834
+subsequently	随后	次いで	4847
+briefly	简而言之	一言で言うと	4871
+interpretation	诠释	解釈	4905
+legitimate	合法	正当	4907
+viewers		視聴者	4945
+correctly		正しく	4967
+beta	测试		5048
+md		医学博士	5090
+transit	公共交通	交通機関	5117
+bulk	大量		5142
+emphasis	重点	強調	5163
+graphics	图像		5171
+partially		半ば	5189
+pr		広報	5195
+respective	各自	各自	5205
+scenario	场景	シナリオ	5210
+situated	位于	位する	5212
+widespread	广泛	広範	5230
+consecutive	连续		5260
+gospel	福音	福音	5275
+parliamentary	议会制		5291
+tropical	热带		5321
+adoption	收养	採用	5331
+colonial	殖民		5348
+hiv		ヒト免疫不全ウイルス	5368
+tweet		つぶやき	5409
+underlying	深层		5411
+annually	年年	毎年	5419
+gm		ＧＭ	5446
+icon	图标		5451
+indigenous	原住民	先住民	5453
+infinite	无穷大	無限	5454
+preliminary	初步		5481
+tier	梯次	段	5506
+vocal	声乐	声楽	5510
+costa	哥斯达黎加	コスタリカ	5536
+timeline	年表		5585
+violation		違反	5594
+conviction	信念	信念	5614
+justify	辩解		5648
+accordance	按照	に従い	5697
+applicable	适用	該当	5703
+playoff	季后赛	プレーオフ	5770
+precise	精确	正確	5771
+putin	普京		5777
+reportedly	据说		5778
+rookie	菜鸟	新人	5780
+sterling	英镑	ポンド	5788
+mg		ミリグラム	5841
+xi	习近平		5874
+artwork		芸術品	5880
+cognitive	认知		5892
+diplomatic	外交		5902
+citizenship	公民权	国籍	5981
+genuinely		真に	6000
+os		ＯＳ	6023
+purely	纯粹	あくまでも	6035
+ss	亲卫队	親衛隊	6047
+governance	治理		6091
+roster		名簿	6122
+micro		マイクロ	6214
+organised		オーガナイズ	6219
+predict	预测		6229
+viral	爆火		6260
+animated	动画片	アニメ	6270
+computing	计算		6289
+consequence	结果	結果	6292
+nationwide	全国	全国的	6328
+nomination		候補	6333
+notable	显著		6334
+phd	博士学位	博士	6340
+recognised		認める	6350
+specialized	专门		6362
+tremendous	庞大	ものすごい	6371
+allegedly	据称		6379
+ar	增强现实	拡張現実	6381
+ballot	选票	投票	6385
+demo	试听带	デモ	6402
+expertise		専門性	6412
+interactive	交互	双方向	6431
+specified	规定		6467
+technological	技术性	技術的	6473
+graph		グラフ	6522
+hack	黑		6523
+interact	相互作用		6528
+medieval	中世纪	中世	6537
+mobility	流动性	流動性	6539
+surgical		外科手術	6577
+cope	应付		6613
+intermediate		中間	6643
+ip	网际协定	ＩＰ	6645
+likewise		同じく	6650
+lineup	阵容	顔触れ	6651
+nonetheless		にもかかわらず	6659
+cannabis	大麻	大麻	6713
+elect	选举		6727
+gps	全球卫星导航系统		6735
+hudson	哈德逊河		6739
+hype	炒		6740
+orbit	轨道	軌道	6761
+thereby	从而		6789
+verdict		判定	6800
+aesthetic	美感	美的	6804
+au	金		6812
+continental		大陸	6831
+enthusiasm	热忱	情熱	6844
+isolation		孤立	6871
+justified	有理		6873
+namely	即		6881
+ps		追伸	6898
+subscribe	订阅	申し込む	6910
+nato	北大西洋公约组织	ＮＡＴＯ	6978
+qualifying	资格赛	予選	6993
+coup	政变	クーデター	7057
+disclosure	揭露	公開	7065
+disposal		処理	7066
+distinctive	独特	独自	7067
+gdp		ＧＤＰ	7080
+minus	减去	マイナス	7102
+portal	门户		7112
+publicity	宣传	宣伝	7116
+recruitment		採用	7119
+accurately		正しく	7137
+affiliate	关联公司		7139
+mediterranean	地中海	地中海	7193
+reynolds	雷诺		7222
+whatsoever		何ら	7248
+hazard	风险	危険	7292
+intact	完好		7295
+township	乡		7348
+configuration	配置	設定	7379
+memorable		忘れられない	7418
+merger		合併	7419
+affiliated	附属	付属	7465
+clearance	清关	通関	7484
+comedian	笑星	芸人	7487
+explicit	明确	明白	7504
+polar	极地	極地	7538
+prediction	预估	予測	7539
+reconstruction		再建	7546
+spa		温泉	7555
+depot	仓库		7618
+herald		前触れ	7639
+mainland	大陆	本土	7656
+plea		願い	7669
+reagan	里根		7673
+synthetic	合成	人造	7694
+terrifying		恐ろしい	7697
+composite	复合	合成	7723
+consequently	因此	なので	7724
+consist		なる	7725
+grind	磨	ひく	7739
+grinding	磨	ひく	7740
+locate		見つけ出す	7753
+postal	邮政	郵便	7775
+supervision	监管	監督	7798
+vibe	气场		7815
+elimination		排除	7861
+inability		不能	7875
+litigation		訴訟	7883
+merchandise	商品	商品	7885
+orthodox	正统	正統	7896
+prone	易于	しがち	7905
+regiment	团		7909
+reunion	团聚	再会	7911
+thankful	感激	ありがたい	7934
+debris	瓦砾	瓦礫	7966
+educate	教育		7972
+enabling		可能にする	7973
+montgomery	蒙哥马利		8011
+notification	通知	通知	8012
+pi	派	パイ	8017
+velocity	速度	速度	8047
+anthem	国歌	国歌	8061
+deployment	部署	展開	8082
+enjoyable	有意思	楽しい	8084
+fury	怒火	怒り	8090
+gb		ギガバイト	8091
+humanitarian	人道主义		8099
+likelihood		可能性	8109
+nixon	尼克松		8119
+plaza	广场	広場	8127
+prescribed	规定	定める	8128
+suburban	郊区		8152
+verbal	口头	口頭	8165
+advocacy		提唱	8171
+aggression		侵略	8173
+brigade	旅		8189
+confidential	秘密		8205
+coordination	协同	調整	8206
+literacy	识字率	識字率	8253
+ng	后鼻音		8262
+persistent	执着	持続的	8269
+pharmaceutical	医药	医薬品	8272
+progression		進行	8273
+rejection		拒否	8279
+shuttle	航天飞机	スペースシャトル	8289
+trinity	三位一体	三位一体	8311
+vet	兽医	獣医	8316
+awhile	等一下		8327
+cod		代金引換	8339
+counseling	咨商		8344
+holocaust		大虐殺	8373
+indonesian	印尼语		8378
+midst	之中	真っ只中	8392
+monroe	门罗		8396
+positively		断じて	8409
+roosevelt	罗斯福		8419
+sincerely		心から	8425
+trim	修剪	刈る	8438
+distracted	分心		8473
+haul	拖拉	引っ張る	8490
+juvenile	少年犯	少年	8501
+ki		気	8503
+metric	公制	メートル法	8516
+pointless	无谓	意味ない	8529
+sadness		悲しみ	8541
+yale	耶鲁大学	イェール大学	8568
+burke	埃德蒙·伯克		8583
+extensively		広く	8602
+informal	非正式	非公式	8620
+unaware	不知		8675
+abs		腹筋	8686
+congressman	国会议员		8704
+handbook	手册	手引書	8735
+legion	军团		8749
+lethal	致死	致命的	8750
+mortal	凡人		8768
+operative	特务	工作員	8773
+pickup	皮卡	ピックアップトラック	8778
+prestigious		名門	8781
+url	网址		8811
+autonomous		自主的	8829
+niche	利基		8899
+undergraduate	本科生		8937
+exploitation	剥削	搾取	8979
+malaysian	马来西亚人		8998
+ml		ミリリットル	9005
+nobel	诺贝尔奖	ノーベル賞	9009
+bald	秃头		9073
+borough		区	9076
+discourse	话语	談話	9104
+humour		ユーモア	9125
+notorious	恶名昭彰	悪名高い	9154
+overly	过分	あまりに	9160
+ramp	坡道		9173
+refusal		拒否	9179
+superstar	巨星		9198
+toddler		幼児	9204
+bibliography	书目		9224
+citation		引用	9235
+compression	压缩	圧縮	9240
+congregation	会众	会衆	9244
+consolidated	巩固	まとめる	9245
+hatch		かえる	9279
+nickel	五分美金		9306
+redemption	救赎		9325
+woody		木本	9359
+alternatively	再不然		9370
+assurance		保証	9374
+bash		叩く	9376
+battalion	营		9377
+bulgarian	保语		9383
+eclipse	日食	日食	9397
+enjoyment		楽しみ	9401
+kindle		掻き立てる	9425
+respiratory	呼吸系统	呼吸器系	9459
+wu		呉	9490
+amp		アンプ	9498
+combo		セット	9520
+decorative	装饰		9529
+righteous	正义	正しい	9597
+spicy		辛い	9606
+sufficiently		十分	9609
+ussr		ソ連	9620
+vent	发泄	ぶちまける	9622
+wan	苍白		9624
+belle	美人	美人	9640
+destined	注定		9666
+encouragement		励まし	9676
+horny	好色		9697
+latino		ラテン	9710
+modify	修改		9717
+northwestern	西北方	北西部	9719
+patriotic	爱国		9723
+probation	缓刑		9734
+remake	重制		9742
+vatican	梵蒂冈	バチカン	9769
+vendor	供货商	業者	9770
+allergic	过敏		9778
+bodily		肉体的	9788
+collaborative	协同		9793
+ecological	生态		9817
+elvis	埃尔维斯·普雷斯利		9819
+foremost	第一	第一	9833
+hierarchy	层级	階層	9837
+lightweight	轻便		9847
+newborn	新生儿	新生児	9856
+parody		もじる	9865
+prevalent	盛行	流行る	9873
+python	蠎		9876
+questionable		疑わしい	9878
+queue	长队	行列	9879
+specify	规定		9896
+conquest		征服	9954
+credible		信用できる	9959
+depicted	描绘	描く	9966
+doomed	注定		9970
+fairness	公道	公平	9977
+felony	重罪	重罪	9979
+fortress		砦	9983
+fundamentally		基本的に	9985
+incumbent	现任		9997
+lunar	农历		10010
+modification		変更	10020
+obliged	只得	ざるを得ない	10027
+occurrence		出来事	10029
+pathway	通路	通路	10036
+proclaimed	宣布		10042
+webb	韦伯		10084
+activate	启动		10091
+cedar	雪松	杉	10110
+darwin	达尔文		10119
+greene	格林		10152
+heath		ヒース	10153
+horrific		ものすごい	10156
+mentality	心态	メンタル	10168
+stainless	不锈钢	ステンレス	10213
+vip	贵宾		10243
+armour		鎧	10257
+endorsement	背书	支持	10292
+finite	有限	有限	10296
+forthcoming		来る	10299
+migrant	农民工	出稼ぎ	10333
+relevance		関連	10361
+spacecraft	飞船		10379
+specification	规格	仕様	10380
+temp	临时工	派遣	10389
+terminated	终止		10391
+unsure	拿不准	わかりかねる	10401
+veterinary	兽医	獣医	10405
+allocation	配置	割り当て	10413
+anticipation		期待	10417
+appropriately		適宜	10419
+baggage		荷物	10425
+bounty	悬赏		10429
+comfortably		気持ちよく	10444
+kingston	京斯敦		10498
+mil		ミル	10508
+potent		強い	10522
+preceding	前述	前段	10523
+renovation	重新装修	リフォーム	10530
+scrutiny		吟味	10536
+seizure		発作	10537
+stray	走散		10543
+unchanged	原封不动		10557
+understandable		無理はない	10558
+analog	模拟		10573
+bankrupt	破产		10583
+castro	卡斯特罗		10588
+chili	辣椒	唐辛子	10592
+eventual		最終的	10619
+flavour		味	10624
+franco	佛朗哥		10627
+paramount	至高无上		10670
+proxy	代理	代理	10678
+quantitative	量化		10679
+renew	更新		10682
+retro	复古		10685
+rightly		正しく	10687
+stoke		掻き立てる	10704
+termination		終了	10708
+thames	泰晤士河		10709
+thrive	兴盛	栄える	10711
+vest	马甲	ベスト	10720
+warranty	保修	保証	10725
+amino	氨基		10735
+brace	支撑	支柱	10749
+caption	说明	説明	10751
+classy	有气质		10755
+hydraulic	液压	油圧式	10794
+inflammatory		挑発的	10798
+pe		体育	10831
+realization	顿悟	気づき	10849
+salvador	萨尔瓦多	エルサルバドル	10859
+tow	拖	レッカー	10879
+unhealthy		不健康	10888
+unlawful		違法	10889
+voluntarily		進んで	10898
+apex	巅峰	頂点	10910
+apocalypse	浩劫	アポカリプス	10911
+boulder	巨石	巨石	10923
+consolidation		統合	10932
+convoy		車列	10935
+directive		指令	10949
+distract		紛らす	10952
+downward	向下	下り	10954
+hazardous		危ない	10969
+illustrate	说明		10973
+indirectly		暗に	10976
+marginal	边际		10998
+masculine	阳刚	男らしい	10999
+penetration		浸透	11015
+respectable	体面	まとも	11029
+rn		看護師	11032
+tb		結核	11060
+tract		一帯	11069
+vogue	时髦	流行	11079
+akin		類する	11088
+domination		支配	11130
+ec		ＥＣ	11132
+manually	手动		11175
+peek	偷看	覗く	11190
+stranded	被困	立ち往生	11228
+transcript	成绩单		11237
+allegiance		忠誠	11262
+constituency	选区		11285
+exodus	出埃及记	出エジプト記	11302
+fallout	余波		11304
+flock	群	群れ	11310
+ghetto	贫民区		11315
+insured	被保险人	被保険者	11326
+intriguing		面白い	11329
+irrigation		水利	11333
+persona	人设		11362
+plaque	牙垢		11363
+poetic	诗意	詩意	11366
+punjab	旁遮普		11371
+ri		里	11379
+shin		すね	11387
+stigma	污名	汚名	11400
+takeover	收购	買収	11403
+troop		一団	11412
+archaeological	考古		11427
+bengal	孟加拉		11433
+chic		おしゃれ	11442
+communal	共用	共同	11445
+courier	信使		11451
+exclusion		排除	11466
+freelance		フリー	11473
+marx	卡尔·马克思		11492
+procurement		調達	11509
+skeptical	怀疑		11531
+strand	股	一筋	11540
+unanimous	一致		11555
+unpredictable	变幻莫测		11556
+validation		確認	11558
+visually	目视		11561
+copenhagen	哥本哈根	コペンハーゲン	11598
+dent		窪み	11603
+focal	焦点	焦点	11622
+gladly	欣然	喜んで	11632
+harness		馬具	11640
+lag	延迟	遅れ	11658
+proprietary	专有		11689
+rant	大喊大叫		11696
+ripe	成熟		11708
+stimulate	刺激	促す	11726
+verge	边缘	間際	11744
+backlash	反弹	反発	11762
+collateral	抵押	担保	11776
+demise	逝去		11789
+downhill	下坡	下り坂	11803
+extinct	灭绝		11812
+honorary	名誉	名誉	11822
+immature	稚嫩	未熟	11823
+imperative	势在必行	欠かせない	11824
+misconduct	违法乱纪		11839
+nerd	阿宅	オタク	11844
+southeastern		南東部	11895
+stupidity		愚	11903
+tangible	有形	有形	11907
+versatile	百搭		11918
+deception		ごまかし	11953
+derivative	衍生	微分	11956
+driveway	车道		11960
+evenly	平均	等しく	11965
+formidable	强大	手ごわい	11972
+gmt		グリニッジ平均時	11977
+graffiti	涂鸦	落書き	11979
+helm		かじ	11986
+html	超文本标记语言	ハイパーテキストマークアップ言語	11994
+incompetent		無能	12000
+loneliness	孤单	孤独	12017
+manifesto	宣言		12021
+narrowly		かろうじて	12031
+numerical	数值	数値	12036
+obsolete	陈旧		12037
+panther	豹		12041
+salvage	打捞	引き上げ	12055
+samurai	武士	侍	12056
+satire	讽刺	風刺	12058
+speedy	迅速	迅速	12066
+standpoint	立场	立場	12069
+terminate	终止		12075
+vocational	职业中学	専門学校	12089
+amazingly		驚くほど	12099
+bam		ドン	12107
+breakup		別れ	12114
+checkout	收银台	レジ	12121
+chunk	块	ブロック	12124
+cove	澳		12136
+expo	展会	エキスポ	12157
+incidence	发病率	発生	12178
+mythology	神话	神話	12202
+restraint	克制	抑制	12231
+southwestern		南西部	12248
+substrate	基底	基盤	12254
+sultan	苏丹		12255
+supremacy	霸权	優越	12256
+affiliation	所属	所属	12275
+coherent	通顺		12306
+discontinued	中止		12321
+enhancement		強化	12335
+flick	弹	弾く	12341
+gag		ギャグ	12344
+gigantic	巨大	巨大	12346
+leftist	左派	左翼系	12374
+lyric	歌词		12378
+naples	那不勒斯		12382
+noel		ノエル	12384
+peacefully		静かに	12389
+plead	哀求		12392
+practitioner	从业者		12395
+puck	冰球	パック	12398
+soy	酱油	大豆	12420
+temporal		時間的	12433
+unavailable	无货		12437
+universally		広く	12438
+uv		紫外線	12441
+alpine	高山	高山	12455
+ambient	环境		12456
+bladder	膀胱	膀胱	12467
+debit	借记卡	借り方	12489
+faulty	不良		12512
+furnace	炉		12520
+hamburg	汉堡	ハンバーグ	12531
+heavyweight	重量级	重量級	12534
+midfield	中场	中盤	12558
+rectangular		四角い	12583
+ro		ＲＯ	12588
+savannah		サバンナ	12593
+shutdown	停摆	閉鎖	12599
+sic		ママ	12600
+tally		集計	12609
+vile	恶劣	卑しい	12628
+violently	猛力		12629
+wedge		楔	12630
+apartheid	种族隔离	人種隔離	12640
+dante	但丁		12663
+geek	阿宅	オタク	12696
+handicap		不利	12699
+homage	致敬		12702
+internship	实习	インターン	12709
+irritating	烦人	うっとうしい	12712
+lookout	望风	見張り	12720
+onwards		以降	12735
+pseudo		疑似	12754
+sibling	同胞		12771
+slippery	滑	滑りやすい	12774
+storey		階	12782
+suv		スポーツ用多目的車	12784
+unidentified	来路不明	不明	12796
+utmost		全力	12799
+agony		苦痛	12816
+backstage	后台	舞台裏	12824
+bloc	集团	ブロック	12834
+chant	唱	唱える	12850
+crimson	深红色	紅	12862
+degradation		劣化	12867
+evidently	显然		12882
+hale	矍铄	かくしゃく	12898
+intercourse	性交	セックス	12909
+mao	毛泽东	毛沢東	12926
+proportional		比例	12957
+referral	引荐	紹介	12960
+sarcastic	话中有刺		12967
+yankee	北方佬		12993
+abide	遵守	守る	12995
+admiration		感心	12997
+authoritarian	威权		13006
+booty		戦利品	13016
+browse	浏览		13020
+crusade	十字军	聖戦	13040
+disrupt		支障をきたす	13045
+goldman	高盛	ゴールドマンサックス	13073
+heap	一堆	山	13081
+hum	哼	唸る	13083
+impeachment		弾劾	13085
+inherently	本就		13086
+kurdish	库尔德		13096
+outgoing	外放	外向的	13118
+plumbing		配管	13126
+redundant	冗余		13135
+societal		社会的	13154
+unreal		非現実的	13173
+vaccination		予防接種	13175
+abdominal		腹部	13187
+backdrop	背景	背景	13194
+blackout		停電	13198
+catastrophic		壊滅的	13205
+constituent	组成部分	有権者	13220
+contagious	传染性	伝染性	13223
+festive	喜庆		13256
+influx	涌入	流入	13277
+installment		月賦	13279
+liaison	联络		13288
+needy		貧しい	13298
+patty	肉饼	パテ	13305
+priceless	价值连城	二つとない	13314
+resilience		弾力性	13320
+silently		黙然	13334
+swipe	刷		13344
+telecom	电讯		13347
+affirmative	肯定	肯定	13364
+blitz		電撃	13377
+deportation		送還	13405
+disposable	一次性		13409
+heartbreaking		痛ましい	13436
+immensely		すごく	13443
+venom		毒	13543
+antarctic		南極	13565
+belongings	家当	持ち物	13576
+captivity	囚禁		13585
+commute		通う	13594
+culinary	烹饪		13602
+din	嘈杂声	騒音	13605
+discrete	离散		13607
+dissent	异议	異議	13609
+encryption	加密		13616
+harlem	哈莱姆		13639
+hoover	胡佛	掃除機	13641
+insecurity		不安	13644
+lennon	蓝侬		13653
+pagan	异教徒	異教徒	13685
+sparkling	闪耀	きらめく	13716
+upstream	上游	上流	13738
+arrogance	傲气	おごり	13759
+blond	金发	金髪	13769
+canton	州	広東	13782
+colourful		カラフル	13789
+compassionate	悲悯	情け深い	13790
+cumulative	累计	累積	13799
+detrimental	不利		13804
+fulfil		果たす	13822
+giveaway	赠品	景品	13827
+ic		集積回路	13834
+impairment	损伤	障害	13835
+intricate		複雑	13840
+mystical		神秘的	13868
+pun		洒落	13895
+rv		ＲＶ車	13913
+vibes	气场		13946
+academia	学术界	学界	13957
+articulate	表述	明瞭	13967
+avoidance		回避	13970
+consolation		慰め	13992
+covert	隐蔽		13996
+depicting	描绘	描く	14004
+dunk	扣	つける	14012
+flair	天资	センス	14023
+fugitive	逃犯	逃亡犯	14025
+greenwich	格林尼治		14027
+icy		冷たい	14041
+lax	自由散漫	緩い	14057
+menace	威胁	脅威	14065
+ming	明朝	明朝	14068
+pastoral	牧歌	牧歌	14082
+prominence	突出	突出	14092
+prosecute	起诉		14094
+reboot	重新开机	再起動	14100
+smuggling	走私		14122
+stash	私藏		14127
+stimulating	刺激	促す	14129
+transcription	转录		14137
+bahamas	巴哈马	バハマ	14175
+blizzard		吹雪	14177
+celestial	天体	天体	14189
+devote	致力于	捧げる	14210
+distinctly	截然	はっきり	14214
+evacuate	撤离		14215
+favourable		有利	14221
+imf		国際通貨基金	14239
+liberated	解放		14250
+lingerie		下着	14251
+maneuver		操る	14262
+medicinal	药用	薬用	14267
+pastry	点心		14277
+pediatric	小儿科		14279
+persist	坚持	し続ける	14280
+personalized	个性化		14281
+pleading	哀求		14285
+reap	收割	刈る	14292
+subscribed	订阅		14324
+syntax	语法		14330
+tertiary	第三产业	高等教育	14337
+usable		利用可能	14345
+watershed		曲がり角	14352
+alleviate	减轻		14359
+ashore	登岸	上陸	14365
+ballroom	舞厅	ダンスホール	14369
+condemnation	谴责		14395
+dart	飞镖		14403
+disable	停用		14411
+doubtful		疑わしい	14415
+dysfunction		障害	14416
+endowment	禀赋	天与の資	14419
+enrichment		充実	14421
+finely	细	細かく	14435
+fischer	费舍尔		14436
+fore		前	14441
+forefront	前沿	最前線	14442
+initiation		開始	14466
+jeopardy	危殆	危殆	14473
+lockdown		封鎖	14480
+matte		マット	14483
+nordic		北欧	14497
+platoon	排		14512
+rave		絶賛	14515
+recreate	复刻		14517
+residual	残留	残留	14522
+sexism	性别歧视	性差別	14530
+starve	饿		14538
+truce	停战	休戦	14552
+unfit	不适当	不向き	14559
+uphold	维护		14560
+weir		堰	14567
+wonderland	仙境		14570
+abolition	废止	廃止	14576
+acquainted	认识	知る	14578
+aloud	高声	音読	14581
+auditorium	礼堂	講堂	14588
+brink	边缘	寸前	14601
+cheeky		生意気	14609
+collaborate	合作		14614
+discriminate	歧视		14634
+excerpt	摘录	抜粋	14646
+existent	现存		14647
+fandom	饭圈		14650
+getaway		逃げ	14656
+inflated	充气		14664
+metrics	度量		14684
+persistence	持久	根気	14698
+profoundly		深く	14706
+relentless		執拗	14713
+repression	压抑	抑圧	14715
+ridiculously		馬鹿に	14718
+usher	招待员		14752
+wholesome		健全	14758
+allegation		申し立て	14769
+bohemian	波西米亚		14789
+buckle	扣		14800
+correlated	有关联		14815
+crappy	烂		14818
+diocese	教区		14826
+equip	装备	備える	14833
+havoc		大混乱	14847
+hind	后肢	後肢	14849
+hive		巣	14851
+imam	教长		14857
+irritated		いらいら	14863
+jackpot		大当たり	14864
+mantra	口头禅		14883
+mesa	台地		14888
+nuisance		迷惑	14901
+obedience		服従	14902
+organise		オーガナイズ	14905
+picturesque	如诗如画		14914
+pivotal	关键		14918
+reconcile	讲和		14931
+regression	回归	退化	14932
+tug		引く	14968
+arbor		亭	14982
+astronomical	天文数字		14983
+breakout		脱走	15001
+cisco	思科		15013
+coincide	重合		15017
+concurrent	同期	同時	15021
+crocodile		わに	15024
+elk		大鹿	15042
+exhaustion		疲労	15048
+glee	欢乐		15062
+grassroots	基层	グラスルーツ	15063
+hiatus	空窗期		15071
+jihad	圣战		15085
+mimic	模仿	真似る	15103
+nan		ナン	15111
+negativity	消极性		15115
+noteworthy	令人瞩目	注目に値する	15117
+plunge	跳进	飛び込む	15131
+powerless	无能为力		15132
+pragmatic	现实	現実的	15133
+quasi		疑似	15135
+radiant	容光焕发		15137
+refinery	炼油厂	製油所	15140
+sanity		正気	15148
+showdown	对决	対決	15156
+shuffle	洗牌	切る	15157
+simulated	模拟		15160
+tao		道	15173
+tariff	关税	関税	15174
+trance		恍惚	15180
+admirable		感心	15201
+ammo		弾薬	15207
+ballistic	弹道	弾道	15223
+blockbuster	大片		15230
+commencement	毕业典礼	卒業式	15249
+contestant	选手		15253
+contradictory	矛盾		15254
+converse	交谈	話す	15256
+dearly	深爱		15261
+defiance		反抗	15262
+deter	遏阻		15263
+expiration		有効期限	15281
+formulation	配方	製剤	15290
+goalie		キーパー	15295
+gravy		肉汁	15298
+injunction		差し止め	15311
+kiev	基辅		15322
+progressively	逐步		15359
+shia	什叶派	シーア派	15383
+sparrow	麻雀		15389
+speculate	推测		15390
+sunni	逊尼派	スンニ派	15401
+aggravated	加重		15437
+apprenticeship		見習い	15447
+aspire		志す	15448
+centralized	集权	中央集権	15460
+consolidate	巩固	まとめる	15467
+crave	渴求		15471
+eddy	漩涡	渦巻き	15479
+freud	弗洛伊德		15491
+grumpy		気難しい	15499
+guise		装い	15500
+hush		静けさ	15504
+intrinsic	内在	本質的	15512
+irresistible	不可抗拒		15514
+lcd		液晶画面	15523
+ordeal	煎熬	試練	15546
+paranormal	超常	超常的	15549
+respectfully	此致敬礼	かしこ	15566
+rethink	反思	考え直す	15567
+starved	饿		15581
+thatcher	撒切尔		15592
+throttle	油门		15593
+trimmed	修剪	刈る	15596
+vortex	漩涡	渦巻き	15608
+wand		杖	15610
+appalling	没眼看	凄まじい	15623
+baptized	受洗		15628
+boredom		飽き	15633
+bowman		射手	15635
+confinement		監禁	15656
+convergence	汇聚	収束	15661
+disconnect		切る	15676
+excavation		発掘	15686
+flattering	奉承	媚びる	15690
+gao	年糕		15693
+graphical	图形		15697
+groundbreaking	开拓性		15699
+holiness		神聖	15702
+onward	向前	以降	15746
+peck		つつく	15750
+penal		刑法	15751
+roam	流浪	さまよう	15772
+stabilize	稳定		15790
+stormy		荒れ	15796
+swat	拍		15800
+swine	猪		15801
+tangled	纠缠	絡み合う	15803
+abiding	守法	守る	15819
+astounding		衝撃的	15827
+audible		聞こえる	15830
+caretaker		管理人	15848
+clamp	夹子		15858
+counselling		助言	15867
+crackers	饼干	せんべい	15869
+depleted	耗尽		15875
+durability		持ち	15885
+endeavour		努力	15887
+enroll	注册		15888
+genital		生殖器	15904
+grooming		手入れ	15911
+hideous	可怕	醜悪	15915
+homepage		ホームページ	15916
+imaginative	天马行空	天馬行空	15920
+inlet		湾	15924
+lotion	润肤露		15939
+mayhem		混乱	15947
+mould		かび	15951
+nostalgic	怀旧	懐かしい	15956
+patronage		贔屓	15961
+pinnacle	巅峰	最高峰	15963
+reconnaissance	侦察	偵察	15981
+reluctantly	勉为其难	いやいや	15984
+scrambled	炒蛋	スクランブルエッグ	15993
+sham		偽物	15999
+steward		執事	16012
+stout		太った	16013
+synagogue		会堂	16020
+tentative	初步	暫定	16021
+contingency	预案		16074
+deprivation		剥奪	16083
+disqualified	失格		16086
+disrupted		支障をきたす	16087
+diversified	多样化	多角的	16088
+enchanted	迷住	見惚れる	16095
+environmentally	环保		16096
+gran		おばあちゃん	16116
+insistence		主張	16126
+invariably	总	決まって	16129
+invincible		無敵	16130
+mania		そう	16147
+paralyzed	瘫痪		16165
+patio	露台		16168
+pow		捕虜	16177
+preferable		望ましい	16180
+preparatory	预备		16181
+purposely	刻意	故意に	16187
+relocate	搬迁	移す	16193
+roe	鱼卵	魚卵	16205
+saddam	萨达姆		16209
+simulate	模拟		16216
+abbot	住持	方丈	16264
+appraisal		評価	16273
+aqua		水色	16274
+bogus	伪	偽	16289
+chubby	胖嘟嘟	コロコロ	16304
+clement		温和	16305
+collusion		共謀	16306
+dirk		匕首	16319
+disbelief		不信	16320
+discreet		慎重	16321
+eisenhower	艾森豪威尔		16328
+enact	立法		16331
+expressive	表现力	表現力	16335
+horrendous	惨不忍睹		16358
+horrified		ぞっと	16359
+hostel	青年旅舍	ユースホステル	16360
+illegitimate	私生子	私生児	16364
+illicit		違法	16365
+interception		インターセプト	16369
+kw		キロワット	16377
+locating		探し出す	16384
+lunatic	疯子	狂人	16388
+migrate	迁移		16397
+miraculous	神奇		16399
+mundane		どこにでもある	16405
+nay		反対票	16407
+ngo	民间组织		16409
+nielsen	尼尔森		16410
+nutshell	简而言之		16412
+overboard	过火		16418
+proficiency		熟練	16433
+reinforcement		強化	16439
+rumble	轰鸣	鳴る	16445
+stale		古い	16455
+stringent	严格	厳重	16459
+annexation		併合	16497
+ascent		上り	16499
+brute	一力降十会	野獣	16519
+chiefly		主に	16525
+dealership	车行	ディーラー	16542
+elegance	高雅	優美	16561
+englishman		イギリス人	16564
+extraordinarily		とびきり	16567
+facade	外墙	正面	16568
+irritation		刺激	16598
+medic	医护		16610
+morrow	次日		16615
+noodle		ヌードル	16622
+prehistoric	史前	先史時代	16636
+relocated	搬迁	移す	16644
+sneaking	潜进	潜入	16654
+standby	待命		16657
+std		性病	16658
+stumble		つまずく	16662
+triangular		三角	16670
+turret	炮塔	砲塔	16674
+ubiquitous		どこにでもある	16675
+unnecessarily	无谓		16678
+untouched	原封不动		16680
+vega	织女		16681
+visionary	梦想家		16686
+austerity	紧缩	緊縮	16703
+compute	计算	割り出す	16727
+confidently		堂々	16729
+constrained	受约束		16730
+crook		悪漢	16740
+depict	描绘	描く	16746
+endowed		備える	16761
+enquiry		問い合わせ	16762
+evasion		回避	16763
+expulsion		追放	16769
+fortnight		二週間	16779
+genie		ジン	16783
+immortality		永生	16800
+insightful	精辟		16803
+irrespective		かかわらず	16807
+mandela	曼德拉		16824
+mustache	胡子	ひげ	16837
+parity	平价	平価	16848
+postwar	战后	戦後	16858
+qualifier	入围者	修飾語	16866
+ratified	批准		16869
+rink	冰场	リンク	16878
+torah		律法	16904
+torso	躯干	胴体	16905
+tremendously		すごく	16907
+trojan	特洛伊木马	トロイの木馬	16908
+untrue	不实		16912
+windshield	挡风玻璃	フロントガラス	16918
+zodiac	十二星座	星座	16920
+abandonment		放棄	16921
+accession	即位	即位	16923
+authoritative	权威		16935
+barren	不毛之地	不毛の地	16937
+bourgeois	中产		16945
+bribery		買収	16947
+cleavage	V沟	谷間	16959
+cuddle	抱抱		16970
+gorge	溪谷	渓谷	17005
+incorporation		設立	17019
+insure	投保		17020
+leftover	剩饭	食べ残し	17030
+marvellous		素敵	17038
+matchup		カード	17039
+precaution	安全措施	予防	17070
+principally		もっぱら	17071
+rampage	横冲直撞		17075
+reassuring		心強い	17076
+semantic	语义		17094
+smiley	笑脸		17103
+snoop	窥探		17105
+turnaround	转好	逆転	17120
+aft	船尾		17139
+anesthesia	麻醉	麻酔	17141
+assassinated	刺杀		17148
+barrage	炮火		17153
+cocky	得瑟	生意気	17175
+cornerstone		礎	17187
+counterfeit	伪造	偽物	17189
+heterosexual	异性恋		17234
+horseback		乗馬	17238
+hospice	临终关怀		17239
+intimidation		威嚇	17246
+iteration		繰り返し	17249
+malay	马来人		17259
+meteorological	气象		17267
+pickle	腌渍	漬ける	17295
+pinky		小指	17296
+scramble	争抢		17330
+skeletal		骨格	17340
+subconscious	下意识		17357
+vigorously	大力		17368
+wrecking	破坏	壊す	17375
+barrow	手推车		17397
+censored	审查		17413
+cougar		ピューマ	17429
+czechoslovakia	捷克斯洛伐克	チェコスロバキア	17432
+defamation		中傷	17435
+ditto	同上	同上	17444
+encoding	编码		17457
+expansive	宽阔		17461
+gland		せん	17469
+inhibitor	抑制剂	抑制剤	17492
+pilgrim		巡礼	17541
+sparkle	闪耀	きらめく	17571
+surrogate	代孕母亲	代理母	17577
+affluent	富有	裕福	17602
+anguish	痛楚	苦悩	17605
+annals	编年史		17606
+arid	干旱		17610
+brochure	宣传册	パンフレット	17624
+civilisation		文明	17640
+contour	外形	輪郭	17653
+designate	指名		17664
+dyke	海堤	レズ	17673
+endemic		固有	17678
+envisioned	想象		17681
+fluorescent	荧光	蛍光灯	17689
+hauling	拖拉	牽引	17700
+immaculate	完美无瑕	無垢	17707
+improvised	即席	即興	17708
+interpersonal	人际		17712
+legality		合法性	17732
+nonstop	直达	とめどなく	17755
+ordnance		兵器	17760
+percussion	打击	打楽器	17765
+populist	民粹派		17768
+rein	勒		17779
+relic	老古董	遺物	17780
+retard	延缓	遅らせる	17781
+reunite	团聚		17782
+rutherford	卢瑟福		17791
+sanitary	卫生	清潔	17792
+scarcity	稀缺	欠乏	17796
+spartan		スパルタ	17806
+stimulated	激发	促す	17811
+umpire	裁判	審判	17828
+unborn	胎儿	胎児	17829
+vending	自动售货机	自販機	17833
+affirmed	肯定		17845
+analogous	类似		17849
+baffled	迷惑		17862
+censor	审查		17875
+cosmopolitan		国際的	17890
+feudal	封建	封建的	17919
+fleece	羊毛		17922
+handheld		手持ち	17933
+hefty		多額	17937
+herbal	中草药	漢方薬	17939
+idiotic		間抜け	17945
+incarceration		投獄	17948
+insertion		挿入	17951
+intrigue		陰謀	17953
+mischief		いたずら	17975
+noticeably		めっきり	17982
+porno		ポルノ	18001
+sensual	肉感		18023
+supplementary	补充	補助的	18038
+topless	上空		18044
+wastewater		廃水	18055
+weaponry	兵器		18057
+webpage		ウェブページ	18058
+wreath		リース	18065
+afar		遠く	18069
+afp	法新社		18071
+blowjob	吹箫		18088
+cadet	学员		18099
+clerical		事務	18107
+computation		計算	18113
+continual		ひっきりなし	18117
+crackdown		手入れ	18120
+craze	风潮	ブーム	18121
+giggle		くすくす	18159
+graphite	石墨	石墨	18163
+handgun		拳銃	18167
+impoverished	贫困		18183
+jab		注射	18190
+masonry	泥工		18202
+obi		帯	18217
+ostensibly		表面上	18220
+rattle		ガラガラ	18247
+recycle	回收		18248
+reimbursement	报销		18249
+revert	回退		18256
+slay	杀	殺す	18271
+vie	争夺	競う	18294
+yin	阴	陰	18303
+acidic		酸性	18306
+adherence		厳守	18307
+armoured		装甲	18318
+bard	诗人		18323
+bombardment	炮击	砲撃	18338
+borderline	边缘	境目	18339
+burglar		泥棒	18343
+calibration		校正	18344
+deem	视为	みなす	18368
+erratic	飘忽不定		18389
+fang		牙	18391
+hindsight	事后聪明		18410
+indifference	冷漠		18418
+inhibit	抑制		18423
+involuntary	无意识	不本意	18428
+issuance		交付	18430
+itchy		ムズムズ	18431
+junta		軍政	18434
+libel	诽谤	中傷	18438
+likeness	肖像	類似	18440
+loom		浮かぶ	18444
+ludicrous		荒唐	18446
+maize	玉米	とうもろこし	18448
+ornamental	观赏		18473
+propagation		繁殖	18498
+radiator	暖气机		18502
+rector	牧师		18505
+relativity	相对论	相対性理論	18508
+sami	萨米人		18518
+sling	吊带		18530
+spontaneously		自然	18533
+subpoena	传票		18539
+vigilant	警惕		18560
+visitation	探视权		18561
+wick	灯蕊	芯	18567
+worldly	世俗	世俗	18568
+canine		犬	18603
+corvette	护卫舰		18619
+deterrent	威慑力量		18629
+dun	逼债		18635
+eerie		不気味	18636
+enraged	恼怒	カンカン	18638
+handwritten	手写体	手書き	18670
+hectic		忙しい	18676
+holistic	全方位		18677
+invoke	调用	呼び出す	18688
+joyous	欢乐	喜ばしい	18694
+lunchtime	午休		18702
+mitt		グローブ	18720
+nil		零	18730
+plaid		チェック	18743
+positivity	正能量		18748
+practised		慣れた	18749
+reorganization		改組	18765
+saviour		救世主	18772
+scarcely		ほとんど	18773
+smoky		煙たい	18782
+spade	铲子		18785
+treble	高音		18801
+unbiased	持平		18804
+underdog		負け犬	18807
+weirdo	怪咖	変人	18818
+wrongful		不当	18822
+aromatic	芳香		18837
+buggy		ベビーカー	18854
+cautiously		注意深く	18861
+counsellor		カウンセラー	18870
+couture	高档服装	オートクチュール	18872
+dodgy		怪しい	18888
+earthly		俗世	18889
+escalation		拡大	18898
+ethos		精神	18899
+fag		もく	18903
+grinder		ミル	18919
+gunman	枪手		18920
+knuckles		節	18941
+mamma		ママ	18949
+manifold	多种多样		18951
+mellow		柔らかい	18956
+napa	白菜	白菜	18963
+nip	掐	摘む	18968
+oblivion		忘却	18971
+outpatient		外来	18976
+pervert	变态	変態	18983
+philanthropy		慈善	18985
+psalms	诗篇		18996
+rendezvous	会合	会う約束	19008
+simplistic		安易	19024
+stabilized	稳定		19031
+supervisory	监管		19039
+takeaway		お持ち帰り	19045
+voicemail	语音信箱		19065
+apprehended	逮捕		19082
+bastion		牙城	19087
+categorized	归类		19100
+cosy		コージー	19119
+denomination		宗派	19127
+digestion		消化	19130
+donut		ドーナツ	19136
+entrenched	难以撼动		19146
+heaps	一堆	山	19175
+illustrious	杰出		19182
+incidental		付帯	19183
+midterm	期中	中間	19208
+oblivious	浑然不知		19219
+penthouse	顶楼		19232
+potomac	波托马克河		19237
+prematurely	早		19240
+rebate	返利		19251
+roc		中華民国	19256
+stagnant	停滞不前		19288
+unethical	背德	非道徳的	19307
+urinary	泌尿系统		19311
+valiant	英勇	勇敢	19312
+asean		東南アジア諸国連合	19333
+austen	奥斯汀		19338
+cameraman	摄影师	カメラマン	19363
+conclusive	决定性	決定的	19374
+conservatory	音乐学院	温室	19375
+fruitful	卓有成效		19416
+hemingway	海明威		19426
+horizontally		横に	19427
+inferno	烈火		19433
+jog	慢跑		19438
+lobe	裂片		19447
+pedophile	恋童者		19470
+peptide	多肽		19471
+piggy	存钱罐	貯金箱	19476
+predetermined		既定	19481
+prepaid	预付		19483
+sclerosis	硬化	硬化	19504
+shrug	耸		19508
+spat	口水仗		19515
+unspecified		不詳	19541
+acclaim	赞誉	絶賛	19560
+afflicted	患有		19564
+alienated	疏远		19567
+believable		信用できる	19576
+chilli		唐辛子	19597
+cio		ＣＩＯ	19599
+commemoration		記念	19603
+dangling	悬垂	ぶら下がる	19617
+discrepancy	差异	相違	19626
+generously		たっぷり	19657
+malfunction	故障	不具合	19702
+mockery	嘲笑		19718
+ovation	满堂彩	喝采	19737
+payback	回报	仕返し	19743
+purification		精製	19761
+retrospect	事后		19774
+smelly	臭	臭い	19784
+sporadic	零星		19789
+tito	铁托		19802
+undue	过分	不当	19814
+wreckage	残骸	残骸	19829
+airspace		領空	19836
+allotted		割り当てる	19838
+assorted	什锦		19849
+cheaply	贱卖	安く	19868
+cpi	居民消费价格指数		19884
+degrade	贬低		19898
+diffuse	扩散		19904
+emancipation		解放	19914
+epitome		典型	19916
+extradition		引き渡し	19921
+interchangeable	通用		19951
+macau		マカオ	19968
+postgraduate	研究生	大学院生	19997
